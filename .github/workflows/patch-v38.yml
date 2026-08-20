@@ -1,0 +1,46 @@
+name: Wire V3.8 cloud sync
+
+on:
+  push:
+    branches: [feature/v3.8-secure-sync-calendar]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Wire V3.8 assets
+        shell: python
+        run: |
+          from pathlib import Path
+          p=Path('index.html')
+          text=p.read_text(encoding='utf-8')
+          changed=False
+          if '<link rel="stylesheet" href="v38.css">' not in text:
+              text=text.replace('</head>','<link rel="stylesheet" href="v38.css">\n</head>',1); changed=True
+          supa='<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>'
+          if supa not in text:
+              text=text.replace('</body>',supa+'\n</body>',1); changed=True
+          if '<script src="v38.js"></script>' not in text:
+              text=text.replace('</body>','<script src="v38.js"></script>\n</body>',1); changed=True
+          if 'Homer Mission Control V3.7' in text:
+              text=text.replace('Homer Mission Control V3.7','Homer Mission Control V3.8',1); changed=True
+          p.write_text(text,encoding='utf-8')
+          Path('.v38patched').write_text('yes' if changed else 'no')
+      - name: Commit wiring
+        shell: bash
+        run: |
+          if [ "$(cat .v38patched)" = "yes" ]; then
+            rm .v38patched
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add index.html
+            git commit -m 'Wire V3.8 cloud sync into dashboard'
+            git push
+          else
+            rm .v38patched
+          fi
