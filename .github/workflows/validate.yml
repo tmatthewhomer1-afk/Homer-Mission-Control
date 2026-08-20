@@ -1,0 +1,22 @@
+name: Validate Mission Control
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check V3.6 JavaScript syntax
+        run: node --check v36.js
+      - name: Verify V3.6 assets are wired
+        shell: bash
+        run: |
+          grep -q 'href="v36.css"' index.html
+          grep -q 'src="v36.js"' index.html
+          grep -q 'Homer Mission Control V3.6' index.html
