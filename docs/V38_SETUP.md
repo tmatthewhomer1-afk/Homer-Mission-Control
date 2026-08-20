@@ -4,45 +4,47 @@
 Move private Mission Control state out of browser-only localStorage while preserving local fallback.
 
 ## Supabase
-The connected Supabase project is live and the `mission_control_state` table has been deployed with Row Level Security.
+The production Supabase project is configured with:
+- `public.mission_control_state`
+- Row Level Security enabled
+- per-user SELECT / INSERT / UPDATE policies
+- authenticated-role table grants
+- browser-safe publishable key only in the client
 
-Browser authentication uses:
-- the public Supabase project URL
-- a browser-safe publishable key
-- the signed-in user's Supabase session
+The GitHub Pages URL has been added to Supabase Auth URL Configuration for magic-link redirects.
 
-The browser never receives a secret/service-role key. Each user can read, insert, and update only the row whose `user_id` matches their authenticated identity.
+## Cloud sync behavior
+V3.8 intentionally starts with manual sync controls:
+- **Push This Device → Cloud** saves the current device state.
+- **Pull Cloud → This Device** creates a safety backup first, then replaces local synced state.
+- Tasks, weekly plan, and headline preferences are included.
+- Weather coordinates remain local-only.
 
-### Authentication
-V3.8 starts with email magic-link sign-in. Before production use, configure Supabase Auth URL settings so the Mission Control Pages URL is an allowed redirect:
+This manual-first model prevents an empty or stale browser from silently overwriting a good dashboard during the initial migration.
 
-`https://tmatthewhomer1-afk.github.io/Homer-Mission-Control/`
+## Authentication
+Mission Control uses Supabase email magic-link authentication. The browser uses only:
+- Supabase project URL
+- Supabase publishable key
+- authenticated user session
 
-## First-sync safety
-Cloud synchronization is intentionally manual in the first V3.8 release:
-- **Push This Device → Cloud** uploads the current browser snapshot after confirmation.
-- **Pull Cloud → This Device** downloads the cloud snapshot after confirmation.
-- Before a pull overwrites local data, Mission Control stores a safety copy in `homerPreCloudPullBackupV38`.
+No secret/service-role key is exposed in the browser or required for normal cloud state sync.
 
-The synced snapshot includes tasks, weekly plan, saved headlines, and hidden headlines. Browser weather coordinates remain local-only.
-
-## Vercel
-Vercel remains the secure backend target for features that require server secrets, especially Google Calendar and future OpenAI-powered Mission Control actions.
-
-The V3.8 API endpoints prepared in this branch are:
-- `GET /api/health` — safe configuration status only; never returns secrets.
-- `GET /api/sync` — authenticated state retrieval.
-- `PUT /api/sync` — authenticated state upsert.
-
-The sync API uses the Supabase publishable key plus the caller's validated user token so database RLS remains the authorization boundary.
+## Vercel / server API
+The repository retains a Vercel-ready API skeleton for later server-side integrations such as Google Calendar and protected automation endpoints. Normal Mission Control cloud-state sync is enforced directly by Supabase RLS and does not require a privileged database key.
 
 ## Google Calendar (next phase)
-Add only server-side environment variables when OAuth is implemented:
+When OAuth is implemented, keep these server-side only:
 - `GOOGLE_CLIENT_ID`
 - `GOOGLE_CLIENT_SECRET`
 - `GOOGLE_REDIRECT_URI`
 
-Calendar tokens must be encrypted/stored server-side and never committed to the public repo.
+Calendar refresh/access tokens must never be committed to the public repository.
 
-## Privacy boundary
-Public GitHub source may contain only public configuration such as the Supabase project URL and browser-safe publishable key. Google OAuth secrets, OpenAI API keys, Supabase secret keys, and private Mission Control data must never be committed to the public repository.
+## Release gate
+Before merging:
+1. GitHub CI must pass.
+2. Supabase Auth redirect must point to the Mission Control site.
+3. After deployment, complete a magic-link sign-in.
+4. Use **Push This Device → Cloud** first from the browser that contains the authoritative task list.
+5. Verify a Pull on a second/clean browser only after the first cloud push succeeds.
