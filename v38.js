@@ -6,5 +6,5 @@ function loadScript(src,onload){
   if(onload)s.onload=onload;
   document.head.appendChild(s);
 }
-loadScript('v38-core.js?v=20260820-1',()=>loadScript('v39.js?v=20260820-1'));
+loadScript('v38-core.js?v=20260820-1',()=>loadScript('v39.js?v=20260820-2',()=>loadScript('v40.js?v=20260820-1')));
 })();
