@@ -1,0 +1,21 @@
+.weekly-plan-shell{border-left:6px solid var(--green);background:linear-gradient(135deg,#fbfefc 0%,#eef8f1 100%)}
+.weekly-plan-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:14px;align-items:start}
+.weekly-panel{border:1px solid var(--border);background:white;border-radius:13px;padding:15px}
+.weekly-panel h3{margin:0 0 6px;color:var(--navy)}
+.weekly-outcomes{display:grid;gap:9px;margin-top:10px}
+.weekly-outcome{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:start;border:1px solid var(--border);border-radius:11px;padding:11px;background:#fbfcfd}
+.weekly-num{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:var(--navy);color:white;font-weight:800;font-size:.82rem}
+.weekly-outcome strong{color:var(--navy)}
+.weekly-meta{font-size:.82rem;color:var(--muted);margin-top:3px}
+.work-block-list,.decision-list{display:grid;gap:8px;margin-top:10px}
+.work-block{border:1px solid #b8cde0;border-radius:10px;padding:10px;background:#f7fbff}
+.work-block strong{display:block;color:var(--navy);margin-bottom:3px}
+.work-block span{font-size:.84rem;color:var(--muted)}
+.decision-item{border-left:4px solid var(--gold);padding:9px 10px;background:#fffaf0;border-radius:8px;font-size:.88rem}
+.decision-item strong{color:#72570b}
+.weekly-tools{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.plan-import{min-height:170px}
+.apply-status{margin-top:8px;font-size:.84rem;color:var(--muted);white-space:pre-line}
+.plan-help{font-size:.82rem;color:var(--muted);margin-top:7px}
+.overdue-badge{display:inline-block;margin-left:6px;padding:2px 6px;border-radius:999px;background:#fff0f0;border:1px solid #e1a0a0;color:#8d2d2d;font-size:.72rem;font-weight:800}
+@media(max-width:900px){.weekly-plan-grid{grid-template-columns:1fr}}
