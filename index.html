@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Homer Mission Control V3.5</title>
+<style>
+:root{
+  --navy:#17365d; --blue:#2f6fb3; --light:#f4f7fb; --border:#d7dee8;
+  --text:#1f2937; --muted:#627080; --green:#3d7b52; --purple:#6757a6;
+  --gold:#aa7b12; --red:#9a3d3d; --shadow:0 8px 24px rgba(23,54,93,.06);
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--light);color:var(--text);line-height:1.5}
+button,input,select,textarea{font:inherit}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #f2bb48;outline-offset:2px}
+.container{width:min(100% - 30px,1160px);margin:auto;padding:22px 0 48px}
+header{background:var(--navy);color:white;border-radius:16px;padding:24px;box-shadow:var(--shadow);margin-bottom:16px}
+.header-grid{display:grid;grid-template-columns:1fr auto;gap:18px}
+header h1{margin:0;font-size:clamp(1.9rem,4vw,2.7rem)}
+header p{margin:5px 0 0;max-width:800px}
+.clock{text-align:right;white-space:nowrap}.clock strong{display:block;font-size:1.05rem}
+.topbar{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;margin-bottom:14px}
+.search{width:100%;padding:11px 13px;border:1px solid var(--border);border-radius:10px;background:white}
+.btn{border:1px solid var(--navy);background:white;color:var(--navy);border-radius:10px;padding:9px 13px;font-weight:bold;cursor:pointer}
+.btn:hover{background:#edf4fb}.btn.primary{background:var(--navy);color:white}.btn.blue{background:var(--blue);border-color:var(--blue);color:white}
+.btn.small{font-size:.84rem;padding:6px 9px}.btn.ghost{border-color:var(--border);color:var(--muted)}
+.btn.danger{color:#912828;border-color:#d29b9b}
+.tabs{display:flex;gap:8px;overflow-x:auto;margin-bottom:18px;padding-bottom:3px}
+.tab{white-space:nowrap;border:1px solid var(--border);background:white;color:var(--navy);border-radius:999px;padding:9px 14px;font-weight:bold;cursor:pointer}
+.tab.active{background:var(--navy);color:white;border-color:var(--navy)}
+.summary-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:18px}
+.summary{background:white;border:1px solid var(--border);border-radius:13px;padding:14px;box-shadow:var(--shadow)}
+.summary-label{font-size:.86rem;color:var(--muted);font-weight:bold;letter-spacing:.03em}
+.summary-value{font-size:1.8rem;font-weight:bold;color:var(--navy);line-height:1.1;margin-top:4px}
+.card{background:white;border:1px solid var(--border);border-radius:15px;padding:20px;box-shadow:var(--shadow);margin-bottom:18px}
+.card h2,.card h3{color:var(--navy)}.card h2{margin:0 0 5px}.card h3{margin-top:0}
+.section-head{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;margin-bottom:14px}
+.section-head p{margin:2px 0 0;color:var(--muted)}
+.columns{display:grid;grid-template-columns:1.15fr .85fr;gap:16px;align-items:start}
+.quick{background:#eef5fc;border-left:5px solid var(--blue)}
+textarea{width:100%;min-height:85px;padding:10px;border:1px solid var(--border);border-radius:10px;resize:vertical;background:white}
+.capture-row{display:grid;grid-template-columns:1fr 1fr auto;gap:8px;margin-top:8px}
+select,input[type="text"],input[type="date"]{width:100%;padding:9px 10px;border:1px solid var(--border);border-radius:10px;background:white}
+.progress-track{height:12px;background:#e4e9ef;border-radius:999px;overflow:hidden;margin-top:8px}
+.progress-bar{height:100%;background:var(--blue);transition:width .25s ease}
+.work-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}
+.work-card{border:2px solid var(--border);border-radius:14px;padding:16px;background:white;cursor:pointer;transition:.15s;box-shadow:var(--shadow)}
+.work-card:hover{transform:translateY(-1px);border-color:var(--blue)}
+.work-card h3{margin:0 0 5px}.work-card p{margin:0;color:var(--muted);font-size:.92rem}
+.badges{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.badge{font-size:.76rem;font-weight:bold;border-radius:999px;padding:4px 8px;border:1px solid var(--border);color:var(--muted);background:#f8fafc}
+.badge.now{background:#fff0f0;border-color:#e1a0a0;color:#8d2d2d}
+.badge.next{background:#fff7df;border-color:#e2c266;color:#75580a}
+.badge.later{background:#eef2f7;border-color:#cbd4df}
+.badge.done{background:#ecf7ef;border-color:#95c8a2;color:#2f6b3f}
+.badge.waiting{background:#f4effb;border-color:#b9a7d8;color:#6757a6}
+.task-list{display:grid;gap:10px}
+.task{display:grid;grid-template-columns:auto 1fr auto;gap:10px;border:1px solid var(--border);border-radius:12px;padding:13px;background:white}
+.task.done-task{opacity:.66;background:#fafcfb}.task.done-task .task-title{text-decoration:line-through}
+.task-check{width:21px;height:21px;accent-color:var(--navy);margin-top:2px}
+.task-title{font-weight:bold}.task-note{font-size:.9rem;color:var(--muted);margin-top:3px}
+.task-actions{display:flex;gap:5px;align-items:flex-start}
+.empty{padding:22px;text-align:center;color:var(--muted);border:1px dashed var(--border);border-radius:12px;background:#fbfcfd}
+.comm-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.comm-card{border:1px solid var(--border);border-radius:13px;padding:15px;background:#fbfcfe}
+.comm-card h3{margin:0 0 5px}.comm-card p{margin:0;color:var(--muted);font-size:.9rem}
+.channel-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:12px}
+.channel{padding:11px 8px;text-align:center;border:1px solid var(--border);border-radius:10px;background:white;font-weight:bold;color:var(--navy);font-size:.88rem}
+.subnav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.subtab{border:1px solid var(--border);background:#f9fbfd;color:var(--navy);border-radius:9px;padding:8px 11px;font-weight:bold;cursor:pointer}
+.subtab.active{background:#eaf2fb;border-color:#94b6db}
+.hidden{display:none!important}
+dialog{border:0;border-radius:15px;padding:0;width:min(92vw,640px);box-shadow:0 20px 65px rgba(0,0,0,.25)}
+dialog::backdrop{background:rgba(20,27,38,.5)}
+.modal{padding:20px}.modal h2{margin:0 0 14px;color:var(--navy)}
+.form-grid{display:grid;gap:10px}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+label{font-weight:bold;color:var(--navy);font-size:.9rem}label span{display:block;margin-bottom:4px}
+.modal-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:16px}
+.footer{text-align:center;color:var(--muted);font-size:.84rem;margin-top:22px}
+
+.ai-shell{
+  background:linear-gradient(135deg,#f7fbff 0%,#eef5fc 100%);
+  border:1px solid #b9cee5;
+  border-left:6px solid var(--blue);
+}
+.ai-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:14px;align-items:start}
+.ai-panel{border:1px solid var(--border);background:white;border-radius:13px;padding:15px}
+.ai-panel h3{margin:0 0 6px;color:var(--navy)}
+.ai-brief{
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:.96rem;
+  line-height:1.6;
+  color:var(--text);
+  background:#f8fafc;
+  border:1px solid var(--border);
+  border-radius:12px;
+  padding:15px 16px;
+  min-height:150px;
+}
+.brief-heading{
+  display:block;
+  margin:12px 0 5px;
+  color:var(--navy);
+  font-size:.78rem;
+  font-weight:800;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+.brief-heading:first-child{margin-top:0}
+.brief-status{
+  display:flex;
+  gap:7px;
+  flex-wrap:wrap;
+  margin-bottom:12px;
+}
+.brief-item{
+  padding:8px 0;
+  border-bottom:1px solid #e5eaf0;
+}
+.brief-item:last-child{border-bottom:0}
+.brief-item strong{color:var(--navy)}
+.brief-meta{
+  display:block;
+  margin-top:2px;
+  color:var(--muted);
+  font-size:.83rem;
+}
+.focus-under-ai{
+  margin-top:14px;
+  border-top:1px solid var(--border);
+  padding-top:14px;
+}
+.focus-under-ai h3{margin-bottom:4px}
+.focus-under-ai .progress-track{margin-top:7px}
+.quick-under-ai{
+  margin-top:16px;
+  border-top:1px solid var(--border);
+  padding-top:14px;
+}
+.quick-under-ai h3{margin-bottom:4px}
+.quick-under-ai textarea{min-height:72px}
+.quick-under-ai .capture-row{grid-template-columns:1fr 1fr auto}
+@media(max-width:620px){.quick-under-ai .capture-row{grid-template-columns:1fr}}
+
+.ai-actions{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:10px}
+.ai-action{border:1px solid #a8bfd8;background:white;border-radius:11px;padding:12px;text-align:left;cursor:pointer}
+.ai-action:hover{background:#eef5fc}
+.ai-action strong{display:block;color:var(--navy);margin-bottom:3px}
+.ai-action span{display:block;font-size:.84rem;color:var(--muted)}
+.ai-status{font-size:.82rem;color:var(--muted);margin-top:8px;min-height:20px}
+.prompt-box{min-height:180px}
+.chatgpt-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:9px}
+.chatgpt-open{display:inline-block;text-decoration:none}
+
+.calendar-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:12px}
+.cal-card{border:1px solid var(--border);border-radius:12px;padding:12px;background:white}
+.cal-card .cal-date{font-weight:800;color:var(--navy);font-size:1.05rem}
+.cal-card .cal-title{margin-top:4px;font-weight:bold}
+.cal-card .cal-term{margin-top:3px;color:var(--muted);font-size:.82rem}
+.calendar-table{width:100%;border-collapse:collapse;margin-top:12px}
+.calendar-table th,.calendar-table td{border-bottom:1px solid var(--border);padding:10px 8px;text-align:left;vertical-align:top}
+.calendar-table th{color:var(--navy);font-size:.82rem;text-transform:uppercase;letter-spacing:.04em}
+.calendar-table tr:last-child td{border-bottom:0}
+.term-tabs{display:flex;gap:7px;flex-wrap:wrap;margin:10px 0 4px}
+.term-tab{border:1px solid var(--border);border-radius:999px;background:#f9fbfd;color:var(--navy);padding:6px 10px;font-weight:bold;cursor:pointer;font-size:.84rem}
+.term-tab.active{background:#eaf2fb;border-color:#91b2d6}
+
+.schedule-grid{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:10px;
+  margin-top:12px;
+}
+.day-card{
+  border:1px solid var(--border);
+  border-radius:12px;
+  padding:13px;
+  background:white;
+  min-height:120px;
+}
+.day-card.teach{border-top:4px solid var(--blue)}
+.day-card.flex{border-top:4px solid var(--green)}
+.day-name{
+  font-size:.78rem;
+  text-transform:uppercase;
+  letter-spacing:.06em;
+  font-weight:800;
+  color:var(--muted);
+}
+.day-role{
+  margin-top:4px;
+  font-weight:800;
+  color:var(--navy);
+}
+.day-detail{
+  margin-top:5px;
+  font-size:.86rem;
+  color:var(--muted);
+}
+.today-card{
+  box-shadow:0 0 0 3px rgba(47,111,179,.14);
+}
+.course-summary{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:10px;
+  margin-top:12px;
+}
+.course-chip{
+  border:1px solid var(--border);
+  border-radius:11px;
+  padding:11px;
+  background:#f9fbfd;
+}
+.course-chip strong{display:block;color:var(--navy)}
+
+.class-list{display:grid;gap:9px;margin-top:10px}
+.class-row{
+  display:grid;
+  grid-template-columns:150px 1fr 155px 145px;
+  gap:10px;
+  align-items:start;
+  border:1px solid var(--border);
+  border-radius:11px;
+  padding:11px;
+  background:white;
+}
+.class-code{font-weight:800;color:var(--navy)}
+.class-title{font-weight:bold}
+.class-meta{font-size:.84rem;color:var(--muted);margin-top:2px}
+.class-time{font-weight:bold;color:var(--navy)}
+.class-room{font-size:.88rem;color:var(--muted)}
+.session-label{
+  display:inline-block;
+  margin-top:4px;
+  padding:3px 7px;
+  border-radius:999px;
+  background:#eef5fc;
+  border:1px solid #bad0e5;
+  font-size:.74rem;
+  font-weight:bold;
+  color:var(--navy);
+}
+@media(max-width:900px){.class-row{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.class-row{grid-template-columns:1fr}}
+
+@media(max-width:900px){.schedule-grid{grid-template-columns:repeat(2,1fr)}.course-summary{grid-template-columns:1fr}}
+@media(max-width:620px){.schedule-grid{grid-template-columns:1fr}}
+
+@media(max-width:900px){.calendar-strip{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.calendar-strip{grid-template-columns:1fr}}
+
+@media(max-width:900px){.ai-grid{grid-template-columns:1fr}}
+@media(max-width:620px){.ai-actions{grid-template-columns:1fr}}
+
+@media(max-width:900px){.work-grid{grid-template-columns:repeat(2,1fr)}.channel-grid{grid-template-columns:repeat(3,1fr)}.columns{grid-template-columns:1fr}}
+@media(max-width:620px){.summary-grid{grid-template-columns:repeat(2,1fr)}.work-grid,.comm-grid{grid-template-columns:1fr}.channel-grid{grid-template-columns:repeat(2,1fr)}.header-grid,.topbar,.capture-row,.form-row{grid-template-columns:1fr}.clock{text-align:left}.task{grid-template-columns:auto 1fr}.task-actions{grid-column:2}}
+</style>
+</head>
+<body>
+<main class="container">
+<header>
+  <div class="header-grid">
+    <div>
+      <h1>Homer Mission Control</h1>
+      <p>One place to keep church, NTCC, and personal priorities organized, visible, moving — and ready for ChatGPT to help you act on them.</p>
+    </div>
+    <div class="clock"><strong id="dateLabel"></strong><span id="timeLabel"></span></div>
+  </div>
+</header>
+
+<section class="topbar">
+  <input id="searchInput" class="search" type="search" placeholder="Search anything in the dashboard...">
+  <div>
+    <button id="backupBtn" class="btn small">Export Backup</button>
+    <button id="importBtn" class="btn small">Import</button>
+    <input id="importFile" type="file" accept="application/json" class="hidden">
+  </div>
+</section>
+
+<nav class="tabs">
+  <button class="tab active" data-view="home">Home</button>
+  <button class="tab" data-view="Church">Church</button>
+  <button class="tab" data-view="NTCC">NTCC</button>
+  <button class="tab" data-view="Personal">Personal</button>
+  <button class="tab" data-view="all">All Tasks</button>
+</nav>
+
+<section class="summary-grid">
+  <div class="summary"><div class="summary-label">NOW</div><div id="nowCount" class="summary-value">0</div></div>
+  <div class="summary"><div class="summary-label">NEXT</div><div id="nextCount" class="summary-value">0</div></div>
+  <div class="summary"><div class="summary-label">WAITING</div><div id="waitingCount" class="summary-value">0</div></div>
+  <div class="summary"><div class="summary-label">LATER</div><div id="laterCount" class="summary-value">0</div></div>
+  <div class="summary"><div class="summary-label">COMPLETE</div><div id="doneCount" class="summary-value">0</div></div>
+</section>
+
+<section class="card ai-shell">
+  <div class="section-head">
+    <div>
+      <h2>Virtual Assistant</h2>
+      <p>Mission Control prepares the context. ChatGPT helps you decide, draft, review, and plan.</p>
+    </div>
+    <span class="badge next">V3.5</span>
+  </div>
+  <div class="ai-grid">
+    <div class="ai-panel">
+      <h3>Mission Briefing</h3>
+      <p style="margin-top:0;color:var(--muted);font-size:.9rem">Generated from your current dashboard items.</p>
+      <div id="aiBrief" class="ai-brief"></div>
+      <div class="ai-actions">
+        <button class="ai-action" data-ai-action="priorities" type="button"><strong>Plan My Day</strong><span>Prioritize NOW and NEXT items.</span></button>
+        <button class="ai-action" data-ai-action="church-comms" type="button"><strong>Church Communication</strong><span>Build this week's church/community message plan.</span></button>
+        <button class="ai-action" data-ai-action="church-governance" type="button"><strong>Governance Assistant</strong><span>Work through bylaws, deacons, officers, or committees.</span></button>
+        <button class="ai-action" data-ai-action="ntcc" type="button"><strong>NTCC Assistant</strong><span>Organize teaching, Blackboard, IRB, and course work.</span></button>
+        <button class="ai-action" data-ai-action="weekly" type="button"><strong>Weekly Review</strong><span>Turn the dashboard into a practical weekly plan.</span></button>
+        <button class="ai-action" data-ai-action="capture" type="button"><strong>Sort a New Idea</strong><span>Ask ChatGPT where a new item belongs.</span></button>
+      </div>
+    </div>
+    <div class="ai-panel">
+      <h3>Ask ChatGPT</h3>
+      <p style="margin-top:0;color:var(--muted);font-size:.9rem">Choose an action or edit the prompt below. Mission Control automatically adds relevant dashboard context.</p>
+      <textarea id="aiPrompt" class="prompt-box" placeholder="Choose one of the assistant actions..."></textarea>
+      <div class="chatgpt-row">
+        <button id="copyPromptBtn" class="btn blue" type="button">Copy Prompt</button>
+        <a id="openChatGPTBtn" class="btn primary chatgpt-open" href="https://chatgpt.com/" target="_blank" rel="noopener">Open ChatGPT</a>
+        <button id="refreshBriefBtn" class="btn" type="button">Refresh Briefing</button>
+      </div>
+      <div id="aiStatus" class="ai-status"></div>
+
+      <div class="focus-under-ai">
+        <h3>Current Focus</h3>
+        <p style="margin:0 0 8px;color:var(--muted);font-size:.88rem">The items marked NOW across Mission Control.</p>
+        <div id="focusPreview"></div>
+        <div style="margin-top:12px">
+          <div class="summary-label" id="progressText"></div>
+          <div class="progress-track"><div id="progressBar" class="progress-bar"></div></div>
+        </div>
+      </div>
+
+      <div class="quick-under-ai">
+        <h3>Quick Capture</h3>
+        <p style="margin:0 0 8px;color:var(--muted);font-size:.88rem">Write it down, assign it, and get it out of your head.</p>
+        <textarea id="quickText" placeholder="Example: Add September business meeting date to church calendar..."></textarea>
+        <div class="capture-row">
+          <select id="quickCategory"><option>Church</option><option>NTCC</option><option>Personal</option></select>
+          <select id="quickStatus"><option value="now">NOW</option><option value="next">NEXT</option><option value="later">LATER</option></select>
+          <button id="quickAdd" class="btn blue" type="button">Add</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="homeView">
+  <section class="card">
+    <div class="section-head"><div><h2>Main Areas</h2><p>These are the only top-level buckets.</p></div></div>
+    <div id="mainCards" class="work-grid"></div>
+  </section>
+
+  <section class="card">
+    <div class="section-head"><div><h2>Church Communication This Week</h2><p>Communication is a church function, not a separate job.</p></div>
+      <button class="btn small" data-open-group="Communication & Outreach">Open Communication</button>
+    </div>
+    <div id="commPreview" class="comm-grid"></div>
+  </section>
+
+  <section class="card">
+    <div class="section-head">
+      <div><h2>This Week at NTCC</h2><p>Your Fall 2026 teaching pattern and campus-work rhythm.</p></div>
+      <button class="btn small" id="openNTCCScheduleBtn" type="button">Open NTCC</button>
+    </div>
+    <div id="homeCourseSchedule" class="schedule-grid"></div>
+  </section>
+
+  <section class="card">
+    <div class="section-head">
+      <div><h2>Upcoming NTCC Academic Dates</h2><p>The next important dates from the 2026–2027 academic calendar.</p></div>
+      <button class="btn small" id="openNTCCCalendarBtn" type="button">Open Calendar</button>
+    </div>
+    <div id="homeAcademicDates" class="calendar-strip"></div>
+  </section>
+
+  <section class="card">
+    <div class="section-head"><div><h2>Recently Updated</h2><p>Quick return to what you were working on.</p></div></div>
+    <div id="recentList" class="task-list"></div>
+  </section>
+</section>
+
+<section id="churchView" class="hidden">
+  <section class="card">
+    <div class="section-head"><div><h2>Church</h2><p>Governance, ministry, teaching, property, administration, and communication.</p></div><button class="btn primary" id="addChurch">+ Add Church Item</button></div>
+    <div class="subnav" id="churchSubnav"></div>
+    <div id="churchOverview"></div>
+    <div id="churchTasks" class="task-list"></div>
+  </section>
+</section>
+
+<section id="listView" class="hidden">
+  <section class="card">
+    <div class="section-head"><div><h2 id="listTitle"></h2><p id="listSubtitle"></p></div><button class="btn primary" id="addItem">+ Add Item</button></div>
+    <div class="subnav">
+      <button class="subtab active" data-filter="active">Active</button>
+      <button class="subtab" data-filter="now">NOW</button>
+      <button class="subtab" data-filter="next">NEXT</button>
+      <button class="subtab" data-filter="later">LATER</button>
+      <button class="subtab" data-filter="done">Complete</button>
+      <button class="subtab" data-filter="everything">Everything</button>
+    </div>
+    <div id="ntccCoursePanel" class="hidden" style="margin-top:18px">
+      <hr style="border:0;border-top:1px solid var(--border);margin:18px 0">
+      <div class="section-head">
+        <div>
+          <h2>Fall 2026 Course Schedule</h2>
+          <p>Your confirmed weekly teaching pattern. Class times and individual section numbers can be added once confirmed.</p>
+        </div>
+      </div>
+      <div id="ntccScheduleGrid" class="schedule-grid"></div>
+      <div class="course-summary">
+        <div class="course-chip"><strong>Face-to-Face Days</strong>Tuesday & Thursday</div>
+        <div class="course-chip"><strong>Room</strong>MAIN/HUM/107</div>
+        <div class="course-chip"><strong>Loaded Sections</strong>9 Fall/December sections</div>
+      </div>
+      <h3 style="margin-top:18px">Fall 2026 Sections</h3>
+      <div id="fallCourseList" class="class-list"></div>
+    </div>
+
+    <div id="ntccCalendarPanel" class="hidden" style="margin-top:18px">
+      <hr style="border:0;border-top:1px solid var(--border);margin:18px 0">
+      <div class="section-head">
+        <div><h2>2026–2027 Academic Calendar</h2><p>Important NTCC dates organized by term.</p></div>
+      </div>
+      <div class="term-tabs" id="termTabs"></div>
+      <div id="calendarTableWrap"></div>
+    </div>
+    <div id="taskList" class="task-list"></div>
+  </section>
+</section>
+
+<div class="footer">Edits save automatically in this browser. Use NOW for today, NEXT for upcoming work, WAITING when another person or event must move first, and LATER for the parking lot. Export a backup before major changes or at least weekly.</div>
+</main>
+
+<dialog id="taskDialog">
+<form id="taskForm" class="modal">
+  <h2 id="dialogTitle">Add Item</h2>
+  <input id="taskId" type="hidden">
+  <div class="form-grid">
+    <label><span>Title</span><input id="taskTitle" type="text" required></label>
+    <label><span>Notes</span><textarea id="taskNote"></textarea></label>
+    <div class="form-row">
+      <label><span>Area</span><select id="taskCategory"><option>Church</option><option>NTCC</option><option>Personal</option></select></label>
+      <label><span>Status</span><select id="taskStatus"><option value="now">NOW</option><option value="next">NEXT</option><option value="waiting">WAITING</option><option value="later">LATER</option><option value="done">Complete</option></select></label>
+    </div>
+    <div class="form-row">
+      <label><span>Project / Group</span><input id="taskGroup" type="text" placeholder="Communication & Outreach, Governance / Bylaws, GOVT 2305..."></label>
+      <label><span>Due date</span><input id="taskDue" type="date"></label>
+    </div>
+    <label><span>Waiting On</span><input id="taskWaitingOn" type="text" placeholder="Person, committee, approval, vendor, etc."></label>
+  </div>
+  <div class="modal-actions">
+    <button id="deleteBtn" class="btn danger hidden" type="button">Delete</button>
+    <button id="cancelBtn" class="btn" type="button">Cancel</button>
+    <button class="btn primary" type="submit">Save Item</button>
+  </div>
+</form>
+</dialog>
+
+<script>
+const STORAGE_KEY="mattCommandCenterV35";
+const LEGACY_KEY_V3="mattCommandCenterV3";
+const LEGACY_KEY_V2="mattCommandCenterV2";
+const LEGACY_KEY_V1="mattCommandCenterV1";
+
+const CHURCH_GROUPS = [
+  "Overview",
+  "Governance / Bylaws",
+  "Deacons & Committees",
+  "Finance / Officers",
+  "Building & Property",
+  "Teaching & Worship",
+  "Kosse Kids / Ministry",
+  "Communication & Outreach",
+  "Administration",
+  "Website & Sign"
+];
+
+const DEFAULT_TASKS = [
+{"id":101,"category":"NTCC","status":"done","group":"GOVT 2305","title":"Audit GOVT 2305 Blackboard shell and Module 1","note":"Verified visibility, dates, links, accessibility, and student view.","due":"2026-08-23"},
+{"id":102,"category":"NTCC","status":"done","group":"GOVT 2306","title":"Audit GOVT 2306 Blackboard shell and Module 1","note":"Verified visibility, dates, links, accessibility, and student view.","due":"2026-08-23"},
+{"id":103,"category":"NTCC","status":"done","group":"Teaching Workflow","title":"Provide GOVT 2305 SLOs for Monday announcement workflow","note":"Completed for the Monday announcement workflow.","due":"2026-08-20"},
+{"id":104,"category":"NTCC","status":"done","group":"Teaching Workflow","title":"Provide GOVT 2306 SLOs for Monday announcement workflow","note":"Completed for the Monday announcement workflow.","due":"2026-08-20"},
+{"id":105,"category":"NTCC","status":"done","group":"Administration","title":"Finalize Fall 2026 office-hours plan","note":"10 hours Monday–Thursday; activity period excluded.","due":"2026-08-23"},
+{"id":106,"category":"NTCC","status":"done","group":"Course Launch","title":"Complete final student-view walkthrough for both courses","note":"Completed final student-view review.","due":"2026-08-20"},
+{"id":107,"category":"NTCC","status":"done","group":"Course Launch","title":"Prepare course-start welcome communication","note":"Course-start communication prepared.","due":"2026-08-23"},
+{"id":108,"category":"NTCC","status":"done","group":"Assessment & Xitracs","title":"Complete remaining Xitracs approval / benchmark follow-up","note":"Marked complete in the current command-center review.","due":""},
+{"id":201,"category":"Church","status":"now","group":"Governance / Bylaws","title":"Continue 1992 bylaws review and identify priority revisions","note":"Focus on officer/committee structure, membership/voting eligibility, and outdated provisions.","due":""},
+{"id":202,"category":"Church","status":"now","group":"Deacons & Committees","title":"Prepare action to establish deacon board as initial nominating committee","note":"Gateway to organizing other committee positions.","due":""},
+{"id":203,"category":"Church","status":"waiting","group":"Deacons & Committees","title":"Set Keith Dudley ordination / deacon meeting sequence","note":"Clarify timing before next business meeting.","due":"","waitingOn":"Charles / Deacons"},
+{"id":204,"category":"Church","status":"now","group":"Governance / Bylaws","title":"Begin working agenda for late-August / early-September business meeting","note":"Separate congregational action items from reports and informational updates.","due":""},
+{"id":205,"category":"Church","status":"next","group":"Deacons & Committees","title":"Continue committee framework and job descriptions","note":"Finance, Building & Maintenance, and future Personnel Committee.","due":""},
+{"id":206,"category":"Church","status":"later","group":"Administration","title":"Assemble church member/contact list","note":"Needed for email distribution list and church calendar.","due":""},
+{"id":207,"category":"Church","status":"later","group":"Website & Sign","title":"Website refresh","note":"Keep behind governance/business-meeting priorities.","due":""},
+{"id":208,"category":"Church","status":"later","group":"Website & Sign","title":"Document repeatable PlayerMaster church-sign workflow","note":"Goal: a process someone besides the pastor can maintain.","due":""},
+{"id":209,"category":"Church","status":"now","group":"Teaching & Worship","title":"Prepare Sunday sermon and Sunday School materials","note":"Aim to be substantially finished by Saturday.","due":"2026-08-22"},
+{"id":210,"category":"Church","status":"waiting","group":"Building & Property","title":"Property purchase follow-up if new closing/realtor items arrive","note":"Inspection and initial review already completed.","due":"","waitingOn":"Realtor / Deacons"},
+{"id":211,"category":"Church","status":"waiting","group":"Administration","title":"Hold Wells Wishes governance packet for formal church action","note":"Keep separate from immediate deacon governance packet.","due":"","waitingOn":"Pam / Board / Church"},
+{"id":301,"category":"Personal","status":"now","group":"Bills & Money","title":"Confirm $62.52 Klarna Ticketmaster payment processed / funded","note":"Payment due August 19.","due":"2026-08-19"},
+{"id":302,"category":"Personal","status":"later","group":"Family / Home","title":"Protect Friday for family / home time","note":"Avoid turning Friday into an NTCC workday unless there is a launch issue.","due":"2026-08-21"},
+{"id":303,"category":"Personal","status":"now","group":"Bills & Money","title":"Pay monthly bills","note":"Added from Quick Capture.","due":""}
+];
+
+const MAIN_INFO={
+  "Church":{desc:"Governance, ministry, teaching, property, administration, and communication.",color:"#17365d"},
+  "NTCC":{desc:"Courses, Blackboard, grading, IRB, meetings, and teaching projects.",color:"#2f6fb3"},
+  "Personal":{desc:"Family, home, meals, travel, and everything else worth keeping track of.",color:"#3d7b52"}
+};
+const ACADEMIC_CALENDAR = [
+  ["Fall 2026","2026-08-17","2026-08-20","Faculty/Staff In-Service",""],
+  ["Fall 2026","2026-08-24","","First Class Day (16-week, 1st 8-week sessions)",""],
+  ["Fall 2026","2026-08-28","","Late Registration Ends","Friday at noon"],
+  ["Fall 2026","2026-08-31","","Fall Census (1st 8-week session)",""],
+  ["Fall 2026","2026-09-07","","Labor Day",""],
+  ["Fall 2026","2026-09-09","","Fall Census (16-week session)",""],
+  ["Fall 2026","2026-10-06","","Last Day to Withdraw with a Grade of W (1st 8-week session)",""],
+  ["Fall 2026","2026-10-16","","Last Class Day (1st 8-week session)",""],
+  ["Fall 2026","2026-10-19","","First Class Day (2nd 8-week session)",""],
+  ["Fall 2026","2026-10-22","","Deadline for Fall Graduation Application",""],
+  ["Fall 2026","2026-10-26","","Fall Census (2nd 8-week session)",""],
+  ["Fall 2026","2026-11-17","","Final Day to Withdraw with a Grade of W (16-week session)",""],
+  ["Fall 2026","2026-11-24","","Last Day to Withdraw with a Grade of W (2nd 8-week session)",""],
+  ["Fall 2026","2026-11-25","2026-11-27","Thanksgiving Break",""],
+  ["Fall 2026","2026-12-03","","Last Class Day (16-week, 2nd 8-week sessions)",""],
+  ["Fall 2026","2026-12-04","2026-12-10","Final Examinations",""],
+  ["Fall 2026","2026-12-11","","Fall Graduation","7:00 p.m."],
+  ["Fall 2026","2026-12-18","","Offices Close for Holiday Break","12:00 p.m."],
+  ["December Intersession","2026-12-09","","Registration",""],
+  ["December Intersession","2026-12-11","","First Class Day",""],
+  ["December Intersession","2026-12-14","","Late Registration Ends",""],
+  ["December Intersession","2026-12-16","","December Census",""],
+  ["December Intersession","2027-01-01","","Final Day to Withdraw with a Grade of W",""],
+  ["December Intersession","2027-01-08","","Last Class Day / Final Examinations",""],
+  ["Spring 2027","2027-01-04","","Offices Re-open",""],
+  ["Spring 2027","2027-01-11","2027-01-14","Faculty In-Service",""],
+  ["Spring 2027","2027-01-18","","Martin Luther King Day",""],
+  ["Spring 2027","2027-01-19","","First Class Day (16-week, 1st 8-week sessions)",""],
+  ["Spring 2027","2027-01-22","","Late Registration Ends",""],
+  ["Spring 2027","2027-01-26","","Spring Census (1st 8-week session)",""],
+  ["Spring 2027","2027-02-03","","Spring Census (16-week session)",""],
+  ["Spring 2027","2027-02-19","","Staff In-Service","8:00 a.m.–12 p.m."],
+  ["Spring 2027","2027-03-02","","Last Day to Withdraw with a Grade of W (1st 8-week session)",""],
+  ["Spring 2027","2027-03-12","","Deadline for Spring Graduation Application",""],
+  ["Spring 2027","2027-03-12","","Last Class Day (1st 8-week session)",""],
+  ["Spring 2027","2027-03-15","2027-03-19","Spring Break",""],
+  ["Spring 2027","2027-03-22","","First Class Day (2nd 8-week session)",""],
+  ["Spring 2027","2027-03-29","","Spring Census (2nd 8-week session)",""],
+  ["Spring 2027","2027-04-15","","Final Day to Withdraw with Grade of W (16-week session)",""],
+  ["Spring 2027","2027-04-29","","Last Day to Withdraw with a Grade of W (2nd 8-week session)",""],
+  ["Spring 2027","2027-05-06","","Last Class Day (16-week and 2nd 8-week sessions)",""],
+  ["Spring 2027","2027-05-07","2027-05-13","Final Examinations",""],
+  ["Spring 2027","2027-05-15","","Spring Graduation",""],
+  ["May Intersession","2027-05-17","","First Class Day",""],
+  ["May Intersession","2027-05-18","","May Census",""],
+  ["May Intersession","2027-05-31","","Memorial Day Holiday",""],
+  ["May Intersession","2027-06-01","","Final Day to Withdraw with a Grade of W",""],
+  ["May Intersession","2027-06-04","","Last Class Day / Final Examinations",""],
+  ["Summer 2027","2027-06-07","","First Class Day (1st 5-week and 10-week sessions)",""],
+  ["Summer 2027","2027-06-07","","Late Registration Ends (1st 5-week session)",""],
+  ["Summer 2027","2027-06-09","","Late Registration Ends (10-week session)",""],
+  ["Summer 2027","2027-06-10","","Summer Census (1st 5-week session)",""],
+  ["Summer 2027","2027-06-15","","Summer Census (10-week session)",""],
+  ["Summer 2027","2027-06-18","","Juneteenth Holiday",""],
+  ["Summer 2027","2027-06-24","","Deadline for Summer Graduation Application",""],
+  ["Summer 2027","2027-06-30","","Final Day to Withdraw with a Grade of W (1st 5-week session)",""],
+  ["Summer 2027","2027-07-05","","Independence Day Holiday",""],
+  ["Summer 2027","2027-07-08","","Last Class Day / Final Examinations (1st 5-week session)",""],
+  ["Summer 2027","2027-07-12","","First Class Day (2nd 5-week session)",""],
+  ["Summer 2027","2027-07-12","","Late Registration Ends (2nd 5-week session)",""],
+  ["Summer 2027","2027-07-15","","Summer Census (2nd 5-week session)",""],
+  ["Summer 2027","2027-07-29","","Final Day to Withdraw with a Grade of W (10-week session)",""],
+  ["Summer 2027","2027-08-05","","Final Day to Withdraw with a Grade of W (2nd 5-week session)",""],
+  ["Summer 2027","2027-08-12","","Last Class Day / Final Examinations (10-week; 2nd 5-week sessions)",""],
+  ["Summer 2027","2027-08-13","","Summer Graduation",""]
+].map(([term,date,end,title,note])=>({term,date,end,title,note}));
+let currentAcademicTerm="Fall 2026";
+
+const FALL_2026_WEEKLY_SCHEDULE = [
+  {day:1,name:"Monday",type:"flex",role:"Online / Office / Campus",detail:"Online course work, office hours, grading, course preparation, and campus commitments."},
+  {day:2,name:"Tuesday",type:"teach",role:"Teaching Day",detail:"Face-to-face / hybrid classes in MAIN/HUM/107. Morning and late-morning blocks change at the 8-week midpoint."},
+  {day:3,name:"Wednesday",type:"flex",role:"Online / Office / Campus",detail:"Online course work, office hours, grading, course preparation, and campus commitments."},
+  {day:4,name:"Thursday",type:"teach",role:"Teaching Day",detail:"Face-to-face / hybrid classes in MAIN/HUM/107. Morning and late-morning blocks change at the 8-week midpoint."},
+  {day:5,name:"Friday",type:"flex",role:"Flexible / Administrative",detail:"No standing face-to-face teaching block shown on the Fall 2026 schedule."}
+];
+
+const FALL_2026_COURSES = [
+  {code:"GOVT 2305 032 HY",title:"Federal Government",mode:"TR",time:"9:30 AM–10:50 AM",start:"2026-08-24",end:"2026-10-16",room:"MAIN/HUM/107",session:"1st 8-week"},
+  {code:"GOVT 2305 033 FE",title:"Federal Government",mode:"TR",time:"11:00 AM–12:20 PM",start:"2026-10-19",end:"2026-12-10",room:"MAIN/HUM/107",session:"2nd 8-week"},
+  {code:"GOVT 2305 851 DC",title:"Federal Government",mode:"Online",time:"Online",start:"2026-08-24",end:"2026-12-10",room:"WEB/WEB/WEB",session:"16-week"},
+  {code:"GOVT 2306 033 FE",title:"Texas Government",mode:"TR",time:"9:30 AM–10:50 AM",start:"2026-10-19",end:"2026-12-10",room:"MAIN/HUM/107",session:"2nd 8-week"},
+  {code:"GOVT 2306 082 TR",title:"Texas Government",mode:"Online",time:"Online",start:"2026-08-24",end:"2026-10-16",room:"WEB/WEB/WEB",session:"1st 8-week"},
+  {code:"GOVT 2306 083 FE",title:"Texas Government",mode:"Online",time:"Online",start:"2026-10-19",end:"2026-12-10",room:"WEB/WEB/WEB",session:"2nd 8-week"},
+  {code:"GOVT 2306 321 HY",title:"Texas Government",mode:"TR",time:"11:00 AM–12:20 PM",start:"2026-08-24",end:"2026-10-16",room:"MAIN/HUM/107",session:"1st 8-week"},
+  {code:"GOVT 2306 88 DC",title:"Texas Government",mode:"Online",time:"Online",start:"2026-08-24",end:"2026-12-10",room:"WEB/WEB/WEB",session:"16-week"},
+  {code:"GOVT 2306 DEC FE",title:"Texas Government",mode:"Online",time:"Online",start:"2026-12-11",end:"2027-01-08",room:"WEB/WEB/WEB",session:"December 5-week"}
+];
+
+let tasks=loadTasks();
+let currentView="home";
+let currentFilter="active";
+let currentChurchGroup="Overview";
+let searchTerm="";
+
+function normalizeLegacy(list){
+  return list.map(t=>{
+    if(t.category==="Social Media"){
+      return {...t,category:"Church",group:"Communication & Outreach"};
+    }
+    return {...t};
+  });
+}
+
+function loadTasks(){
+  try{
+    const v35=JSON.parse(localStorage.getItem(STORAGE_KEY));
+    if(Array.isArray(v35)) return v35;
+    const v2=JSON.parse(localStorage.getItem(LEGACY_KEY_V2));
+    if(Array.isArray(v2)) return normalizeLegacy(v2);
+    const v1=JSON.parse(localStorage.getItem(LEGACY_KEY_V1));
+    if(Array.isArray(v1)) return normalizeLegacy(v1);
+  }catch(e){}
+  return DEFAULT_TASKS.map(t=>({...t,updatedAt:Date.now()}));
+}
+function save(){localStorage.setItem(STORAGE_KEY,JSON.stringify(tasks))}
+function esc(s=""){return String(s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[m]))}
+function label(s){return({now:"NOW",next:"NEXT",waiting:"WAITING",later:"LATER",done:"Complete"})[s]||s}
+function fmt(d){if(!d)return"";return new Date(d+"T12:00:00").toLocaleDateString(undefined,{month:"short",day:"numeric"})}
+function matches(t){if(!searchTerm)return true;return [t.title,t.note,t.category,t.group,t.status].join(" ").toLowerCase().includes(searchTerm.toLowerCase())}
+
+function taskHTML(t){
+return `<div class="task ${t.status==="done"?"done-task":""}" data-id="${t.id}">
+<input class="task-check" type="checkbox" ${t.status==="done"?"checked":""}>
+<div><div class="task-title">${esc(t.title)}</div>${t.note?`<div class="task-note">${esc(t.note)}</div>`:""}
+<div class="badges"><span class="badge ${t.status}">${label(t.status)}</span><span class="badge">${esc(t.category)}</span>${t.group?`<span class="badge">${esc(t.group)}</span>`:""}${t.waitingOn?`<span class="badge waiting">Waiting: ${esc(t.waitingOn)}</span>`:""}${t.due?`<span class="badge">Due ${fmt(t.due)}</span>`:""}</div></div>
+<div class="task-actions"><button class="btn small edit">Edit</button></div></div>`}
+
+function updateClock(){
+ const d=new Date();
+ document.getElementById("dateLabel").textContent=d.toLocaleDateString(undefined,{weekday:"long",month:"long",day:"numeric"});
+ document.getElementById("timeLabel").textContent=d.toLocaleTimeString(undefined,{hour:"numeric",minute:"2-digit"});
+}
+
+function dateObj(s){return new Date(s+"T12:00:00")}
+function academicDateLabel(e){
+  if(e.end) return `${dateObj(e.date).toLocaleDateString(undefined,{month:"short",day:"numeric"})}–${dateObj(e.end).toLocaleDateString(undefined,{month:"short",day:"numeric"})}`;
+  return dateObj(e.date).toLocaleDateString(undefined,{month:"short",day:"numeric"});
+}
+function upcomingAcademic(limit=4){
+  const today=new Date();today.setHours(0,0,0,0);
+  return ACADEMIC_CALENDAR.filter(e=>{const end=dateObj(e.end||e.date);end.setHours(23,59,59,999);return end>=today;})
+    .sort((a,b)=>dateObj(a.date)-dateObj(b.date)).slice(0,limit);
+}
+function renderHomeAcademic(){
+  const el=document.getElementById("homeAcademicDates");if(!el)return;
+  const list=upcomingAcademic(4);
+  el.innerHTML=list.length?list.map(e=>`<article class="cal-card"><div class="cal-date">${esc(academicDateLabel(e))}</div><div class="cal-title">${esc(e.title)}</div><div class="cal-term">${esc(e.term)}${e.note?` • ${esc(e.note)}`:""}</div></article>`).join(""):`<div class="empty">No future dates remain on the loaded academic calendar.</div>`;
+}
+function renderTermTabs(){
+  const el=document.getElementById("termTabs");if(!el)return;
+  const terms=[...new Set(ACADEMIC_CALENDAR.map(e=>e.term))];
+  el.innerHTML=terms.map(t=>`<button class="term-tab ${t===currentAcademicTerm?"active":""}" data-term="${esc(t)}">${esc(t)}</button>`).join("");
+}
+function renderAcademicTable(){
+  const wrap=document.getElementById("calendarTableWrap");if(!wrap)return;
+  const list=ACAMIC_CALENDAR.filter(e=>e.term===currentAcademicTerm);
+  wrap.innerHTML=`<table class="calendar-table"><thead><tr><th>Date</th><th>Academic Date / Deadline</th><th>Note</th></tr></thead><tbody>${list.map(e=>`<tr><td>${esc(academicDateLabel(e))}</td><td>${esc(e.title)}</td><td>${esc(e.note||"")}</td></tr>`).join("")}</tbody></table>`;
+}
+function renderNTCCCalendar(){
+  const panel=document.getElementById("ntccCalendarPanel");if(!panel)return;
+  panel.classList.toggle("hidden",currentView!=="NTCC");
+  if(currentView==="NTCC"){renderTermTabs();renderAcademicTable();}
+}
+
+function renderScheduleCards(targetId, compact=false){
+  const el=document.getElementById(targetId);if(!el)return;
+  const today=new Date().getDay();
+  el.innerHTML=FALL_2026_WEEKLY_SCHEDULE.map(d=>`
+    <article class="day-card ${d.type} ${today===d.day?"today-card":""}">
+      <div class="day-name">${esc(d.name)}${today===d.day?" • TODAY":""}</div>
+      <div class="day-role">${esc(d.role)}</div>
+      <div class="day-detail">${esc(d.detail)}</div>
+    </article>`).join("");
+}
+
+function courseDateLabel(c){
+  return `${dateObj(c.start).toLocaleDateString(undefined,{month:"short",day:"numeric"})}–${dateObj(c.end).toLocaleDateString(undefined,{month:"short",day:"numeric"})}`;
+}
+function renderFallCourseList(){
+  const el=document.getElementById("fallCourseList");if(!el)return;
+  el.innerHTML=FALL_2026_COURSES.map(c=>`
+    <div class="class-row">
+      <div><div class="class-code">${esc(c.code)}</div><span class="session-label">${esc(c.session)}</span></div>
+      <div><div class="class-title">${esc(c.title)}</div><div class="class-meta">${esc(c.mode)} • ${esc(courseDateLabel(c))}</div></div>
+      <div><div class="class-time">${esc(c.time)}</div></div>
+      <div><div class="class-room">${esc(c.room)}</div></div>
+    </div>`).join("");
+}
+function currentCourseSections(){
+  const now=new Date();now.setHours(12,0,0,0);
+  const dow=now.getDay();
+  return FALL_2026_COURSES.filter(c=>{
+    const active=now>=dateObj(c.start)&&now<=dateObj(c.end);
+    if(!active)return false;
+    if(c.mode==="TR") return dow===2||dow===4;
+    return false;
+  });
+}
+function renderCourseSchedule(){
+  renderScheduleCards("homeCourseSchedule",true);
+  renderScheduleCards("ntccScheduleGrid",false);
+  renderFallCourseList();
+  const panel=document.getElementById("ntccCoursePanel");
+  if(panel)panel.classList.toggle("hidden",currentView!=="NTCC");
+}
+function todayCourseContext(){
+  const today=new Date().getDay();
+  return FALL_2026_WEEKLY_SCHEDULE.find(d=>d.day===today)||null;
+}
+
+function renderSummary(){
+ const list=tasks.filter(matches);
+ ["now","next","waiting","later","done"].forEach(s=>document.getElementById(s+"Count").textContent=list.filter(t=>t.status===s).length);
+ const active=list.filter(t=>t.status!=="done").length, done=list.filter(t=>t.status==="done").length,total=active+done;
+ document.getElementById("progressText").textContent=`${done} complete • ${active} active`;
+ document.getElementById("progressBar").style.width=(total?Math.round(done/total*100):0)+"%";
+}
+function renderMainCards(){
+ document.getElementById("mainCards").innerHTML=Object.entries(MAIN_INFO).map(([cat,info])=>{
+   const list=tasks.filter(t=>t.category===cat&&matches(t)), now=list.filter(t=>t.status==="now").length, active=list.filter(t=>t.status!=="done").length;
+   return `<article class="work-card" data-main="${cat}" style="border-top-color:${info.color}">
+   <h3>${cat}</h3><p>${info.desc}</p><div class="badges"><span class="badge">${active} active</span>${now?`<span class="badge now">${now} NOW</span>`:`<span class="badge done">No NOW items</span>`}</div></article>`;
+ }).join("");
+}
+function renderFocus(){
+ const list=tasks.filter(t=>t.status==="now"&&matches(t)).slice(0,5);
+ document.getElementById("focusPreview").innerHTML=list.length?list.map(t=>`<div style="margin:9px 0"><strong style="color:var(--navy)">${esc(t.title)}</strong><div class="task-note">${esc(t.category)}${t.group?" • "+esc(t.group):""}</div></div>`).join(""):`<div class="empty">Nothing is marked NOW.</div>`;
+}
+function renderCommPreview(){
+ const list=tasks.filter(t=>t.category==="Church"&&t.group==="Communication & Outreach"&&t.status!=="done"&&matches(t)).slice(0,4);
+ document.getElementById("commPreview").innerHTML=list.length?list.map(t=>`<article class="comm-card"><h3>${esc(t.title)}</h3><p>${esc(t.note)}</p><div class="badges"><span class="badge ${t.status}">${label(t.status)}</span></div></article>`).join(""):`<div class="empty">No communication items.</div>`;
+}
+function renderRecent(){
+ const list=[...tasks].filter(matches).sort((a,b)=>(b.updatedAt||0)-(a.updatedAt||0)).slice(0,5);
+ document.getElementById("recentList").innerHTML=list.length?list.map(taskHTML).join(""):`<div class="empty">No matching items.</div>`;
+}
+function renderChurchSubnav(){
+ document.getElementById("churchSubnav").innerHTML=CHURCH_GROUPS.map(g=>`<button class="subtab ${g===currentChurchGroup?"active":""}" data-church-group="${esc(g)}">${esc(g)}</button>`).join("");
+}
+function renderChurch(){
+ renderChurchSubnav();
+ const ov=document.getElementById("churchOverview"), listEl=document.getElementById("churchTasks");
+ if(currentChurchGroup==="Overview"){
+   ov.classList.remove("hidden");
+   const comm=tasks.filter(t=>t.category==="Church"&&t.group==="Communication & Outreach"&&t.status!=="done").length;
+   const groups=CHURCH_GROUPS.filter(g=>g!=="Overview");
+   ov.innerHTML=`<div class="work-grid">
+   ${groups.map(g=>{const n=tasks.filter(t=>t.category==="Church"&&t.group===g&&t.status!=="done").length;return `<article class="work-card" data-open-group="${esc(g)}"><h3>${esc(g)}</h3><p>${n} active item${n===1?"":"s"}</p></article>`}).join("")}
+   </div>
+   <div class="card" style="margin-top:16px;margin-bottom:0;background:#fbfcfe">
+    <h3>Communication & Community Outreach</h3>
+    <p style="color:var(--muted);margin-top:0">One communication plan, multiple channels. Create the message once, then adapt it where useful.</p>
+    <div class="channel-grid">
+      <div class="channel">Facebook / Social</div><div class="channel">LED Sign</div><div class="channel">Website</div><div class="channel">Email</div><div class="channel">Google Calendar</div>
+    </div>
+   </div>`;
+   listEl.innerHTML="";
+ }else{
+   ov.classList.add("hidden");
+   let list=tasks.filter(t=>t.category==="Church"&&t.group===currentChurchGroup&&matches(t));
+   const rank={now:0,next:1,waiting:2,later:3,done:4};list.sort((a,b)=>rank[a.status]-rank[b.status]);
+   listEl.innerHTML=list.length?list.map(taskHTML).join(""):`<div class="empty">No items in this church area yet.</div>`;
+ }
+}
+function renderList(){
+ if(currentView==="home"||currentView==="Church")return;
+ const title=currentView==="all"?"All Tasks":currentView;
+ document.getElementById("listTitle").textContent=title;
+ document.getElementById("listSubtitle").textContent=currentView==="all"?"Everything across the dashboard.":MAIN_INFO[currentView]?.desc||"";
+ let list=tasks.filter(matches);
+ if(currentView!=="all")list=list.filter(t=>t.category===currentView);
+ if(currentFilter==="active")list=list.filter(t=>t.status!=="done");
+ else if(currentFilter!=="everything")list=list.filter(t=>t.status===currentFilter);
+ const rank={now:0,next:1,waiting:2,later:3,done:4};list.sort((a,b)=>rank[a.status]-rank[b.status]||(a.due||"9999").localeCompare(b.due||"9999"));
+ document.getElementById("taskList").innerHTML=list.length?list.map(taskHTML).join(""):`<div class="empty">No items match this view.</div>`;
+}
+function render(){updateClock();renderSummary();renderMainCards();renderFocus();renderCommPreview();renderRecent();renderChurch();renderList();renderCourseSchedule();renderHomeAcademic();renderNTCCCalendar();if(document.getElementById('aiBrief'))buildBrief();}
+function setView(v){
+ currentView=v;
+ document.querySelectorAll("[data-view]").forEach(b=>b.classList.toggle("active",b.dataset.view===v));
+ document.getElementById("homeView").classList.toggle("hidden",v!=="home");
+ document.getElementById("churchView").classList.toggle("hidden",v!=="Church");
+ document.getElementById("listView").classList.toggle("hidden",v==="home"||v==="Church");
+ render();
+ window.scrollTo({top:0,behavior:"smooth"});
+}
+function getTask(el){const row=el.closest("[data-id]");return row?tasks.find(t=>String(t.id)===row.dataset.id):null}
+function openDialog(t=null,forcedCategory=null,forcedGroup=null){
+ document.getElementById("dialogTitle").textContent=t?"Edit Item":"Add Item";
+ document.getElementById("taskId").value=t?.id||"";
+ document.getElementById("taskTitle").value=t?.title||"";
+ document.getElementById("taskNote").value=t?.note||"";
+ document.getElementById("taskCategory").value=t?.category||forcedCategory||(currentView!=="home"&&currentView!=="all"?currentView:"Church");
+ document.getElementById("taskStatus").value=t?.status||"next";
+ document.getElementById("taskGroup").value=t?.group||forcedGroup||"";
+ document.getElementById("taskDue").value=t?.due||"";
+ document.getElementById("taskWaitingOn").value=t?.waitingOn||"";
+ document.getElementById("deleteBtn").classList.toggle("hidden",!t);
+ document.getElementById("taskDialog").showModal();
+}
+
+document.addEventListener("click",e=>{
+ const v=e.target.closest("[data-view]");if(v)setView(v.dataset.view);
+ const m=e.target.closest("[data-main]");if(m)setView(m.dataset.main);
+ const og=e.target.closest("[data-open-group]");if(og){currentChurchGroup=og.dataset.openGroup;setView("Church");}
+ const cg=e.target.closest("[data-church-group]");if(cg){currentChurchGroup=cg.dataset.churchGroup;renderChurch();}
+ const term=e.target.closest("[data-term]");if(term){currentAcademicTerm=term.dataset.term;renderTermTabs();renderAcademicTable();}
+ const f=e.target.closest("[data-filter]");if(f){currentFilter=f.dataset.filter;document.querySelectorAll("[data-filter]").forEach(b=>b.classList.toggle("active",b===f));renderList();}
+ const ed=e.target.closest(".edit");if(ed)openDialog(getTask(ed));
+ const ch=e.target.closest(".task-check");if(ch){const t=getTask(ch);if(t){t.status=ch.checked?"done":"next";t.updatedAt=Date.now();save();render();}}
+});
+document.getElementById("quickAdd").onclick=()=>{
+ const text=document.getElementById("quickText").value.trim();if(!text)return;
+ tasks.push({id:Date.now(),category:document.getElementById("quickCategory").value,status:document.getElementById("quickStatus").value,group:"Quick Capture",title:text,note:"",due:"",updatedAt:Date.now()});
+ document.getElementById("quickText").value="";save();render();
+};
+document.getElementById("addChurch").onclick=()=>openDialog(null,"Church",currentChurchGroup==="Overview"?"":currentChurchGroup);
+document.getElementById("addItem").onclick=()=>openDialog();
+document.getElementById("cancelBtn").onclick=()=>document.getElementById("taskDialog").close();
+document.getElementById("taskForm").onsubmit=e=>{
+ e.preventDefault();
+ const id=document.getElementById("taskId").value;
+ const data={title:document.getElementById("taskTitle").value.trim(),note:document.getElementById("taskNote").value.trim(),category:document.getElementById("taskCategory").value,status:document.getElementById("taskStatus").value,group:document.getElementById("taskGroup").value.trim(),due:document.getElementById("taskDue").value,waitingOn:document.getElementById("taskWaitingOn").value.trim(),updatedAt:Date.now()};
+ if(!data.title)return;
+ if(id){const i=tasks.findIndex(t=>String(t.id)===id);if(i>=0)tasks[i]={...tasks[i],...data}}else tasks.push({id:Date.now(),...data});
+ save();document.getElementById("taskDialog").close();render();
+};
+document.getElementById("deleteBtn").onclick=()=>{
+ const id=document.getElementById("taskId").value;if(!id)return;
+ if(confirm("Delete this item?")){tasks=tasks.filter(t=>String(t.id)!==id);save();document.getElementById("taskDialog").close();render();}
+};
+document.getElementById("searchInput").oninput=e=>{searchTerm=e.target.value.trim();render()};
+document.getElementById("openNTCCScheduleBtn").onclick=()=>{setView("NTCC");setTimeout(()=>document.getElementById("ntccCoursePanel")?.scrollIntoView({behavior:"smooth"}),200);};
+document.getElementById("openNTCCCalendarBtn").onclick=()=>{setView("NTCC");setTimeout(()=>document.getElementById("ntccCalendarPanel")?.scrollIntoView({behavior:"smooth"}),200);};
+document.getElementById("backupBtn").onclick=()=>{
+ const blob=new Blob([JSON.stringify({version:3,exportedAt:new Date().toISOString(),tasks},null,2)],{type:"application/json"});
+ const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="Homer_Mission_Control_Backup.json";a.click();URL.revokeObjectURL(a.href);
+};
+document.getElementById("importBtn").onclick=()=>document.getElementById("importFile").click();
+document.getElementById("importFile").onchange=async e=>{
+ const file=e.target.files[0];if(!file)return;
+ try{
+  const parsed=JSON.parse(await file.text());let incoming=Array.isArray(parsed)?parsed:parsed.tasks;
+  if(!Array.isArray(incoming))throw new Error();
+  incoming=normalizeLegacy(incoming);
+  if(confirm("Replace the current dashboard data with this backup?")){tasks=incoming;save();render();}
+ }catch(err){alert("That file does not look like a valid Command Center backup.");}
+ e.target.value="";
+};
+
+function topActive(category=null, group=null, limit=8){
+  const rank={now:0,next:1,waiting:2,later:3,done:4};
+  let list=tasks.filter(t=>t.status!=="done");
+  if(category) list=list.filter(t=>t.category===category);
+  if(group) list=list.filter(t=>t.group===group);
+  return [...list].sort((a,b)=>rank[a.status]-rank[b.status]||(a.due||"9999").localeCompare(b.due||"9999")).slice(0,limit);
+}
+function taskLine(t){
+  return `- [${label(t.status)}] ${t.title}${t.group?` (${t.group})`:""}${t.due?` — due ${fmt(t.due)}`:""}${t.waitingOn?` — waiting on ${t.waitingOn}`:""}${t.note?`: ${t.note}`:""}`;
+}
+function buildBrief(){
+  const now=tasks.filter(t=>t.status==="now");
+  const next=tasks.filter(t=>t.status==="next");
+  const waiting=tasks.filter(t=>t.status==="waiting");
+  const later=tasks.filter(t=>t.status==="later");
+  const ntcc=topActive("NTCC",null,4);
+  const comm=topActive("Church","Communication & Outreach",3);
+
+  const itemHTML = t => {
+    const meta=[t.category,t.group,t.due?`Due ${fmt(t.due)}`:""].filter(Boolean).join(" • ");
+    return `<div class="brief-item"><strong>${esc(t.title)}</strong>${meta?`<span class="brief-meta">${esc(meta)}</span>`:""}</div>`;
+  };
+
+  let html = `
+    <div class="brief-status">
+      <span class="badge now">${now.length} NOW</span>
+      <span class="badge next">${next.length} NEXT</span>
+      <span class="badge waiting">${waiting.length} WAITING</span>
+      <span class="badge later">${later.length} LATER</span>
+    </div>`;
+
+  if(now.length){
+    html += `<span class="brief-heading">Today's Priorities</span>${now.slice(0,5).map(itemHTML).join("")}`;
+  } else {
+    html += `<span class="brief-heading">Today's Priorities</span><div class="task-note">Nothing is marked NOW.</div>`;
+  }
+
+  if(comm.length){
+    html += `<span class="brief-heading">Church Communication</span>${comm.map(itemHTML).join("")}`;
+  }
+
+  const todayCourse=todayCourseContext();
+  if(todayCourse){
+    html += `<span class="brief-heading">Today at NTCC</span>
+      <div class="brief-item"><strong>${esc(todayCourse.role)}</strong><span class="brief-meta">${esc(todayCourse.name)} • ${esc(todayCourse.detail)}</span></div>`;
+    const activeClasses=currentCourseSections();
+    if(activeClasses.length){
+      html += activeClasses.map(c=>`<div class="brief-item"><strong>${esc(c.time)} — ${esc(c.code)}</strong><span class="brief-meta">${esc(c.title)} • ${esc(c.room)}</span></div>`).join("");
+    }
+  }
+
+  const upcomingDates=upcomingAcademic(3);
+  if(upcomingDates.length){
+    html += `<span class="brief-heading">Upcoming Academic Dates</span>` +
+      upcomingDates.map(e=>`<div class="brief-item"><strong>${esc(e.title)}</strong><span class="brief-meta">${esc(academicDateLabel(e))} • ${esc(e.term)}${e.note?` • ${esc(e.note)}`:""}</span></div>`).join("");
+  }
+
+  if(ntcc.length){
+    html += `<span class="brief-heading">NTCC Work</span>${ntcc.map(itemHTML).join("")}`;
+  }
+
+  document.getElementById("aiBrief").innerHTML=html;
+  return document.getElementById("aiBrief").innerText.trim();
+}
+function contextBlock(list){
+  if(!list.length) return "No active dashboard items are currently listed for this area.";
+  return list.map(taskLine).join("\n");
+}
+function buildPrompt(action){
+  const allNow=topActive(null,null,12);
+  const church=topActive("Church",null,10);
+  const comm=topActive("Church","Communication & Outreach",8);
+  const gov=tasks.filter(t=>t.category==="Church"&&["Governance / Bylaws","Deacons & Committees","Finance / Officers"].includes(t.group)&&t.status!=="done").slice(0,12);
+  const ntcc=topActive("NTCC",null,10);
+  const base=`You are helping me from Homer Mission Control. Use the dashboard context below as working context. Keep the response practical, concise, and action-oriented. Do not invent missing facts; flag anything that needs my decision.\n\n`;
+  const prompts={
+    priorities: base+`Help me plan what I should work on next. Separate the response into: 1) Do first, 2) Do next, 3) Can wait. Consider deadlines, dependencies, and whether one action unlocks several others.\n\nCURRENT ACTIVE ITEMS:\n${contextBlock(allNow)}`,
+    "church-comms": base+`Act as my church communication assistant. Build a simple communication plan for the church and Kosse community from the items below. Focus on one core message reused appropriately across Facebook/social media, LED sign, website, email, and Google Calendar. Avoid creating unnecessary posting work. Tell me what message should go where, and draft the wording when the need is clear.\n\nCOMMUNICATION ITEMS:\n${contextBlock(comm)}\n\nOTHER RELEVANT CHURCH ITEMS:\n${contextBlock(church.slice(0,6))}`,
+    "church-governance": base+`Act as my governance work assistant for First Baptist Church Kosse. Help me determine the next concrete governance actions from these items. Preserve congregational polity, distinguish adopted rules from proposals, and identify anything requiring deacon review, church action, or legal/corporate document verification.\n\nGOVERNANCE ITEMS:\n${contextBlock(gov)}`,
+    ntcc: base+`Act as my NTCC teaching and administrative assistant. Organize the items below into a workable plan, identify the highest-value next actions, and help draft or build the next item when appropriate. Pay attention to both my weekly teaching pattern and upcoming academic dates because they may affect priorities.\n\nFALL 2026 COURSE SCHEDULE:\n${FALL_2026_COURSES.map(c=>`- ${c.code} — ${c.title} — ${c.time} — ${courseDateLabel(c)} — ${c.room}`).join("\n")}\n\nWEEKLY TEACHING PATTERN:\n- Monday: online work, office hours, grading, course preparation, and campus commitments\n- Tuesday: scheduled face-to-face / hybrid classes in MAIN/HUM/107\n- Wednesday: online work, office hours, grading, course preparation, and campus commitments\n- Thursday: scheduled face-to-face / hybrid classes in MAIN/HUM/107\n- Friday: no standing face-to-face teaching block shown on the loaded schedule\n\nUPCOMING ACADEMIC DATES:\n${upcomingAcademic(6).map(e=>`- ${academicDateLabel(e)}: ${e.title} (${e.term})`).join("\n")}\n\nNTCC ITEMS:\n${contextBlock(ntcc)}`,
+    weekly: base+`Give me a practical weekly review using the dashboard items below. Identify the 3–5 outcomes that would make the week successful, what can be deferred, and any items that should be grouped together to save time.\n\nACTIVE DASHBOARD:\n${contextBlock(topActive(null,null,18))}`,
+    capture: base+`I am about to give you a new task, idea, responsibility, or note. Help me decide whether it belongs under Church, NTCC, or Personal; suggest the best project/group; and classify it as NOW, NEXT, WAITING, or LATER. Then rewrite it as one clear dashboard item.\n\nMy new item: `
+  };
+  return prompts[action]||base;
+}
+function setAIPrompt(action){
+  const box=document.getElementById("aiPrompt");
+  box.value=buildPrompt(action);
+  document.getElementById("aiStatus").textContent="Prompt prepared. You can edit it, copy it, then open ChatGPT.";
+}
+document.addEventListener("click",e=>{
+  const ai=e.target.closest("[data-ai-action]");
+  if(ai) setAIPrompt(ai.dataset.aiAction);
+});
+document.getElementById("copyPromptBtn").onclick=async()=>{
+  const box=document.getElementById("aiPrompt");
+  if(!box.value.trim()){document.getElementById("aiStatus").textContent="Choose an assistant action first.";return;}
+  try{
+    await navigator.clipboard.writeText(box.value);
+    document.getElementById("aiStatus").textContent="Prompt copied. Open ChatGPT and paste it into the conversation.";
+  }catch(e){
+    box.select();document.execCommand("copy");
+    document.getElementById("aiStatus").textContent="Prompt copied.";
+  }
+};
+document.getElementById("refreshBriefBtn").onclick=()=>{
+  buildBrief();
+  document.getElementById("aiStatus").textContent="Mission briefing refreshed from your current dashboard.";
+};
+
+buildBrief();
+render();setInterval(updateClock,30000);
+</script>
+</body>
+</html>
