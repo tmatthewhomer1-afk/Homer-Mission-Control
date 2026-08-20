@@ -1,0 +1,13 @@
+.cloud-sync-shell{border-left:6px solid var(--green);background:linear-gradient(135deg,#fbfffc 0%,#f0f8f2 100%)}
+.cloud-sync-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:14px;align-items:start}
+.cloud-sync-panel{border:1px solid var(--border);background:white;border-radius:13px;padding:15px}
+.cloud-sync-panel h3{margin:0 0 6px;color:var(--navy)}
+.cloud-sync-status{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:10px 0}
+.cloud-dot{width:10px;height:10px;border-radius:999px;background:#9aa6b2;display:inline-block}
+.cloud-dot.online{background:var(--green)}
+.cloud-dot.error{background:var(--red)}
+.cloud-email-row{display:grid;grid-template-columns:1fr auto;gap:8px;margin-top:10px}
+.cloud-sync-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.cloud-sync-note{font-size:.84rem;color:var(--muted);line-height:1.45;margin-top:8px}
+.cloud-sync-meta{font-size:.82rem;color:var(--muted);margin-top:8px;min-height:20px}
+@media(max-width:760px){.cloud-sync-grid{grid-template-columns:1fr}.cloud-email-row{grid-template-columns:1fr}}
