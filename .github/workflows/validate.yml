@@ -12,11 +12,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Check V3.6 JavaScript syntax
-        run: node --check v36.js
-      - name: Verify V3.6 assets are wired
+      - name: Check JavaScript syntax
+        run: |
+          node --check v36.js
+          node --check v37.js
+      - name: Verify V3.7 assets are wired
         shell: bash
         run: |
           grep -q 'href="v36.css"' index.html
           grep -q 'src="v36.js"' index.html
-          grep -q 'Homer Mission Control V3.6' index.html
+          grep -q 'href="v37.css"' index.html
+          grep -q 'src="v37.js"' index.html
+          grep -q 'Homer Mission Control V3.7' index.html
+          test -f data/headlines.json
+          test -f .github/workflows/update-headlines.yml
