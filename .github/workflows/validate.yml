@@ -16,13 +16,22 @@ jobs:
         run: |
           node --check v36.js
           node --check v37.js
-      - name: Verify V3.7 assets are wired
+          node --check v38.js
+          node --check api/health.js
+          node --check api/sync.js
+      - name: Verify V3.8 assets are wired
         shell: bash
         run: |
           grep -q 'href="v36.css"' index.html
           grep -q 'src="v36.js"' index.html
           grep -q 'href="v37.css"' index.html
           grep -q 'src="v37.js"' index.html
-          grep -q 'Homer Mission Control V3.7' index.html
+          grep -q 'href="v38.css"' index.html
+          grep -q 'src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"' index.html
+          grep -q 'src="v38.js"' index.html
+          grep -q 'Homer Mission Control V3.8' index.html
+          grep -q 'sb_publishable_' v38.js
           test -f data/headlines.json
           test -f .github/workflows/update-headlines.yml
+          test -f supabase/schema.sql
+          test -f docs/V38_SETUP.md
