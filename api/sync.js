@@ -5,19 +5,14 @@ function getBearer(req) {
   return value.startsWith('Bearer ') ? value.slice(7) : null;
 }
 
-function getAdmin() {
+function getUserClient(token) {
   const url = process.env.SUPABASE_URL;
-  const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  const key = process.env.SUPABASE_PUBLISHABLE_KEY;
   if (!url || !key) throw new Error('Supabase is not configured');
-  return createClient(url, key, { auth: { persistSession: false, autoRefreshToken: false } });
-}
-
-async function authenticatedUser(req, admin) {
-  const token = getBearer(req);
-  if (!token) return null;
-  const { data, error } = await admin.auth.getUser(token);
-  if (error) return null;
-  return data.user || null;
+  return createClient(url, key, {
+    auth: { persistSession: false, autoRefreshToken: false },
+    global: { headers: { Authorization: `Bearer ${token}` } }
+  });
 }
 
 export default async function handler(req, res) {
@@ -25,12 +20,16 @@ export default async function handler(req, res) {
   if (!['GET', 'PUT'].includes(req.method)) return res.status(405).json({ error: 'Method not allowed' });
 
   try {
-    const admin = getAdmin();
-    const user = await authenticatedUser(req, admin);
-    if (!user) return res.status(401).json({ error: 'Unauthorized' });
+    const token = getBearer(req);
+    if (!token) return res.status(401).json({ error: 'Unauthorized' });
+
+    const supabase = getUserClient(token);
+    const { data: userData, error: userError } = await supabase.auth.getUser(token);
+    if (userError || !userData?.user) return res.status(401).json({ error: 'Unauthorized' });
+    const user = userData.user;
 
     if (req.method === 'GET') {
-      const { data, error } = await admin
+      const { data, error } = await supabase
         .from('mission_control_state')
         .select('payload, updated_at')
         .eq('user_id', user.id)
@@ -42,7 +41,7 @@ export default async function handler(req, res) {
     const payload = req.body?.state;
     if (!payload || typeof payload !== 'object') return res.status(400).json({ error: 'state object required' });
 
-    const { data, error } = await admin
+    const { data, error } = await supabase
       .from('mission_control_state')
       .upsert({ user_id: user.id, payload, updated_at: new Date().toISOString() }, { onConflict: 'user_id' })
       .select('updated_at')
