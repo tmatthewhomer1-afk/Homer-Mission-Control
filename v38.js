@@ -9,6 +9,7 @@ const PRE_PULL_BACKUP_KEY='homerPreCloudPullBackupV38';
 let sb=null;
 let currentUser=null;
 let lastCloudUpdated=null;
+let pendingEmail='';
 
 function parseLocal(key,fallback){
   try{const raw=localStorage.getItem(key);return raw===null?fallback:JSON.parse(raw)}catch(e){return fallback}
@@ -47,8 +48,9 @@ function buildCard(){
         <h3>Account</h3>
         <div class="cloud-sync-status"><span id="cloudStatusDot" class="cloud-dot"></span><strong id="cloudStatusText">Checking sign-in…</strong></div>
         <div id="cloudSignedOut">
-          <div class="cloud-email-row"><input id="cloudEmail" type="email" placeholder="Email address" autocomplete="email"><button id="cloudSignIn" class="btn blue" type="button">Send Sign-In Link</button></div>
-          <div class="cloud-sync-note">Supabase sends a one-time magic link. Your private task data stays behind your authenticated account and row-level security.</div>
+          <div class="cloud-email-row"><input id="cloudEmail" type="email" placeholder="Email address" autocomplete="email"><button id="cloudSendCode" class="btn blue" type="button">Send 6-Digit Code</button></div>
+          <div id="cloudCodeRow" class="cloud-email-row hidden" style="margin-top:8px"><input id="cloudCode" type="text" inputmode="numeric" autocomplete="one-time-code" maxlength="6" placeholder="6-digit code"><button id="cloudVerifyCode" class="btn blue" type="button">Verify Code</button></div>
+          <div class="cloud-sync-note">Supabase emails a six-digit one-time code. Enter it here; no email link is required.</div>
         </div>
         <div id="cloudSignedIn" class="hidden">
           <div id="cloudUserEmail" class="cloud-sync-note"></div>
@@ -63,10 +65,12 @@ function buildCard(){
       </div>
     </div>`;
   anchor.insertAdjacentElement('afterend',section);
-  document.getElementById('cloudSignIn').onclick=sendMagicLink;
+  document.getElementById('cloudSendCode').onclick=sendOtpCode;
+  document.getElementById('cloudVerifyCode').onclick=verifyOtpCode;
   document.getElementById('cloudSignOut').onclick=signOut;
   document.getElementById('cloudPush').onclick=pushCloud;
   document.getElementById('cloudPull').onclick=pullCloud;
+  document.getElementById('cloudCode').addEventListener('keydown',e=>{if(e.key==='Enter')verifyOtpCode()});
 }
 
 function updateAuthUI(){
@@ -86,17 +90,33 @@ function updateAuthUI(){
   }
 }
 
-async function sendMagicLink(){
+async function sendOtpCode(){
   const email=document.getElementById('cloudEmail').value.trim();
   if(!email){setStatus('Enter your email address','error');return}
-  setStatus('Sending sign-in link…');
-  const redirectTo=window.location.origin+window.location.pathname;
-  const {error}=await sb.auth.signInWithOtp({email,options:{emailRedirectTo:redirectTo}});
-  if(error){setStatus(error.message||'Could not send sign-in link','error');return}
-  setStatus('Check your email for the sign-in link','online');
-  setMeta('After opening the link, return here and your session should connect automatically.');
+  pendingEmail=email;
+  setStatus('Sending 6-digit code…');
+  const {error}=await sb.auth.signInWithOtp({email,options:{shouldCreateUser:false}});
+  if(error){setStatus(error.message||'Could not send code','error');return}
+  document.getElementById('cloudCodeRow').classList.remove('hidden');
+  document.getElementById('cloudCode').focus();
+  setStatus('Check your email for the 6-digit code','online');
+  setMeta('Enter the newest six-digit code above. The code expires after a short time.');
 }
-async function signOut(){await sb.auth.signOut();currentUser=null;lastCloudUpdated=null;updateAuthUI();setMeta(`Local tasks: ${localTaskCount()} · Signed out`)}
+
+async function verifyOtpCode(){
+  const email=pendingEmail||document.getElementById('cloudEmail').value.trim();
+  const token=document.getElementById('cloudCode').value.trim().replace(/\s+/g,'');
+  if(!email){setStatus('Enter your email address first','error');return}
+  if(!/^\d{6}$/.test(token)){setStatus('Enter the 6-digit code from your email','error');return}
+  setStatus('Verifying code…');
+  const {data,error}=await sb.auth.verifyOtp({email,token,type:'email'});
+  if(error){setStatus(error.message||'Code could not be verified','error');return}
+  currentUser=data?.user||data?.session?.user||null;
+  updateAuthUI();
+  if(currentUser){setStatus('Signed in successfully','online');await refreshCloudMeta()}
+}
+
+async function signOut(){await sb.auth.signOut();currentUser=null;lastCloudUpdated=null;pendingEmail='';updateAuthUI();setMeta(`Local tasks: ${localTaskCount()} · Signed out`)}
 
 async function refreshCloudMeta(){
   if(!currentUser)return;
