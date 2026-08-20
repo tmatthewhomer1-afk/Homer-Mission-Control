@@ -1,0 +1,26 @@
+.live-briefing-shell{border-left:6px solid var(--blue);background:linear-gradient(135deg,#f7fbff 0%,#f2f8fc 100%)}
+.live-briefing-grid{display:grid;grid-template-columns:1fr 1fr 1.25fr;gap:14px;align-items:start}
+.live-card{border:1px solid var(--border);background:white;border-radius:13px;padding:15px;min-height:220px}
+.live-card h3{margin:0 0 6px;color:var(--navy)}
+.live-muted{color:var(--muted);font-size:.86rem}
+.weather-main{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-top:12px}
+.weather-temp{font-size:2.3rem;font-weight:800;color:var(--navy);line-height:1}
+.weather-detail{font-size:.9rem;color:var(--muted);margin-top:6px}
+.weather-days{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-top:14px}
+.weather-day{border:1px solid var(--border);border-radius:9px;padding:8px;text-align:center;font-size:.8rem;background:#fbfcfd}
+.weather-day strong{display:block;color:var(--navy);font-size:.86rem}
+.live-tools{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}
+.calendar-placeholder{border:1px dashed #9fb8d1;border-radius:11px;padding:14px;background:#f8fbff;margin-top:12px}
+.calendar-placeholder strong{color:var(--navy);display:block;margin-bottom:4px}
+.headline-tabs{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}
+.headline-tab{border:1px solid var(--border);background:#f8fafc;color:var(--navy);border-radius:999px;padding:5px 9px;font-weight:bold;font-size:.76rem;cursor:pointer}
+.headline-tab.active{background:var(--navy);color:white;border-color:var(--navy)}
+.headline-list{display:grid;gap:8px;max-height:410px;overflow:auto;padding-right:2px}
+.headline{border:1px solid var(--border);border-radius:10px;padding:10px;background:#fff}
+.headline-title{font-weight:700;color:var(--navy);font-size:.9rem;line-height:1.35}
+.headline-meta{color:var(--muted);font-size:.76rem;margin-top:4px}
+.headline-actions{display:flex;gap:6px;margin-top:7px;flex-wrap:wrap}
+.headline-actions a,.headline-actions button{font-size:.74rem;padding:4px 7px}
+.saved-headline{border-left:4px solid var(--green)}
+@media(max-width:980px){.live-briefing-grid{grid-template-columns:1fr 1fr}.headlines-card{grid-column:1/-1}}
+@media(max-width:650px){.live-briefing-grid{grid-template-columns:1fr}.headlines-card{grid-column:auto}.weather-days{grid-template-columns:1fr 1fr 1fr}}
