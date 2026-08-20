@@ -1,0 +1,45 @@
+name: Wire V3.6 weekly plan
+
+on:
+  push:
+    branches: [feature/v3.6-weekly-plan]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add V3.6 assets to index
+        shell: python
+        run: |
+          from pathlib import Path
+          p=Path('index.html')
+          text=p.read_text(encoding='utf-8')
+          changed=False
+          if '<link rel="stylesheet" href="v36.css">' not in text:
+              text=text.replace('</head>','<link rel="stylesheet" href="v36.css">\n</head>',1)
+              changed=True
+          if '<script src="v36.js"></script>' not in text:
+              text=text.replace('</body>','<script src="v36.js"></script>\n</body>',1)
+              changed=True
+          text=text.replace('<span class="badge next">V3.5</span>','<span class="badge next">V3.6</span>',1)
+          text=text.replace('<title>Homer Mission Control V3.5</title>','<title>Homer Mission Control V3.6</title>',1)
+          p.write_text(text,encoding='utf-8')
+          Path('.v36patched').write_text('yes' if changed else 'no')
+      - name: Commit wiring
+        shell: bash
+        run: |
+          if [ "$(cat .v36patched)" = "yes" ]; then
+            rm .v36patched
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add index.html
+            git commit -m 'Wire V3.6 weekly plan into dashboard'
+            git push
+          else
+            rm .v36patched
+          fi
