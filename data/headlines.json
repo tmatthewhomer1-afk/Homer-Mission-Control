@@ -1,62 +1,20 @@
 {
-  "updatedAt": "2026-08-31T04:22:05.013522+00:00",
+  "updatedAt": "2026-08-31T08:22:09.765176+00:00",
   "categories": {
     "Top": [
       {
-        "id": "2c7d76b06d6299b9",
-        "title": "US strikes Iranian launchers on Larak Island in first known attack in weeks - BBC",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wR1VYOXlxY0JNeElMalZOaEw0VDcycU9GeDBFLUdEQ2x4NjRuSjQzd0drUUtfVDRIR2hzenZjY2lRU2ZvbzVUeWVzYUQxc2QwcS1pWW5HX2EzUQ?oc=5",
+        "id": "9e71c8366742a4c4",
+        "title": "Iran attacks US bases in Jordan after US strikes Larak Island - Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORTBBc2EzTGU1VklFeXVRdXFpRG9pdmFuRHFRcnBmS1o4RE56RVFJTExZVVFySV9wSEhEZV9kNXAyb2VmajRDWTZiaEhyZWRLMjFwbGRVVU1VYlI0S3c5WU5mZGhfUmF4UmRLN1Qzdkc1US1UUGQ0S01Jb0hJeV9jMnBtLXAxWXRiZTdnbXBMcVVXMkJjT3RtdTBB0gGfAUFVX3lxTE5TWTRMMk9tZmNrUWl1MTdYUE9Ick5xeEtsMWFkRnNWbEh4eGcxMTBubTJzeUJBa3RacFFsZ2cxN3Y0OWJ4dDh1NlNwczRSaWFoODlTOFl4dnlKOXE1dG96cHlGRHMzVTlSZUJxWlhPSEJCQ3FlYXBjaHJOZW42enVhckhfV2Rkc2NScXVkV0hDNzBsbzlHTWpCeFdOOS1RZw?oc=5",
+        "source": "Al Jazeera",
+        "published": "2026-08-31T05:13:44+00:00"
+      },
+      {
+        "id": "f00b9cd091a11474",
+        "title": "Nepal: Number of people missing after flood rises to 4,247, with more than 900 dead - BBC",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5JSFZyT0RfZFFQN0FVQmxaS0lNR2ZfdFhZX21LSVRaUVpRNDJBWlN5ZHRmS3l5LWFXcVExYkR4SC13ZVdOZlQwckluYW53VUI1Mzc0dTNn?oc=5",
         "source": "BBC",
-        "published": "2026-08-31T03:25:36+00:00"
-      },
-      {
-        "id": "f001446666eadc0c",
-        "title": "Rescuers battle floods and debris as Himalayan disaster death toll nears 800 - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUlp4TDFMZW56NUZBeXVKc2t6UHFaX2xtekUxdGNnTU96YVJzczdybzFZNkpsUU9UQ3RUVFVfcmtGcGZXZ1cyTXRpRUE1NjlROFRkRFB4Q0hpLXgweFMtc1dIZl96Rk9Gb0N3bmpHWXVINm1qbW44SzJqQmVCalhCbjBsV081NTRvNFZTbi1GWVk5ZXdSblRyRmpfRldDTnJ2SnY4TFpSY0FEOUpkY3dqSTRyZTF2Yms?oc=5",
-        "source": "Reuters",
-        "published": "2026-08-30T23:52:27+00:00"
-      },
-      {
-        "id": "3932c0c52153d165",
-        "title": "One Dead and 15 May Be Missing at the Grand Canyon After Flash Flood - The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQb3k2b2VidEVVck12bUE1Y0NxUS0zYnVmdkxxYzNodjZyZ2pjWmJmcXZYSU41dUppRmNiOE9VWW56ZXBwNk5ULUtWMmVyYjlKZkFPUlc3VU9zcVNwNkNLSkFTSGFHVnpDR1paZ25fNm9yMDlyc0Znbml2ZGdFeEY3MGNxaVF5c2U4WFE?oc=5",
-        "source": "The New York Times",
-        "published": "2026-08-31T02:46:36+00:00"
-      },
-      {
-        "id": "900e2cc2d37f31d2",
-        "title": "Venezuela vowed not to ‘hand over’ its oil. Trump aims to grab a windfall. - The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSDhpVVpJMnVaXy11d21lcU5ZcHpsNkJKOUhJX0U3d3ZfcHlyVXdmaVQta0pxUl9mMmdaa0pwSlRVWlJ6TmI2OUc5My1CQVplZkxiOTdDXzg1V3FQNkoxdzlRZGhZVzNIdGRxOHdGME05NTBjanhPenpzWkxpbEZqYnJZS0NoRk1EUW9iVUp2RDZDWV9JMy1pbmxReTNNLXhOWkpOYUctTzg4NGV2UzVGdg?oc=5",
-        "source": "The Washington Post",
-        "published": "2026-08-30T23:56:58+00:00"
-      },
-      {
-        "id": "5ab5439588c35c2f",
-        "title": "Canada’s Ford Likens Trump’s Actions to Saturday Night Live Skit - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOGhfR3FCdmpFVUoyZXpVNHY5aTJpMHg4NXJsVC1nYVdPcmgwTTFoUkdlMUZfU1cwb3kwdDJZeWxSOUVHUWNsRzgyMEgwQjN5QnM0TzhDQlFOTGRYQlRIbXRDQjNxb2xBS2ZVYVBabVNTWURNNEtvRXhaMkJkdHVDWU5EUEpheW4yczM2akhHRllaWmpZX2hPS1IyWWgxQQ?oc=5",
-        "source": "Yahoo Finance",
-        "published": "2026-08-30T15:12:20+00:00"
-      },
-      {
-        "id": "353455403b127413",
-        "title": "Pentagon secretly installs military influencers in civilian roles - The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVzlDR3B5N2ZKclQ2U3lTV0lsaHRjdFdrWUhsM3ZOMkFqdEZ1SWd1NE5idzRLeXVPdExTYnJCWHM1V1lYekxEMnVOUjJZWWUzeExnRHdHMW54X3dlNFBhcnlsN080MXRJUHd1ZjJkVHBSdGlFZ082VGpNWWV3alhOX2ZwZzJRX1RxZ3ZiMnBjRUYwaE1MZTRwVThVdHFiV2N4eU9LbzZOWjNic3hkSEJJV0J6d05xWG02VXR2eWg0eTE?oc=5",
-        "source": "The Washington Post",
-        "published": "2026-08-31T01:40:57+00:00"
-      },
-      {
-        "id": "cd052b2d2e2436c8",
-        "title": "Nicolás Maduro shares photos from New York prison: \"We are standing firm\" - CBS News",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4tbG0za185MWxuQXFsVDNGajRGdjZoSmcyMnFTZkJKdWlqSjlZc0hGWXllcko2My1QQjlkU2VON19vNVFUYTBJWC1aNWV2MW9CcVZpVWJ2MWYwX2xDZ1l0YW9RMU9wZHZtY1JGQTBOZFR5Z0tRc0E?oc=5",
-        "source": "CBS News",
-        "published": "2026-08-31T02:23:07+00:00"
-      },
-      {
-        "id": "36b9929dd6fb59b6",
-        "title": "Trump administration deports relative of Afghans who helped US military to Central African Republic - NPR",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQ25mQ1ZwRkVyMTdPVDYyZkRTeU1DU3lJcEZSUGlfd2htWHhfTGRqSWlRbWxoQlNsUV9pM3F1LVIwVmFYZ08yRnV4SlhSdmVlT0lnalBYUUNTNWJMbXBoZ2h1RFZTa095V2F0a3FfdkxnNE5vMDFiZjh0c196V1ByLXJlaTQ4QXdtNU1yTl9Ydm1qUEUzNEpjazV4eHVmYXU1Q3RZcC1JNUE?oc=5",
-        "source": "NPR",
-        "published": "2026-08-30T08:32:13+00:00"
+        "published": "2026-08-31T07:21:49+00:00"
       },
       {
         "id": "b0bd53723e528fdb",
@@ -66,6 +24,20 @@
         "published": "2026-08-31T01:35:52+00:00"
       },
       {
+        "id": "a9d795776d742054",
+        "title": "One person dead, about 15 more may be missing after Grand Canyon flash flooding - The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVnI2Um9rSTVQQk9GSkdQdDdOUFZMSjhsdGQwZ0RoOU9fYWhfeHp2SXYzWmxyUzRjazlQci1UUzctZ1o0bEdERFNxWU5vbkJ2bGR3QTJaOG80Y3dpaHdVMExKeVJ1T0dKZGxnWVpPQ0Z4cEJFTmpzR0dodUVWRW01d196S0Z3c0F0UGVYSDF2QXVKTy1fb0VtN0E4OXgxVnZncVV0U3VrNDZLa0pTZzFYTDR6aEFhOEpTdWNlNA?oc=5",
+        "source": "The Washington Post",
+        "published": "2026-08-31T04:34:19+00:00"
+      },
+      {
+        "id": "1bf8480657dc3b11",
+        "title": "Venezuela’s Delcy Rodríguez defends ‘endless’ benefits of her oil deal with Trump - The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWkQ1clNuZE9MNzRVTzczRWc4aXFBbjNjZWpUbkR6U013ZS1YYUNLdHFVM2FDRG4ybmsxUWEzc19kZ1JzOW5Obll4X3hhQkhzZi1MYm1EV1NySkw4OWhBMVFzaGRTazlvUE4xM2c0N2lILXI4TlU1akNPbVJ6VVJ1NndsRkVaTFJVb3VmZ3hTYWltdGh0X1UyWUY0WWhmS0Z6VEhDWldYbEhUblNkZUdmMmpvX25sbjcy?oc=5",
+        "source": "The Guardian",
+        "published": "2026-08-31T01:30:00+00:00"
+      },
+      {
         "id": "715534fedf031fc0",
         "title": "Trump threatens NBC journalist with 'rebuke or punishment' from FCC - Euronews.com",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbVlvU2JLejRUSDBGTWcySmxKVnoybEdCMFhka1lVcUZ2S3RYQXhOZDlrRU8xV01jSHphdUVUZ2ZRZ1JTejJfNWpSY2FsbVk3bWM3VkNXSFpPMWlBZHEzeE42UWhpQnk4cmlyR290RjlQblpaTFplR1BFWExScjZ1MHNPTXI2TnBYTzFjdTBlbC1nSnRqWFhvZkxCTk13ak1QVDlOTVNJTnNLSWRxOGxCMklaUjNsY2xfZXNObmxrYU1JUFd6?oc=5",
@@ -73,18 +45,32 @@
         "published": "2026-08-30T21:33:36+00:00"
       },
       {
-        "id": "a4831cea97a9075d",
-        "title": "China-Nepal floods: 261 foreigners missing in Tibet, online rumours targeted - South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVEtMaTdsSkhyQ0t5UFFWN0ZCcWcxWmR2MUd3My15YXU2a0JwUy1TWEZNTkpkUXkzVUR4Wm5ncEdhQVo4ZFBVSUdpUU1GUDJTbEcxSEtMOWZlTDhMMFBYcEVjalhmN3ZESC1OWnRfa2tUbW56U19xME1Gb0tjOXNFc1Yxb3ZISnJRUUpjZmV6QUhWOHNwSzNDRDhzcE5BSy1XTkJxZGJhaDkzMDRsWjluZVpZUXFYdzFtaGhuazR1M3RMZ9IBwgFBVV95cUxNeE1oS1BkeE5oOUFqTV93RDk3b0o4N0lncGdvcFVjRFVLYkVpOGpjOHItdGdrN18yWTFWQ0s4N2lGaWx3MmNXQ2MyVEdLbF9uQW1XSzc1R3NqY3JRbHp1NG5pUGpNWDdreVAxaEViMHB1Z1VudTVIQnY0MHFSdWV3eWxxdkFFQ3VCUXhxbDFPOGNDeFRtTkJnWTFWbnpmSURWQkdFeEp5S2VOSm9rcTFQU1poaVhzUWtjVUZ2YmtRV0pWQQ?oc=5",
-        "source": "South China Morning Post",
-        "published": "2026-08-30T04:31:37+00:00"
+        "id": "314ea7cbda843664",
+        "title": "Nicolás Maduro flashes peace signs in first prison photos since US capture in Caracas - Fox News",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZklZSnFWdU1YVXpDa1NWWU9YUXJKMkQtQ1dVOUt5Y3FwaDlOa2lpQ2pNbC1GM0h5U2xfZkUxWElnZXJ3bF9lbnZJcmhkdDF1TUtodkhJY0gwTUd2bFU4RjVVeFd3Q3Rlcmt6dWpYbFdfdy1MYjBYVU1aeWdJOHF3VC1MSFFhREZWc0djYmtHV2pnSEFnUDdpYVFoRHU5UXItTzlmVmZXdnZIVU9CdUHSAbMBQVVfeXFMTVZhMXVFZ0NYSjNQMHdLZFlzdkliUVhPOUhxVExrVmlRNXRyZVJBeThjU2lZLWNvUzNTQWh5czhkUXAzQVN0bmNSMHpORzdrUW0yTTN6MXdqMDRLX2JvZ0xELTFLbmpPdHZ5UzNoa0ZDb29yN2RVNzk3b2MwVVEtaXpfemFoUWhGdnZieldZSTF4VUROT2tQcnpOTXI2RXVaYkJObi1mMEx1MXVnMV8xOHZPdHc?oc=5",
+        "source": "Fox News",
+        "published": "2026-08-31T00:56:53+00:00"
       },
       {
-        "id": "911b0e0c95ce78aa",
-        "title": "Eight killed and others missing after ferry capsizes off northern Cyprus - BBC",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Iakg3b1A2QVhYY3FPWTRlbzRidGZfVUJOaWdaakt4V1E5UWdPaWlUdERNRk5DQW90eV9Lc1FiSFk5Z0FVTkFJVU92bkNDTURVNlplbmZNcjF2UQ?oc=5",
-        "source": "BBC",
-        "published": "2026-08-30T20:02:43+00:00"
+        "id": "90b83a940a68da79",
+        "title": "A hurricane could form near Southern California this week, seriously - KTLA",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZWtnd2k2cldNUG9qM3ktM0g2aGtLNk9uczFibGx6a3JoZEN6T2kwVTVmWC0xek8yeWk2ZHJ0UjZtQ0J5b3E0TzBLNUx2YTV1a0RQZTQ3SDdDN3NlOENrVk9kemY1T2Y1N25OeDIycmhhS3BiMDk0bm1Jcm4xZHE0Wm5wSVVzNnFWNVNIaFY2amo3QkkwWFNuedIBngFBVV95cUxQT2VnQWM1YnRDUTM3TGtENHF0S0xya1RFTDdvTjRSNlA5QmJOeF9lSGtvTjY3OW5JeFZNSTV5OVFDb0o0NUFKbzZYLUh1MDRId0FRSXpubHhPMWRkWG5LQjZiUW9jQU93WDZ6UlZTM2Qzd1I3OUdmRDYxUzJ6el9JNXkyWk1POFY4QmJsalFiaFFTYzVEeGJJUGFIMG1Pdw?oc=5",
+        "source": "KTLA",
+        "published": "2026-08-31T02:36:38+00:00"
+      },
+      {
+        "id": "af30f6a71cb14700",
+        "title": "Cleanup of Rotting Food at L.A. Warehouse Took Too Long, Residents Say - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbWhJVDQwdGN1VmFEcGplek9vWXJOVnVNZVg5RTJ4dUhpeUR1RnNrQjBXRHZSRmlDV1lfQlN2Ylc4bmVmRHFlYjlIVjZ2RGlzMkxQRU51d3hIT2Y1UXY1NmlWVmxub0I2ZHVETW10TnVxM2tScDRUb3dhYzBTUVJXamxVekRhaHFYMWlhX1dXNHBRMkhwS2NsYmlPVlo?oc=5",
+        "source": "The New York Times",
+        "published": "2026-08-30T18:45:59+00:00"
+      },
+      {
+        "id": "37641dd2a91a54ed",
+        "title": "ICE deports Afghans and others to Africa, expanding \"third country\" deportations - CBS News",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBlQjZXMFRLVzBGTFg3Q2xGUlJqa0gweXFwOWJVRW1SMG5YUTBnMWRJRUtJcFd3Z1Q4SVF1ZElYLTVjNlp4eElLdWdXeHo0UUN6WnNmMUxIWnhrX3VvdEZpcE9wY3VETEJ5OGJ6X3cxa1dkVGUzRXRBRHF3?oc=5",
+        "source": "CBS News",
+        "published": "2026-08-30T13:46:00+00:00"
       },
       {
         "id": "49745bda5d12821e",
@@ -94,18 +80,32 @@
         "published": "2026-08-30T22:37:00+00:00"
       },
       {
-        "id": "1ab5958df6acad43",
-        "title": "'We're alive': Kyiv-area survivor recalls Russian strike that killed 38 - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONWoxSm1UNnk2MVVYY0YtM0FBamczZko1djdoZDBZdEtobFJWTC1EME1EemxLbUI3WVhwQTFDM3BFZGFEYXVWY2tHamUzcm1WZ0hUcVlsR1NwbEs3VDNqVUhYY3Q5emhmOHQ5ODIwUWE3Nm1mWEpHaWVTUE1XWGlKLVBZYzdENzlHcU9JdmZwTHFxTHlsRnpXdG9QMno1bzdEd09FUQ?oc=5",
-        "source": "Reuters",
-        "published": "2026-08-30T16:08:54+00:00"
+        "id": "b1f75d9aa5bd329d",
+        "title": "Eight killed and 18 missing after ferry capsizes off northern Cyprus - BBC",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Iakg3b1A2QVhYY3FPWTRlbzRidGZfVUJOaWdaakt4V1E5UWdPaWlUdERNRk5DQW90eV9Lc1FiSFk5Z0FVTkFJVU92bkNDTURVNlplbmZNcjF2UQ?oc=5",
+        "source": "BBC",
+        "published": "2026-08-31T03:56:15+00:00"
       },
       {
-        "id": "b9c87e52b018edf4",
-        "title": "US plans to sanction another bank in effort to clamp down on Iran transactions, Bessent tells AP - AP News",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdldWT1BUeFUxSlNnaU9rZTl5eDlWd0dSejRvTUg4YkhEZzNIWjVGc0x3VFVENkltZ2dKb3JleFc0YTRQX0M1NGVJcUhXd0l3endPSHFIZl90N0tHSW80S21ZVUhrOG1Yb1RrMTlBX2UydVFCMEV1MjQ1UDI5Z3RkTDQ1TjY3Z1BseXQyZ3Q5eVBENDYwQ2s5Rm9HMkhIQQ?oc=5",
-        "source": "AP News",
-        "published": "2026-08-30T23:30:00+00:00"
+        "id": "cd62015c74b34c19",
+        "title": "Facing a 'Muslim NATO': Israel's biggest-ever defense deal reshapes the Mediterranean - www.israelhayom.com",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZ0Eta0I4ckFwejRnR3dkTVhxd1E0MVpGMC1CaUk5MmRjTHhVbHNHOWhTLVNranNvbkdGNDJQTFNfS1VvR2FVREQ1N0VFWUdWS0k0UFNMbzA3Y3lIckdCVUkyRVJfOXJ5SlhaU0NzanMxei1PeXh5Q0twd2huQ2NXV3VCNklsYW9UWUw2X1pmbkI2alFscFBKOGIzcGZfZzZsZDdUdEhDVU1lT252akJrVkpTdTZQb1AtVDh1cXlB?oc=5",
+        "source": "www.israelhayom.com",
+        "published": "2026-08-30T13:52:54+00:00"
+      },
+      {
+        "id": "2dbd5b31dd27b46c",
+        "title": "China's Xi builds diplomatic clout with multiple state visits ahead of Trump summit - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQVBPRWZlQmpJSE9Kc3FkbnlZZHVCMVprdGhrUjg2d0ZYQjRwWjFkTDZlQnlPSTBxaWM0Ykp5a2w5WE5pWjU2ZnpOWURMaTRqWndHU3RjVXVfMlRBZE1taEFwVkRKNEp0ekRtZjhBUGY5eDdHMmJvTkQ5MzRFS0hEX1hPV05OSE1V0gGOAUFVX3lxTFBtZW8tX0wzVHhyUldCLUtjM19lb1VMU2k0VzdZQ1BCVWM2Umo3QzlGclJOamFYMV9mZzQzUDRXSXU0QnQzbEF6bzZGT2FuZVAtbzBjdk9QMGJQRkVndjQ4SjY2LVk1OThNeVFIYzU2ZXRFeklCYWxtd0pMQkZMbFJCMThrRjNtSlFXdEdQRGc?oc=5",
+        "source": "CNBC",
+        "published": "2026-08-31T04:57:24+00:00"
+      },
+      {
+        "id": "ce36483173bc7848",
+        "title": "Bond Investors Wary After Warsh Fans Wager Fed Poised to Hike - Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNEV4WGNSSk5rZVpZemdOckQzOFFUTEszd1gxSnBvTFNBNzdJR1pIbGFJenVhWlJ1R2R0ZlhYZWdOdXJNYVd2Y2xzYjlJcG4zQlc0QWFBdjhXeFZBWGJnQmlNRzlrVnNTdTlGelBEaDFuSlNiNzBYSkNhQkRXbkRwWEdLYldZQnU3WDFEMFpPazV2V05pamRRQ250NGpmTXZOdGZsY1JjQ0liVWtBdW5GVEhyWQ?oc=5",
+        "source": "Bloomberg.com",
+        "published": "2026-08-31T04:15:00+00:00"
       }
     ],
     "Texas": [
@@ -117,18 +117,25 @@
         "published": "2026-08-29T17:22:00+00:00"
       },
       {
-        "id": "c6212b8b87fd0c76",
-        "title": "Aces in Vegas — No. 1 Nebraska's sizzling serves stifle No. 2 Texas; Justin Frommer's 3 takes - Omaha World-Herald",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaGpUbGl4Znkya2VuS01CcmlBZFE4WDB0cW51QUhaZ25oejd5X2ZkYjF0Sks5NGpXemZGdC1QZGNrOW5TN0NtM1BEZWRldmdvWTdMX1JqMDBJenlVY1RHc0NOS0dLSjBIdWN2VG9QXzQ3NmJfTXBCVHoyN1V4YzZKalhsQ01DWDF5eDBLQkUxV29iVVFIWUtadQ?oc=5",
-        "source": "Omaha World-Herald",
-        "published": "2026-08-30T21:15:58+00:00"
+        "id": "a8e30078114e70e9",
+        "title": "Nebraska sweeps Texas in renewal of storied college volleyball rivalry - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQc0xwUXlfTUJIU0FUMzd1c3RkZDZ1YkNkTEtUQWhjRGpOX0dXOFlXTFpCY3U5RmxnRWxMaVhJLXd6dENwbC1XTHJ6ZVFRRi1BcGdFU3g0cm1zWUs0aTg0d3p2SzF3VDRQUldqQWt0QXlfc09udDJfaEJTcHJCclB4ZmtEWUdVNTNoOU1rNGVobVl2blgx?oc=5",
+        "source": "The New York Times",
+        "published": "2026-08-30T22:42:52+00:00"
       },
       {
-        "id": "73bba318aafd9f34",
-        "title": "No. 1 Nebraska sweeps No. 2 Texas in Players Era Showcase - NCAA.com",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcDNDR1J0SlpxX2JFb2p5bGJFOVphYUN2M3hrMF96dktyZHlLejFRTWtzMlBhU0lqOURHUkhpbjlKQzZPcDFNc1RvZF82MWt6dDBwSG1KSW1IWHlEZmkyOU4tOU80UGpYMFFubzkyWDhlZ3RBYXk4ZjB5ZlBKVk93bjk0RTRUUnBNbnAtQ2NzVXZyZ3NhU21NNUVyMTRpTTRWLUoySGpremFwQQ?oc=5",
-        "source": "NCAA.com",
-        "published": "2026-08-30T22:48:18+00:00"
+        "id": "08e013faa8b1d0db",
+        "title": "No. 1 Nebraska Sweeps No. 2 Texas in Players Era Showcase - University of Nebraska - Official Athletics Website - huskers.com",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOanRDMFpPRXdOaDBjejQxdTlYU2VTVWpWaThPN2NxcjMwVFh4SjAtSWttYlNUUWRjeXJUMGFhX0VYc2ZxbUp6b1dsZmtOckNYX1l4MHI0a1ExSTl5YlBXeFNzT242QTk1b1ZOT1lYaThDNFdIaWVDM0VzdVpwRnp1QVh0Y1U1RHJZYV9qd3RwblowOVd5UUE?oc=5",
+        "source": "huskers.com",
+        "published": "2026-08-30T22:11:43+00:00"
+      },
+      {
+        "id": "4d42ac4a30bfd65b",
+        "title": "Invest 97L could become a tropical depression as thunderstorms target Texas and Louisiana - FOX Weather",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbmJwN1RQYVNWUm9LVW5TRmgxYmxfd2pfazE0dkZHZVZ0ZjNjTmJjYXFjUGFxMkV4dXdwRkRLV2sxR1l0c28yVFNtT0hXT3lpVFpISnRXc1FUc3hyVWRnX3FfcmkzdHFTVVRmWmR2TjlOZVM5Z0JOXzhpN0UyUnhiam5haHdjeVNKN3M3LWNZYVZqbWfSAZgBQVVfeXFMTjlqamdqWnduaTRnQW1BX09qdXV4dWNwLWtCdUdiUlhycUpiOFBEdzNKMERmdWhfcEF3cEFoS20wY0NwczVVLWFqdm5QaUFQaVJCR1FGQTFIZlRoNXVzbHk3SWQ5RHZxOG9ZRDZrQTlnV2RQeXBWVnlIZ0dSQVNudTRsUmFHb21XNHpJNmUtaHVlS09aU0FWRjg?oc=5",
+        "source": "FOX Weather",
+        "published": "2026-08-30T18:13:15+00:00"
       },
       {
         "id": "ac582463f628ac88",
@@ -145,32 +152,46 @@
         "published": "2026-08-31T03:19:00+00:00"
       },
       {
-        "id": "4d42ac4a30bfd65b",
-        "title": "Invest 97L could become a tropical depression as thunderstorms target Texas and Louisiana - FOX Weather",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbmJwN1RQYVNWUm9LVW5TRmgxYmxfd2pfazE0dkZHZVZ0ZjNjTmJjYXFjUGFxMkV4dXdwRkRLV2sxR1l0c28yVFNtT0hXT3lpVFpISnRXc1FUc3hyVWRnX3FfcmkzdHFTVVRmWmR2TjlOZVM5Z0JOXzhpN0UyUnhiam5haHdjeVNKN3M3LWNZYVZqbWfSAZgBQVVfeXFMTjlqamdqWnduaTRnQW1BX09qdXV4dWNwLWtCdUdiUlhycUpiOFBEdzNKMERmdWhfcEF3cEFoS20wY0NwczVVLWFqdm5QaUFQaVJCR1FGQTFIZlRoNXVzbHk3SWQ5RHZxOG9ZRDZrQTlnV2RQeXBWVnlIZ0dSQVNudTRsUmFHb21XNHpJNmUtaHVlS09aU0FWRjg?oc=5",
-        "source": "FOX Weather",
-        "published": "2026-08-30T18:13:15+00:00"
+        "id": "c7b1c4c98d43916f",
+        "title": "Gov. Abbott blocks funding in Texas for Flock cameras as bipartisan fury brews - The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTm54ZVV4YzBUcDdrYXZjcnFMN19Dc2J2ZGQ2SkpCbnlKVjJja0x5b2xuMkRjOVM3aEpaUnRIdEtmTVY2dWxaY1FFb3ZMUW1RQkk5eHN2LWU2NjNyQnNkWTVydDdnSTRjcHBDU2VjUktBSUFuenZlel9aMFE4anpzdUJBckE0RGUxejJSa0N1aHhiOVJCS2VBVkw2Rl9SblV0Q01tZUhuVWVCMlhoWlpWVzFiNXdvWHNXVXJBZw?oc=5",
+        "source": "The Washington Post",
+        "published": "2026-08-30T01:02:59+00:00"
       },
       {
-        "id": "4156f2f0fdbd5a2f",
-        "title": "Republicans ready for ‘very hasty’ ‘Trump-a-palooza’ convention in Texas - The Hill",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZGNkbURCemhXc0swTEtITlY4LWc4b01hcXFLbFphYzBvTGpyY2pGX2d1Skczb3FxMk9PQXpQd1ZBdWlaSWhVck94S18yc0JQQ0ZsbDR6SzVFaXA2ZnBMX1g2bkotTnlVVWJHSHpzTGYxaDF3c051eUJQWFIzcnNfVjFB0gGHAUFVX3lxTFAyVDdBYmRwalFCeTJ3b1ROMENLdWtqSmZQN0ZueEJtOE9Ba19UeVRUdHAwUERMd3lGNldKWFpNNC1lNkk1N2doRjRUM1lZbUJKT3BnaUFzRmJ3OVRySUY4RElXNUtPcWdTLTFFNUtFS0lnQlQ3ZnFmekZZZno3RlVzeVZQN3RKQQ?oc=5",
-        "source": "The Hill",
-        "published": "2026-08-30T21:00:00+00:00"
+        "id": "21660ddd6185998a",
+        "title": "Texas blocks funding for Flock as backlash grows against AI surveillance cameras - Mashable",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZF91RUZnQnEwWWgtRVRKb2gwM3F6eWhoZzltQm16QkNLUFVGNk4xSjFuZEtTM2ZIOWVJaDZ3WUhwTDJ6UHhhX0NyTF9EeHFITW9uZkNRX0c0YnExYTVxMUhLS1doMlBtOFBPekNrQTNtYjNWNmpaVmM0aUhsUUpmMld4d3dSMjFHcFFmLUc2MXB4ODMy?oc=5",
+        "source": "Mashable",
+        "published": "2026-08-30T18:52:26+00:00"
       },
       {
-        "id": "22671e5f622fef07",
-        "title": "Why John Cornyn won’t be fundraising in Texas’ U.S. Senate race - The Texas Tribune",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRGstWlJSdHR4aVZnRGxpOFBuVG45NG9DdEw1NEY5aXBCLVNLSV9xdW1PUTNSMWg0OGZlT09ZLVFoV0d1MlMxbW5YZEpLd2QtZXRnZ3JJMm4xOE1uWWZybEZQYU5nd1VqMlVzal9MN2h2V3dxNExtdmlNV0lzRUIxRkZCbGxSNGprbUlKWlg5d3BXaS1yZTM2UVFMWm5iUmx4d2d2Rw?oc=5",
+        "id": "1926a8d87c7379ad",
+        "title": "How a $1 Texas insurance fee funded thousands of Flock cameras - The Texas Tribune",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbndzZFlFVEtnN2FrUnFaSmozQUItcnMzbnpTUVZBQ1ZYTFZjd1h6T1p0MGYtNUp2LThsRVBkOXNHX1hzRjZxbEhKak41ZUN4VGNuQURMV0xiWWdGOTE5MVd2Rl9ZckNCeHRyVFZhcUJkeXVDcFdWMHg0QXI5OXhJRDNlVENub3RSN1B5cDNfek5zMEtaU0pj?oc=5",
         "source": "The Texas Tribune",
-        "published": "2026-08-28T10:00:00+00:00"
+        "published": "2026-08-28T21:43:55+00:00"
       },
       {
-        "id": "4a038c389529bf94",
-        "title": "Republicans fret as Talarico bombards airwaves and Paxton awaits Trump team’s cash - CNN",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE42QjlmbzBhenZ2RTlIOTZUVlRBTVNabUlRdE1EeDBzMmJyWGVqYnJEVDJZUkZ3NFdKZ0VmSS1Bb1drb1hGNGFKRXBJMGpvcUpsVlRjbFVCeGdjRC1YODhuQjJoakJleDZ6WFlz?oc=5",
-        "source": "CNN",
-        "published": "2026-08-30T12:00:29+00:00"
+        "id": "5a57bd8ce61dd28f",
+        "title": "No. 5 Texas is a 30.5-point favorite over Texas State - Burnt Orange Nation",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd0JFejB2M3NaSXFXNFhXZDh6YkNoSWNjNGJ5eXdtZGxiRm5YSm1GbkJEOXp0YlMyazVfMG9vMzFMUjcxVHdnR0tldW1keUtYb1NUREUtUkdHalI5UENZR3czN2FWbENzVi0tWFRxbXJrMUVPZGlJZWJvcmN6WFplWjVzWUljSHlCeVFvZkVveVdkTXNUeDNmTnl5QVhJU291dGtUeF9NYnhyUQ?oc=5",
+        "source": "Burnt Orange Nation",
+        "published": "2026-08-30T23:12:33+00:00"
+      },
+      {
+        "id": "19737003f8c7b5fa",
+        "title": "Texas Longhorns Recruiting Intel: Prospects dish on Texas-Ohio State matchup, New Visitors to Austin - On3",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPOXNpLVVZVl90bFlPWDJ4dWVmSDNneW5fbkU4TEV6aUJ4SVlqM3FWRnFfdzJQNVZOTkhuLVN4LXJodGlzdEdQdklWOUxlWlpnUmRRVzJDSVZ5NVZnNnVvTmZ3VzZaZW5pNHJtaFN5Wk9yN1hwRlBQWjF6STNGbzZiRllwOE1DWmhDTFBIblhPMmJNYkROSkR6ZE9vREtPV0tjVlFIYnpCaHFyenBnQjBJcUZNOTJqNVVrVk13UTJuYW93ZDNSbGRnbFBJX2hBRnBzQnM5X1cxVmtaYkl2RDVz?oc=5",
+        "source": "On3",
+        "published": "2026-08-30T11:20:10+00:00"
+      },
+      {
+        "id": "961977dbe50f342d",
+        "title": "Horns247 Roundtable: Our staff provides their 2026 regular season predictions for Texas football - 247Sports",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOYk0yM2lodjJVdTY4R24wY21EQTByZWVORVJhNXRpSTJkV1B1WWgwZk5mai1Ed3NiRml1a0toLXBTMkVmX0VVV2ptT2hIMHdjS2tGZWgxSERfX3RlSnp5TjNydEVMWG1OeUh4WTFNTWl3SndyUFNEYURHXzZCZXVmWnRoQ0cwME9rOXk5U2JZcVNJeFlqSmlxTXVaQjdhV2R5aVdzOGJyWTJQODRrcXlMYU9wNFVPUWlfSnJIYlZWV3huRTZycnlaN0xGT3dKWFpsR09adEQ2WDZvLXBZQkxzMi12cFAtRHBkWVVRX2lYQQ?oc=5",
+        "source": "247Sports",
+        "published": "2026-08-30T22:49:03+00:00"
       },
       {
         "id": "94df55d6fcdf4695",
@@ -187,32 +208,11 @@
         "published": "2026-08-30T17:07:00+00:00"
       },
       {
-        "id": "dd8c80d511e4b756",
-        "title": "Plan to cut number of polling sites in a major Texas county draws protests as Senate race looms - AP News",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcGZlT2ktUGhpX2hYdG00bmxpRkFjSHdnS0NYZHFwNkxLX0ZBM3YyOGJyYkxnV1BzTEV1NEp2YTZtMVp0OXAybHBIaGhYZFZaSmtPSXVtVnNnaXo5NFdmamg0TUZTSGRCZVlScEVvRldxNTRIaTdxUU1oRzF2cXJqaXkySE01OGdlREhrc3I5NFZxZWFkTkIwTFNxYk9oUFBEcHRjYQ?oc=5",
-        "source": "AP News",
-        "published": "2026-08-31T00:44:00+00:00"
-      },
-      {
-        "id": "08e013faa8b1d0db",
-        "title": "No. 1 Nebraska Sweeps No. 2 Texas in Players Era Showcase - University of Nebraska - Official Athletics Website - huskers.com",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOanRDMFpPRXdOaDBjejQxdTlYU2VTVWpWaThPN2NxcjMwVFh4SjAtSWttYlNUUWRjeXJUMGFhX0VYc2ZxbUp6b1dsZmtOckNYX1l4MHI0a1ExSTl5YlBXeFNzT242QTk1b1ZOT1lYaThDNFdIaWVDM0VzdVpwRnp1QVh0Y1U1RHJZYV9qd3RwblowOVd5UUE?oc=5",
-        "source": "huskers.com",
-        "published": "2026-08-30T22:11:43+00:00"
-      },
-      {
-        "id": "c7b1c4c98d43916f",
-        "title": "Gov. Abbott blocks funding in Texas for Flock cameras as bipartisan fury brews - The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTm54ZVV4YzBUcDdrYXZjcnFMN19Dc2J2ZGQ2SkpCbnlKVjJja0x5b2xuMkRjOVM3aEpaUnRIdEtmTVY2dWxaY1FFb3ZMUW1RQkk5eHN2LWU2NjNyQnNkWTVydDdnSTRjcHBDU2VjUktBSUFuenZlel9aMFE4anpzdUJBckE0RGUxejJSa0N1aHhiOVJCS2VBVkw2Rl9SblV0Q01tZUhuVWVCMlhoWlpWVzFiNXdvWHNXVXJBZw?oc=5",
-        "source": "The Washington Post",
-        "published": "2026-08-30T01:02:59+00:00"
-      },
-      {
-        "id": "1926a8d87c7379ad",
-        "title": "How a $1 Texas insurance fee funded thousands of Flock cameras - The Texas Tribune",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbndzZFlFVEtnN2FrUnFaSmozQUItcnMzbnpTUVZBQ1ZYTFZjd1h6T1p0MGYtNUp2LThsRVBkOXNHX1hzRjZxbEhKak41ZUN4VGNuQURMV0xiWWdGOTE5MVd2Rl9ZckNCeHRyVFZhcUJkeXVDcFdWMHg0QXI5OXhJRDNlVENub3RSN1B5cDNfek5zMEtaU0pj?oc=5",
-        "source": "The Texas Tribune",
-        "published": "2026-08-28T21:43:55+00:00"
+        "id": "56ab50f0723b1657",
+        "title": "Plan to cut number of polling sites in a major Texas county draws protests as Senate race looms - ABC News - Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYXIxUHN3OXVYOEJkeXFBQ1RkX0MzSEtOZHpzZ3FZcy14QnJZWEpKYUJPb1BQV3QzaUllT2w5Q3otQnU1b0RfOGdSak8yTlpsQTN4RHlhZWpENHh3SjZadzZWdE9rSDIzNWw2eTg1N1UxRlpJMFJnU3N2Z0ZYczlvN0l2YlI3b2hHWE96VW12LVF5YmVxRDhoRjN0WWxGQdIBowFBVV95cUxPYWhkMk0ySXlwcU1RUm9PTEV1SEs0LS1JaFNLZDU0MUpuLWZPR05FMVU1LXVPRzJWU1hNaUlCVXJubkJ5QmJ5ZHRiS1RNanYtbVVRc203N0hnYmhSemhBWU5leHhJRzFfNVY0SjA2cDlqSjNlVnhObU1TWVVMVlVWemxRTjU4MHowRlhQSzJHRkI5Vk9tQWhvS3VnODBDNlVldGZJ?oc=5",
+        "source": "ABC News - Breaking News, Latest News and Videos",
+        "published": "2026-08-31T02:21:03+00:00"
       }
     ],
     "Politics": [
@@ -238,13 +238,6 @@
         "published": "2026-08-28T22:05:10+00:00"
       },
       {
-        "id": "3b648b7a492515f3",
-        "title": "Govt Struggles with Balancing Act Over U.S. Sanctions on ICC, Faces International Criticism - The Japan News",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcFRqLXI3Z2ZzcjctbEwyZWNmVmkyX2JkZzFEdHZVTGJUWDRYLXlVc2ZsTEcxRVVmb2JKcWljVFFEOFA0VVlFNDhuM2Z5R2s2VVdkQUY3MzlkNlI1UkF4T2Q0cnRfRWFVckxFc0xxS0tHbFRBZmZTMWpTOVVpdXpCUnJfNA?oc=5",
-        "source": "The Japan News",
-        "published": "2026-08-30T07:07:00+00:00"
-      },
-      {
         "id": "c0083c9b1a22581b",
         "title": "The civic consensus beneath America’s political divide - Brookings",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd1Y3YUhkM285QWxHUms2aFF2TXk4ZTBjVGVEUG9mSWljR2liSGMtNUxUQ3M0ZHNzbVhadmpoQUlDYXBCVmlGUERyS19Rcmw3OTFFOUd4bDBiMHJ6MTlPVkdqTlZYX0RPS0JvdS11UmZIV0xNck1LTmhMTmNNN0lqcml5eXlCYm5lbDZpWmdVMEJXVVE?oc=5",
@@ -266,18 +259,25 @@
         "published": "2026-06-02T10:51:10+00:00"
       },
       {
+        "id": "3b648b7a492515f3",
+        "title": "Govt Struggles with Balancing Act Over U.S. Sanctions on ICC, Faces International Criticism - The Japan News",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcFRqLXI3Z2ZzcjctbEwyZWNmVmkyX2JkZzFEdHZVTGJUWDRYLXlVc2ZsTEcxRVVmb2JKcWljVFFEOFA0VVlFNDhuM2Z5R2s2VVdkQUY3MzlkNlI1UkF4T2Q0cnRfRWFVckxFc0xxS0tHbFRBZmZTMWpTOVVpdXpCUnJfNA?oc=5",
+        "source": "The Japan News",
+        "published": "2026-08-30T07:07:00+00:00"
+      },
+      {
+        "id": "79cb11f0f55e400c",
+        "title": "Marjorie Taylor Greene | Biography, Politician, Controversy, & Facts - Britannica",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9ZS0xCUTFJY0h6TktqdGdFQWFzaXRTZ2hTcE9NVFZOamNNTm1DSC1KbHVtTXpjTkhrUHVObkZGSHJtdmRPQUJOZnEzVUJUZ0NvaVE4Q3ZZdTFOcXIyRE9UU3RaWUg2VUpFSjNv?oc=5",
+        "source": "Britannica",
+        "published": "2026-08-23T05:00:00+00:00"
+      },
+      {
         "id": "b3b02f7219ab015e",
         "title": "Trump Orders the Government to Rename Lake Ontario to Lake America - The New York Times",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOWtvMjJTR1czMTctdVdZVnJBazBwU3pWdkdsUnl5QldSY3ZiQ1hadzFoUEEzNlc0YnN2SkNhWXB1c2NXWU9IRmhXZjdGMUlSd0RBRmw4cUxFUWhsWkdyazJFQWZXY3luX0FvTFdZQTdsVE9ETDR0TGt1VkMyWnBJZDYyNFFGbEQxeDd6SVduQQ?oc=5",
         "source": "The New York Times",
         "published": "2026-08-27T18:35:08+00:00"
-      },
-      {
-        "id": "cda09293926dcc4f",
-        "title": "Alexandria Ocasio-Cortez - Britannica",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1CVnNwUjc4ckV6Y3dvMmRyTDBLbG92eE05cXZMVVk0a1NGVkd0dXJ1ZXgtVGZQSlh6OU1SSVBPdlREd25sai0zcG1nMlZjeV90UjFienNUeExtQWlYYUNDRHk1SUFrbFRtM0lEOVpR?oc=5",
-        "source": "Britannica",
-        "published": "2026-08-19T07:00:00+00:00"
       },
       {
         "id": "e1de8728d39c2f4c",
@@ -331,18 +331,18 @@
         "published": "2026-08-31T00:00:00+00:00"
       },
       {
+        "id": "8186e6ffeef027f0",
+        "title": "Washington Monthly 2026 College Guide Reveals America's True Best Colleges —Including Those That Serve Rural Students - Morningstar",
+        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNd2YzS3Q1OTdSbHJzN0g1cy1Nc1dRYnVYY29fNlJwa3ZJVjl6Q1VTM3R1NGZBM1d1clU4dGlsb1NqWUhxVWZfcWJRdnctMVRaWkNXOGtHQXRhTzdvR0VUTnY3NnFDcDBmU2VmWG1ZV2N0MS03X0JRb3I0QlB0eHliQTF2b2k5VXU3ckJpb25GaWRRRnZudzZuNXJ3NEJfZmt4eFZKaWh5dFVSeEI4bEE4WGpIeGxBMno2eU9DYkd4bElaYV9aR3h3SVhjcDlyXzdGbHpyazVvd055RGdSeUpUZHVtUFNQRFhyVnhTeDIzYU9VM1lHbk5GVDRhZGZJckh6dERROWMtQQ?oc=5",
+        "source": "Morningstar",
+        "published": "2026-08-31T04:37:32+00:00"
+      },
+      {
         "id": "a4c6ad595382f1bd",
         "title": "Trump cuts to these college outreach programs are hurting rural California students - CalMatters",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdFZwT29LUC1CdkJaX0MwSW9nLUlSRDdRdF83bGlPME5raUxjdG8yMEthd3BwQlZHamh6VHV2SzNfeWpoMHlIOHhLUWVENGFEQ2VMMlQ2RzlKc292NnB0bEZOVVlqdkRPSUc4azlKNDE4TGpqWGJXbFhfb085Z29DaHNvQVl5blJsSXNvMnloSVJEb2NsOTRkZWp3?oc=5",
         "source": "CalMatters",
         "published": "2026-08-29T12:00:00+00:00"
-      },
-      {
-        "id": "4b987dc09c1c4435",
-        "title": "Washington Monthly 2026 College Guide Reveals America's True Best Colleges --Including Those That Serve Rural Students - StreetInsider",
-        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNbzNHd216VUE0X2JMd0ZDSG1WUnAycGdkcER4Ujd4RzdjTlhTRkFiVUR2TFZLb1pScW1ZSTBSemxMMzkwUGtnSlhkQkMwREtOTGlrMU5RZXA2eV91R2x0NHprdW15MWhfazNYX204WEJWSndUbzA2NE56MjZydnRXOW12bWJqdGx0S3lMNmZocEVmQzBFQkFmd0lETjd2SmFWTDdJaG9zMVZhMTZCUkU5Z1hJQUh6U2ZuN1NOQzctYUVRTDRURG5TRTlOYmFEMnJ5UkxfZUs4ZE5icEpodmt2UmFnVFN1QmV2NXkxX2xKWXJSV3c3bE5BUWw1U3dRbnpyYlE?oc=5",
-        "source": "StreetInsider",
-        "published": "2026-08-31T04:03:06+00:00"
       },
       {
         "id": "6a104eb6b5d8f64a",
@@ -359,13 +359,6 @@
         "published": "2026-08-30T14:28:39+00:00"
       },
       {
-        "id": "c2d0a4b149035efe",
-        "title": "Clark University draws hundreds of higher-ed leaders to Worcester to tackle AI’s expanding role - The Worcester Guardian",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaTJkVTlFcVdVMm5FdkpaTEFlYkRVdmlQdlFMby1QXzB0Y1MxUUQ0TG1YWGZLYXVKVTdzd2pqWWFOTHVXNF9zTUZoM05FY0ZEaThOVDd6MnQyejVlcGp6RXI4eHpvS0VaYkVXUFQ0cWFPNmh1d2RZejVFSjJLZEVoeDBrdmlSaldFVXJqLXZIM3NCVkFKVnpQbkVjYlZha1pJSTJsX1dPS3B6LUQyVTR6V2NBaXVjeldlTzZFVS11VXpSbzRyc21pbF9n?oc=5",
-        "source": "The Worcester Guardian",
-        "published": "2026-08-30T17:56:44+00:00"
-      },
-      {
         "id": "83f6c6a10f8ed5b1",
         "title": "90% of Colleges Don’t Require Test Scores for 2026–27 - Inside Higher Ed",
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNa1d5eDJwb1JSMWt3YjFrb1NGMWR5NW05YWhuZDBCS3g3ZjdFTkE2bHNkaFBHZFhkM3lnTUlOTjlaR1A4NkpUNmowWWVMTTRVX1R3S3pQU2pwTFl5MWZXRlJMSzBKcXNwWUw1T3ZaOHpqOVlQQ3YzdFZNQWFyTFEwbmVJV2NJM0o2clYyOFMyU1JPRnpEOTlFRE9lRVFZOHpqTWg0bGM5R2pjVlRZQjcxZjBJMHZsRHNzX0E?oc=5",
@@ -373,18 +366,11 @@
         "published": "2026-08-28T07:00:47+00:00"
       },
       {
-        "id": "3abe37b6af2af5c4",
-        "title": "The College Enrollment Crisis Is Coming for Bigger Schools - WSJ",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNLUpDWUpMSHZPdDlpYjh0aTFtOFlyemRTOFp1aThMTHNVblpwaUF6Ty11Vm03bzFUc093a0ZtM2dGVFJVOVZ6ZDBBNkJaU0RESE42dW9iVmdjMlVkNFo4WUlUdHZYZW9DOU1GOElhY200VXhsNW55dUlBajVhTVhERmN5WGp0UURoSDdVZmJtSjBxczVaQm1TWk1HeGg?oc=5",
-        "source": "WSJ",
-        "published": "2026-08-30T11:02:00+00:00"
-      },
-      {
-        "id": "00a1d17621089932",
-        "title": "Perry: Republicans fought ‘indoctrination.’ Now they’re telling students what to study. - Star Tribune",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbTZNcHNZcnJEMVlKUjRLMmJYTE5LMlFPM1J5cHFRYjFGUlhiT0lUU3NqY3BsR2VmemZnWDJIY0xqNUhsUlRhdlpXdHNpMW9hVERIbE1JOF9XLUc0RDVkUGkxeENXZmc3STdNR01tbEcwY3A0dnNPUkxzNWZyQ2drRWQ0MkhkWmdmakpFTW1rNTlieHpIV2J0SExfRERLUHJXaGV0cXhBb3lBbENoYzY5RDlBdTU0cWFGZVlUcXZvX1d5amhUcUZ1NQ?oc=5",
-        "source": "Star Tribune",
-        "published": "2026-08-30T09:59:00+00:00"
+        "id": "c2d0a4b149035efe",
+        "title": "Clark University draws hundreds of higher-ed leaders to Worcester to tackle AI’s expanding role - The Worcester Guardian",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaTJkVTlFcVdVMm5FdkpaTEFlYkRVdmlQdlFMby1QXzB0Y1MxUUQ0TG1YWGZLYXVKVTdzd2pqWWFOTHVXNF9zTUZoM05FY0ZEaThOVDd6MnQyejVlcGp6RXI4eHpvS0VaYkVXUFQ0cWFPNmh1d2RZejVFSjJLZEVoeDBrdmlSaldFVXJqLXZIM3NCVkFKVnpQbkVjYlZha1pJSTJsX1dPS3B6LUQyVTR6V2NBaXVjeldlTzZFVS11VXpSbzRyc21pbF9n?oc=5",
+        "source": "The Worcester Guardian",
+        "published": "2026-08-30T17:56:44+00:00"
       },
       {
         "id": "37bd2764639e7cc7",
@@ -394,11 +380,11 @@
         "published": "2026-08-27T20:14:05+00:00"
       },
       {
-        "id": "d8195ff140538866",
-        "title": "20 Michigan colleges join new direct admissions program - Higher Ed Dive",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZ0hoRUtZSDA3SHhQUHVmUjZsdUZnZGdEQW9RVmRGMVhIdmN0QW1PTlJLLVlHNDV5bjdvWlVicDE3NlpSZ3VXZnZNNFE4NFFsS3dWa1pwZ3NSSFE1NEtqYnF1eXFicHJSX2VVVzZsYzBieUhITjNDU0pCRi11X1JWd2RycVdDZFc1U2pnOU1QN2lrMWRuMmdnbTQ5Mk5sZw?oc=5",
-        "source": "Higher Ed Dive",
-        "published": "2026-08-27T21:44:07+00:00"
+        "id": "3abe37b6af2af5c4",
+        "title": "The College Enrollment Crisis Is Coming for Bigger Schools - WSJ",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNLUpDWUpMSHZPdDlpYjh0aTFtOFlyemRTOFp1aThMTHNVblpwaUF6Ty11Vm03bzFUc093a0ZtM2dGVFJVOVZ6ZDBBNkJaU0RESE42dW9iVmdjMlVkNFo4WUlUdHZYZW9DOU1GOElhY200VXhsNW55dUlBajVhTVhERmN5WGp0UURoSDdVZmJtSjBxczVaQm1TWk1HeGg?oc=5",
+        "source": "WSJ",
+        "published": "2026-08-30T11:02:00+00:00"
       },
       {
         "id": "a0f0f9c2fdefc9ec",
@@ -408,11 +394,25 @@
         "published": "2026-08-28T20:28:00+00:00"
       },
       {
-        "id": "52a205578721f2a4",
-        "title": "UCF’s Wayne Bowen Selected for Prestigious ACE Fellowship - University of Central Florida",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVVhiWXMtMU1ja3hQZVdBOXJTSlRxMDFwbXNwU2dzeVFPeVplU25xeVRLS0Vyd3ZUXzhFR1ZnRUw1WFVRZXEtb3NRdlJSQ21fZzd6MklYeDlZTGE0eHV0SXZWSjF3akp5Q1RLTFptbFowZExKN2dkRExjRUJZc2pzYXBOSGlQWG56b2c?oc=5",
-        "source": "University of Central Florida",
-        "published": "2026-08-28T12:47:02+00:00"
+        "id": "00a1d17621089932",
+        "title": "Perry: Republicans fought ‘indoctrination.’ Now they’re telling students what to study. - Star Tribune",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbTZNcHNZcnJEMVlKUjRLMmJYTE5LMlFPM1J5cHFRYjFGUlhiT0lUU3NqY3BsR2VmemZnWDJIY0xqNUhsUlRhdlpXdHNpMW9hVERIbE1JOF9XLUc0RDVkUGkxeENXZmc3STdNR01tbEcwY3A0dnNPUkxzNWZyQ2drRWQ0MkhkWmdmakpFTW1rNTlieHpIV2J0SExfRERLUHJXaGV0cXhBb3lBbENoYzY5RDlBdTU0cWFGZVlUcXZvX1d5amhUcUZ1NQ?oc=5",
+        "source": "Star Tribune",
+        "published": "2026-08-30T09:59:00+00:00"
+      },
+      {
+        "id": "6fc2cb5cdc0127c8",
+        "title": "Texas governor pushes for 3-year degree pathways - Higher Ed Dive",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQjJBRU41ZGVkVXp2aWNwZHYzalFlX0FheVVLRndTVGJ4cmxqcm9rX1NicXFCajVGd0ZhVW5tTmxTTmMwaXlqNTBwZ0Z2MTlsVnE4VlIxdEtIc194UXhIMHhBTkxfaGFOUmJFclhXLTZLU0xzdHZ5MjdvWXJYTXNLNkV5QmVnZGNtZFFSLWpXMm95dW9G?oc=5",
+        "source": "Higher Ed Dive",
+        "published": "2026-08-28T13:04:56+00:00"
+      },
+      {
+        "id": "f0aef3d10c5372c1",
+        "title": "Florida Moves to Enact AI Rules Across K-12 and Higher Education - The EDU Ledger",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNmZXYWdGVkZpcDJTYzJld01iMjFvWTNBcFU1cWZ1bXJnVWV3cEwwaXV4MFFZOEM3OC1zcE13QzVtTE9HS0g2bVZ0YnNEMXZiZzJ2SDVFY0YzSUNESnNSMVhHVFJJQU9iUmxmc3Y4WEE0cURIMDVRZkdlekRPbEQ5TDVNajB0eW5UOW9tb0dVTzVLcFoyZzI4bWVlM1hSOUgyYWh5aW94SDJzdmZZMEVaZWxR?oc=5",
+        "source": "The EDU Ledger",
+        "published": "2026-08-28T20:56:22+00:00"
       },
       {
         "id": "9ea15873607a10a0",
@@ -431,18 +431,18 @@
     ],
     "AI / Tech": [
       {
+        "id": "5098661fdd61e874",
+        "title": "Big business has shown small firms what to do – and what not to do – with AI | Gene Marks - The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBTd3ZIRk5RSmpFMEo5QXd1aG5Xb3ZlcEwtb2w5M1FvR1F5SmMtcTllaEdKZXhoRGVrT1hKZERGVHFXLXkxZ0NNSHpZQVZuS2FtRVVhUWE2azRKbWRMUTcwREF4MkR6aVFCYUdITzQ0aXY4YTduRGZz?oc=5",
+        "source": "The Guardian",
+        "published": "2026-08-30T14:02:00+00:00"
+      },
+      {
         "id": "2dfc19da915a6772",
         "title": "Tech backlash reaches fever pitch as AI angst collides with social media fears - CNBC",
         "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWVVyS25EMUpKT2NCRlBlT1ZWMmkxME9CbUhrRm1FcHBpUlU2dmxaX1NfWXE4VDNjREVHWjY3UEt5d3dCMGZKR3JrOWxQalJibkRHdDU4YjliUEViVmVDVVMzT0xaUTdtd3o0dFppaVJxRkJVMDRtakoxa0ZQTjZkSTR30gGHAUFVX3lxTE5zSjRrVktpSnZfc1JZc0NCdl9oZnRodnZTM3ZFRGdsQVlJVlhUakxRSEFqOVB0R1gzQ3NQd1dLTWZROUpobkpnXzg2cGhfYUZSX3hJcW5aSWNLWktqSXB2QWV6VnZiR0JPMzA5NWJLNnhyRHRBQ05sX3lWVUFrZmUyTmRCMkI4TQ?oc=5",
         "source": "CNBC",
         "published": "2026-08-29T12:00:01+00:00"
-      },
-      {
-        "id": "3b88072ef11c481c",
-        "title": "AI’s worst disasters will arrive unannounced | Letters - The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMjkwNExjOUFoVjVZMEhsbjktYjJ5TEZiYThGT1FuVWFzWFRlS2V2SHNRZF8tcERQVjhZRHVJLXRaZ2NEY3A5TDQtWld0RF9CeTFHaDZYaW9UU0RlNTRYMTFHX3pJMENUcUxlMjU5ZlVKaVN5anh5cm85bnFlMThFaFlITEVrSXViREpGZVNkUGJ5ZTdkNDd3NGp3?oc=5",
-        "source": "The Guardian",
-        "published": "2026-08-31T01:30:00+00:00"
       },
       {
         "id": "8b5ee503130026ed",
@@ -459,13 +459,6 @@
         "published": "2026-08-30T14:00:55+00:00"
       },
       {
-        "id": "a20c125b21c426f9",
-        "title": "New AI uses a fresh approach to reasoning that's potentially much cheaper - Live Science",
-        "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxONkxVUVlPbGY1X0lKQmlkd01uY0J1MFFDQlJjNVdEWDFpNzBQRURabGFtWFg4UHY0Z3NBQmt2ck9iY01heWJDTnBKYWZoNDNmZ0poQ0E0TktoZzM1TFJUVThzejh1eFZPb1FFTGtuam1SR19sbld4TTZfVDhBVTRUWjlxRUJ2MWpxSWVUTlVKQk1xSUtVaGJWRnNIMUVkRHdadkRMb2hZTTlzWDFLX2ZuLURJTHBjWmR2ZGloOUtVb3puaDVoMGs0Wk5MYUNRclA5bzZIcV9HT3FzLURydVFjU1VCWElVNmUteHk0dFVwNHd5LVJmX0cyUHBIUnJRZlo0SEZ3djJEZzhFMld5c0NQWW96TzEzR1dKVW9Gdg?oc=5",
-        "source": "Live Science",
-        "published": "2026-08-29T11:00:00+00:00"
-      },
-      {
         "id": "59dfd8bb97c0c5fe",
         "title": "Old soup factory takes on new high-tech life as quantum computing firm gets $195M federal boost - CBC",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQVlFVXJ5NnhHbU14WEFTeFBhY0hYUmNQTkp6bmtReDdnLWxWV3NjVGhBeVp3RS05TXRqZ1JPNGlKY1VzMHI3MFdueTl4TEtNbWliT1pfM2ZLRFBMX2t4VGUxTnRrbkg0WjlPRFZRYUlUUnc0U3hGVjc2ZXpISlNWY3BXdFNMVHg5WmtR?oc=5",
@@ -473,25 +466,11 @@
         "published": "2026-08-29T16:30:53+00:00"
       },
       {
-        "id": "6f7c7165468f91cf",
-        "title": "An Anthropic researcher just gave us a peek at self-improving AI - TechCrunch",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVWxDd0dWRWpuaG4tdUlVWDktVWQwdTNVUFVTVlRxVlZqX0hSa1RBcHZGSEtiX2Y3aHl3YWxxWE5TNnVwX01aVjBqLXhkQjVNSHl1aU0taWhJeGEzLVNSMUlKbi1FTzBKTmU1Z3d4VUpjTHJwcXBLVlhzU2Y4bDRRRVY3MU9UWUdwQlZpM01SUjlhYkYxTXRYQTBudDlBTnVL?oc=5",
-        "source": "TechCrunch",
-        "published": "2026-08-28T19:30:38+00:00"
-      },
-      {
-        "id": "48a07626edd45b07",
-        "title": "SpaceX vs. Alphabet: Which Is the Best Artificial Intelligence (AI) Stock to Buy Now? - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLXFSY3lCNlpQR3ljQktlX2JRWGxaaFlOWWk5bGZhYThnN2hXRzVkMG05VlJ6LVpqamFvUHUyRVdIdkNPel9hR1c3aVBJb3lTOEgzV3VxQ3JJbGxXTVp5VDJUNmZacC0yb25GNTZidjJBY0l3SkN5bVUwbW9oaklfdTk4bmNnS2FZV0lxZ3BCaFZqQlBNSU05ZTM2Y2l2ems?oc=5",
-        "source": "Yahoo Finance",
-        "published": "2026-08-29T08:20:00+00:00"
-      },
-      {
-        "id": "e0bc015417295be4",
-        "title": "Tech Days of Fall 2026 series boosts information technology, artificial intelligence, cybersecurity career pathways - Big Island Now",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNWW13N3VDNS0wQ1hNREVkcjUxREtlZ21qNTUyTk83M3U2SkMwa3FVMGNxNUc0VUNKaXdGZTdIQWUxc2d4UjVIdlNLelFnQlAxSDVXb0ZhWm50Snl0UmI5Yk40QXhPS0x1SnZqQlRrMU5paWxCZnBwOV9fMTVtLUlkNXVNd3ltdkFHQUhVYTdlT3JWRE1qNnkzWk1yOWNvczlPdlc1NzBfRkI0cC1udXh1dzdlbnNkSGZPNUxsNDZYNklROUVUZ000ZXEwd0pGQXZ0VTZMTmV2LTdMY2ZKcGpKdmI2cXE?oc=5",
-        "source": "Big Island Now",
-        "published": "2026-08-30T23:00:00+00:00"
+        "id": "a20c125b21c426f9",
+        "title": "New AI uses a fresh approach to reasoning that's potentially much cheaper - Live Science",
+        "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxONkxVUVlPbGY1X0lKQmlkd01uY0J1MFFDQlJjNVdEWDFpNzBQRURabGFtWFg4UHY0Z3NBQmt2ck9iY01heWJDTnBKYWZoNDNmZ0poQ0E0TktoZzM1TFJUVThzejh1eFZPb1FFTGtuam1SR19sbld4TTZfVDhBVTRUWjlxRUJ2MWpxSWVUTlVKQk1xSUtVaGJWRnNIMUVkRHdadkRMb2hZTTlzWDFLX2ZuLURJTHBjWmR2ZGloOUtVb3puaDVoMGs0Wk5MYUNRclA5bzZIcV9HT3FzLURydVFjU1VCWElVNmUteHk0dFVwNHd5LVJmX0cyUHBIUnJRZlo0SEZ3djJEZzhFMld5c0NQWW96TzEzR1dKVW9Gdg?oc=5",
+        "source": "Live Science",
+        "published": "2026-08-29T11:00:00+00:00"
       },
       {
         "id": "85189f4b8680e3a3",
@@ -501,39 +480,60 @@
         "published": "2026-08-27T23:19:04+00:00"
       },
       {
-        "id": "0759987bcce0f37b",
-        "title": "Preparing Teacher Candidates to Lead with Human Intelligence in an AI-Shaped World - Notre Dame de Namur University",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcVhGc2x4T2RHOF9GcEZ5cVExV0UwamJybDNzQV9VSjU4S0tieWNSS1JtUUNXcGV5RVdSN2tubnU1WHBfa09LbndOcVl0eVBDUjB3T2FzWHljeXJkZXBBSHpUQnlIX3pYUEMyM3BvRm1oa2VsYnNaVmN1OEh1d2dtTWg2bTh1U3Q0ajFhWHdmdVh5dktONV9QR05kU21BczZyblNPTDRpaFdCWmJBUjRFQjRPTTBUdjRrOEh6UGt4WEJES3h5WlE?oc=5",
-        "source": "Notre Dame de Namur University",
-        "published": "2026-08-30T13:28:26+00:00"
+        "id": "2c5fb7dc5441d89c",
+        "title": "Fox News AI Newsletter: The industry sparking blue-collar jobs boom - Fox News",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTGsxNmRCYlg4N3Z1N3NfS1Jyd1dKWExIcXNHT1NzT29SbWtWNlhfZDBGSUVqRXp4alIwSExkb2NKellVeGpkY05PVTVCdW1hY3o2UThqdmlwTDZpd3pGQlBKN3huREZhVFVxMjZ2dmxldnJOcWZxNzMyVGZ1NTI0eUVQdWIyX3RnOHfSAY8BQVVfeXFMUGVzbV94UjZyV01DbmV1aGxfM3YxMGFFamYyekJMbGI0VGxieVRpczFlMDRxQm1kV0ZZYWdzY1lGNHZoY1JiaHVIN3BXVnp4MEdqTHhoeFJqYzBWX1gtczlHbEt4NWRqYWFJSWlIQkstcTZsY1FUSWJjRTBvSWxtMU5uY1cybnh3b09jOEZndTQ?oc=5",
+        "source": "Fox News",
+        "published": "2026-08-28T18:16:17+00:00"
       },
       {
-        "id": "0a7063c366793118",
-        "title": "Hospitals Are All In on AI, but Testing and Oversight Haven’t Caught Up - MedCity News",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8zQ2xqdjJOZF80cUFfcjR1SE1VRGRVdzZ5Z0M2S1pRR2o3LTVjcEo1WHQtak5CbGlFLWdtWGlEdE03LW1JaDVGam5ZZlB2Nmg0R3Z3NXhVaWxjS3Q0TDFzdXFHZU5KTl83anBXNFRKcw?oc=5",
-        "source": "MedCity News",
-        "published": "2026-08-30T15:12:21+00:00"
+        "id": "3b88072ef11c481c",
+        "title": "AI’s worst disasters will arrive unannounced | Letters - The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMjkwNExjOUFoVjVZMEhsbjktYjJ5TEZiYThGT1FuVWFzWFRlS2V2SHNRZF8tcERQVjhZRHVJLXRaZ2NEY3A5TDQtWld0RF9CeTFHaDZYaW9UU0RlNTRYMTFHX3pJMENUcUxlMjU5ZlVKaVN5anh5cm85bnFlMThFaFlITEVrSXViREpGZVNkUGJ5ZTdkNDd3NGp3?oc=5",
+        "source": "The Guardian",
+        "published": "2026-08-31T01:30:00+00:00"
       },
       {
-        "id": "620dd6dd2649a1a0",
-        "title": "China promotes coordinated development of data industry, artificial intelligence - bjreview.com",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wb3dVUG1Ya1hqZWhJbTVXNlJDRkI3TWxRX3k0S0xQdkNad1ZsSjA1TkN4M2czbndMekdFcmlNcGVNRFJURmluTkV5QVZqcndqVnFqX25GbWprMTVxUXRVQ3o3LWUwTm13NUlOM3VOcw?oc=5",
-        "source": "bjreview.com",
-        "published": "2026-08-31T02:24:40+00:00"
+        "id": "51a19aa33369c308",
+        "title": "UK risks falling behind in AI race without faster telecoms upgrades, say executives - The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNLTFMRXJHa3REb3V4NWJEUnl4dm1hZlE5UDdwSnphWlhfdmtFelJxMk1CR1JuMFNBaXRoNXVRWkgwYy1ZUTBKVGtvTXpSWFhWZkFaNWJ0YmRVS0NaeE1vTm5pcXRsZWNQYmtON190SlE2eW1sQzl3eTZrVnJINV9DN3hxX2dreEVIX28ySzcwMFJlR2lkUEhWdzhn?oc=5",
+        "source": "The Guardian",
+        "published": "2026-08-31T01:30:00+00:00"
       },
       {
-        "id": "a83287a2da03c012",
-        "title": "Preparing workers for an uncertain AI future - Federal Reserve Bank of Minneapolis",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOb0V3c0dqT0hKa184bDk5RzJSZFFGWE9ZU3lQTmI5aEZSQktfVnJjZFYxN3MzTmJ3MUFMZjBSQ2Yxckh5OTFUSWtoU1o3aWltSkhEaVRBaVNSRzYzdnlROC1HR0lsVFFUV3g0ZzdKbThEQjdTYlNmMFNfWU94aFNqMzFTUHRyRVlsaExjbFJqTGQzQQ?oc=5",
-        "source": "Federal Reserve Bank of Minneapolis",
-        "published": "2026-08-28T08:17:49+00:00"
+        "id": "c5b29ae9873e6cf1",
+        "title": "Artificial Intelligence as a Pedagogical Tool in Higher Education: Enhancing Reflection and Formative Assessment - Faculty Focus",
+        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPYmRzQlA1VExIY1IteGFYLTRJT0owbFZMRzYyNDJUTFRnb2F3WVM2VTRraTFNZ3kyQlluUzA3T1BMUnRlakhzSDRaT1ltNHpOZTlxLXRDdFN6UWI4UjBGQ01oOGtzRjVISmc4M3JCd2s1UW1yMmp5NnBDYjlUQnh1eE5ndHgzTjhvTGV2ZEVxVjJwcElHcGtPRHNyTTRSMUxEMm9DWGpkYUdJUjRDTFBmTjZxbC1BLW84Yy1Kb0FxTVRBRU1sMFRoWjhwWU9SdDNEQWhIVDZQMHcwNmlHUHBIX0ExQmFqQkVQTWxQNWxMU1F0R3BLZW0wbDZ3ZXJjNzhrOGYw?oc=5",
+        "source": "Faculty Focus",
+        "published": "2026-08-31T04:05:15+00:00"
       },
       {
-        "id": "6c151150f506f923",
-        "title": "The Early Scale: Schools Spend Billions on AI Without Measurable Impact - MarketScale",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUHZteERwU1I2QjNBSjlLMHNEZkJFVTN5QXlEcjQ0UU44ZUVRVWNJdWh6enBPSlFkcmdSbVZsVU4yc0U2WkJKWm1yR1JjYldUUTMwTFVMNDgwUE5ya1JUX2FpQzZWNnNGQUVKX01tZW4yZ3dncWVnbjhpV1JBTjlrcm5abjdGN0dMLWlR?oc=5",
-        "source": "MarketScale",
-        "published": "2026-08-30T14:26:49+00:00"
+        "id": "8afe85bed1154e46",
+        "title": "The data AI needs most is the data we protect most closely - The World Economic Forum",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUDB1WENRcndSV0ZBVG9ocFBZOUlaS2Uycm5wZlhKcWoyVUUyNFkxaVN5N21JcTNRSDNZU3JoQ1JxNFYzZF9OWXdDTDlrNmo4QzdvM2pGdFdVclR2V0NLeXZuVERyX2FoUi0xbkR3Q1JPRVNQNlgxU0RHNzhhemtaR2kwZkstaF81LVpLT3h2MThPelBvWUpxS2xEMkJGMDBCRTRsRXVB?oc=5",
+        "source": "The World Economic Forum",
+        "published": "2026-08-31T07:00:00+00:00"
+      },
+      {
+        "id": "e0bc015417295be4",
+        "title": "Tech Days of Fall 2026 series boosts information technology, artificial intelligence, cybersecurity career pathways - Big Island Now",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNWW13N3VDNS0wQ1hNREVkcjUxREtlZ21qNTUyTk83M3U2SkMwa3FVMGNxNUc0VUNKaXdGZTdIQWUxc2d4UjVIdlNLelFnQlAxSDVXb0ZhWm50Snl0UmI5Yk40QXhPS0x1SnZqQlRrMU5paWxCZnBwOV9fMTVtLUlkNXVNd3ltdkFHQUhVYTdlT3JWRE1qNnkzWk1yOWNvczlPdlc1NzBfRkI0cC1udXh1dzdlbnNkSGZPNUxsNDZYNklROUVUZ000ZXEwd0pGQXZ0VTZMTmV2LTdMY2ZKcGpKdmI2cXE?oc=5",
+        "source": "Big Island Now",
+        "published": "2026-08-30T23:00:00+00:00"
+      },
+      {
+        "id": "337414b0c77c22ad",
+        "title": "Where is AI headed? Two media theorists from the 1960s can help us figure it out - The Conversation",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNN3ZOalJCUnA5eG1KaHR3ci1GcTVxTlBuYWcwaW42MWRRS2dYUU5DZEZSTk9VVkJvOUo1d0RPZ21PZ0xtdklHUl9qMFFGSDdKa0FQNkJqVF9EeEwzcFdUMW5nMVpiUkdCb0Y3cWJUWVFaREwzellwN0RpTFp5OGp2Y204MEFFNThTRGJweDgwSDlOWlQ3Z0hrLW9yN1kxLWMzMzlOUGYtRGFzZVRsWkkxRk1paFg?oc=5",
+        "source": "The Conversation",
+        "published": "2026-08-31T05:55:55+00:00"
+      },
+      {
+        "id": "b956b3068675c24b",
+        "title": "1 No-Brainer Artificial Intelligence (AI) ETF to Buy With $50 and Hold for the Long Term - The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWXphMHdyc0RJdm5qNXhySXBvODBrVWZYTmdLQ0x5QVlPaFlONktCLWpkTW52Rmk1Um1tdnk2NkRPa0FrajR1VVRFN0V5bU5nNUtKRnMyRlpibmN4T2U0Y2FUM1otbGFjZV9yV0RxcTdzUmxONU83WWFsQWZJaDh0WGNnZTlnMlNPQTVUM0R3dldla09UbFp3Sg?oc=5",
+        "source": "The Motley Fool",
+        "published": "2026-08-31T06:00:00+00:00"
       }
     ]
   }
