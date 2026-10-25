@@ -1,48 +1,69 @@
 {
-  "updatedAt": "2026-10-25T13:11:58.871417+00:00",
+  "updatedAt": "2026-10-25T19:03:56.710875+00:00",
   "categories": {
     "Top": [
       {
-        "id": "5a3942e51cfc596b",
-        "title": "12 injured, including several minors, in shooting near Florida A&M University stadium - NBC News",
+        "id": "855054cbc61abc65",
+        "title": "Brazil votes in tight runoff between Lula and Bolsonaro - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdkpfT3YtQXVCRlQ2RkU5d1JxQ1dSYUY5WXYydnVvN0lGWHB1NkR2MjIyb3BoZ250UVJfSEpTb05SRUx0VmFxS1pzWWNyVFhuZVRPVDRSVmVoTW9WSWFXWjQ2TlVoYTlNWTViSFRiZkMweWxnN2NzRWRUbjVHbFg2T3o4UDNzTmhlaEhTb3JSTDFVNTF4U2hJOE5ZVDFGV0VzR2U4UG1iN1c0cXhGYUsw?oc=5",
+        "source": "Reuters",
+        "published": "2026-10-25T17:13:38+00:00"
+      },
+      {
+        "id": "ab05dcde860697c6",
+        "title": "María Corina Machado Returns to Venezuela - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMmtDdW1jNnF6TlUzOFNtVHpaWWZldFVUcDY5dldJUGpjRHB3dzBPWjRwaUZmdlZSNWk4QWZmM1JMY040V1NURWlwX0xzc0tvcENUenJXQm9oSzZrOTlPNGl3MmRvYnJuQWFJYjNJaW5EbjNYUkh5R2ZrN3k1c1JJNGJZQ1dFZw?oc=5",
+        "source": "The New York Times",
+        "published": "2026-10-25T17:39:06+00:00"
+      },
+      {
+        "id": "abd0cdd9c8535e09",
+        "title": "Obama, in Midwest, assails 'cruelty' and indecency from Trump and his allies in the midterm campaign - PBS",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOR21xaFFyNDNPVmRrdTRtM3VfVlZTYXhOd1NYQkNCb2ZNLUxUT0JCeUFwREZueDU1Z05ZVERSNDN1R2ZlOVhWblYzSDh2djJ4QmZ6Nnk2ZERfVkFRTzhnWUdLQTJ4WkRGRENUb2N4TVIxam1VUDFIQ0NGM2FacXUyd0lNTzUtTjNlMElBcWt1WHhidThqVF81aml0VVBzNW5nckphdmtYNUJ6bU91S0pvbjE5QmV0ZmpqUzRYcDRRaXF1alhQS3FGZHVSdnR5Y3PSAdQBQVVfeXFMUDBCT1JMc2hVVF9JQmVOX0l5U1dhN2dsREtoNDRlb0p0T2JaeFo0SU1VQlNSTmVtaElLYUlrRTc0RnNxSVZYeEpyVk5Obk94MHlUN1BVenMxc3ZSS1VaMC0yUGpvMzVPZW4zMGd1d1prcmUxS2pjMHdBcnhPRWVnT1plWnd0R3M4ODFKSnVVRC1hWnAyUklTWG83eHl5VzVEOFdwRVJ5cjk2X18yemZVR2J2bE1uS3VnYVB1NWYteVhYemJ4M0RhX3VtSjRiS2NPU2RNVG0?oc=5",
+        "source": "PBS",
+        "published": "2026-10-25T14:35:09+00:00"
+      },
+      {
+        "id": "598d8f81cb2572b0",
+        "title": "Ukraine disputes Elon Musk’s claim that its military violated Starlink’s terms of service - AP News",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZ1drdjlPWDVYNS1BaWpPZ2hYZDRSMjlIbGt1ZXNUQmgxdmk0cDJMalJqa05RWERiakhXSXVsWE5COHZMWEdJM0pWZFdwYzJ5WHdZMUh3Q0E3RW1xVmMwczBFeWlCTlRtUU1MWGVjYVQyOVRmQWtycUU5N2J1enVTa29kS2tSZUNFY25GWGpZSmN2aHhPMWNZNkxpb2NULXFkQ3BINlo2eE5LY05ob09oVHFXcmUwZw?oc=5",
+        "source": "AP News",
+        "published": "2026-10-25T16:43:00+00:00"
+      },
+      {
+        "id": "774ecfeb5f0ef72b",
+        "title": "Trump calls Murkowski a ‘disgrace’ to Alaska, criticizes ranked choice voting - The Hill",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcGtzamRRMV8ybVF2SVMyMGpTVWIyYktKVW5ESE5CWXhicmZvQTJEc09PQVJsMlloalpJSElwTG52WTlXYTJDNEtuemhGRnFnV0VNaGdBVjhDU1lGd3B3dldMZHNhZ1F2endCX29VcHpxbjdHam0xYmF2LUZ6SDJ1V19WNnlrT1BQd0tPbUt4dmNwTzVFYnBWUkl30gGfAUFVX3lxTE9lWklnUU9nczlXc0l5WU93b2hibE9lZmxUZjVDNF8wTzlwdEtoc3U1Zl95dDFPVmotd0xzZHFfeGJjWDJfejN5WXo0ZGphWE0wLVJCZ0F1T0haOUlUbTZqVGpSZTlaZ05sV2ZuOHlkNmEwaEdETF9ab1ZoSVNmdDd4RER6WFlMNVpnLVpxVEk3UTJxT2RITFFpYlVYZDJjQQ?oc=5",
+        "source": "The Hill",
+        "published": "2026-10-25T13:56:46+00:00"
+      },
+      {
+        "id": "8278202b7013884a",
+        "title": "Israelis have changed. Will they change their leadership? - NPR",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAtVXRuM1dxV0lqVnVoRnRiNGJ5SExjMUhraVFoTTFXSm1HYzJqclI0R1ZqamRzdDVfdEJnVHYwcWZVbjRwVkZaRjVBVW01UUw4azBnOTRuSGZwSUlOZ1JaQmNnU21qZE02b2ZtVEp5c0VtOGltdXdYSzhPMjY?oc=5",
+        "source": "NPR",
+        "published": "2026-10-25T16:00:00+00:00"
+      },
+      {
+        "id": "c9c488d5e37a70e6",
+        "title": "12 injured, including several minors, in shooting near Florida A&M stadium - NBC News",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUXVwdFpORWtWdWgzWjR5OW91aktPQmNnc0k1WlBKdm1xdUpJejJaREVaOFRoX1JsZnRjYXktTkhBZzJlV18zMVp3TWlGLVFkM3hfMDc1RWVMZnp2UEtCMXNlT19fSDJ2RFFIcVo3RW51d3l2ZEpuVFJwTWN4VWZKenE0dHp4aTM3eFFQSzM2elJyVTRnRDNVRkVjTnF3MWc?oc=5",
         "source": "NBC News",
-        "published": "2026-10-25T07:49:00+00:00"
+        "published": "2026-10-25T13:28:00+00:00"
       },
       {
-        "id": "5f1ac66a86f1f86c",
-        "title": "More than 1,300 arrested as clashes follow another day of mass protests across France - BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBkdVB3VzZ5U3JiUXVrMFFYQ1d3VzNpd2F0R2NKcUIxdUxiWHVyd19FOUhJbi1HMFNrOUIzbTI2NTRsdjZWX0V1RXlvZUxGYTdUVTlOYlZfOTUyTTA?oc=5",
-        "source": "BBC",
-        "published": "2026-10-25T10:38:15+00:00"
+        "id": "50358a67cdeeff85",
+        "title": "Transcript: Texas Democratic gubernatorial candidate Gina Hinojosa on \"Face the Nation with Margaret Brennan,\" Oct. 25, 2026 - CBS News",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWkIwNndlaVFvY2JVUU9RdVJaX21IRUFDbnNEV2x5QUxWUjdZVmxKdWx1VmZrWWgzYmQ0RWRsMUNLaGNDY3hXZFNHTDBVUlZwUEYxalZRLUdNVEVUUXZXMUhKTkpCckRFNWFNWmtkSENYMDNXckZmU0E5M1F4bmlESVBaeFhENzZPU2RISVdHZmswN1ZsbjN0RDI2clZtQQ?oc=5",
+        "source": "CBS News",
+        "published": "2026-10-25T15:21:00+00:00"
       },
       {
-        "id": "774c57a655cecb23",
-        "title": "Iranians Face Anxious Wait as Threat of Attack Looms - The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcm5Db2EzRmNzUm45MWw3S1VONDVoYnFoMDJNUUxFNlNmOURxc2Z3U0xNdk5CR0hqb1NuaFdubnhJNExtZFctYVF5QktUUkFfLTJoWlMwc2tqSFpPdlVkUXNJcXhuMmtwaVVVUnJXM1pOMWRNajI1Vzg0Z200cmo2Y0hlOWt0a2lja2hVd0RxN3IydG1KckV5VXdFUEIxWVB6bzlkMF9aRlN5cEZEc2c?oc=5",
-        "source": "The New York Times",
-        "published": "2026-10-25T06:14:00+00:00"
-      },
-      {
-        "id": "a26bd6b025cace1d",
-        "title": "Ramaswamy ad puts Acton’s estranged mother in spotlight as records reveal family’s troubled past - NBC News",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaUFkSTJKc3QzZDc2RVlRRlpZNTZkcUxqYjh6UGZpYWgzTW5uRkF3dy1sWERMNlA3Wll2VGFqeVBfTGRtMzJoclV3X19xenZoX0MzR1A3Q19kN3RqSlM1bXlTcmxDZE5iM3d6UERiWjZNczE2V0hfMFQxOFJ2ZnRmeXRPOVk3aV9Xd1d3UzdOZWxGM0lTUGRGZDViQ0JRSHdXaV9wdDVQZHJ3Wm0wc3NJUVFWSjNveTkxbHc?oc=5",
-        "source": "NBC News",
-        "published": "2026-10-25T00:36:00+00:00"
-      },
-      {
-        "id": "7eb893819a5d03b7",
-        "title": "Musk says he was behind Starlink’s slowdown in Ukraine - The Hill",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNN1Rpb1ZDekZxMzNKM2NrVzdfZ0pWN3ZYMXgtdndmcElLLWhBY29jdERMU0JKT3E5NVlrbXYyTUR2UzhkaHFMQVZBMlQ5M3MwbkhVYmZKa0xNaTRvTUFaakJtbEh5SHZMQ0VCZlBINk50Q1hYczhua3B0UmFNbWFGQXRYaEpNTmvSAYwBQVVfeXFMT1BTWFp1UXAyQ2E2TTZWMHBpcGFkMHJvRTdsd0ZTaEc5TmtwZkNZQnpaMHU0TmJBSWVoRkNMaTZvYkljS1RDaDExUWFsQlhVbE9FWEU3SjMwSVBtOGx2RkJCWHpfVm85VE5HdEY5d3p6Wl9wdmJnX1RvdVhsQnRpUncwR2Z3V2tmWkdENTk?oc=5",
-        "source": "The Hill",
-        "published": "2026-10-25T01:44:00+00:00"
-      },
-      {
-        "id": "041f1f390895e619",
-        "title": "In Arkansas, Democrats see an opening at the edge of the competitive midterms map - NPR",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSkRUY0FiY3JmTDM0cWNQQ3BLSU90djF3aElLdHl6YWt3czRPc3dwcEQ3YldYV2JtaUNFZWVHM3hlMzdCVFFWdUFjcmh2NDFPdWRWLVk2aDd2R2NfOUtBLWpQS29TbWpJZ1dIWWVVMFZFcGNjdFgySkhUU2xIakpoeFFWblB3RzdBYXBhcU11X0VJbFJRbm5jb25JV2YzLTZDWERUVld4Mm5vSTRZdVlUTm5n?oc=5",
-        "source": "NPR",
-        "published": "2026-10-25T09:00:00+00:00"
+        "id": "04faf9466dc9cb4a",
+        "title": "Poll: Data center backlash builds as midterms near - Politico",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSzBTNktOVVRQVUdyVzVvMEY1dzRBdTQ2MU5nUjVPUklpcF9CN1Zfemotc1JXQVdWY2pGN0FvcnFwVThLb3AwZFR2czBTbU9kUWhyS2NxbkZfT1gxT18zaWdLSkRHUGg1SDdNVFpjSXFxZ0NyVS1yVXJLZUNaaFcwZGdTUzRla0hCUEd5cHFGa0lGS3lLQkE?oc=5",
+        "source": "Politico",
+        "published": "2026-10-25T11:00:00+00:00"
       },
       {
         "id": "f80b38db3584fdf7",
@@ -52,69 +73,104 @@
         "published": "2026-10-25T11:00:00+00:00"
       },
       {
-        "id": "2b490f946a2344fd",
-        "title": "Obama’s Ohio, Michigan speeches: Key takeaways on Trump, Iran war, midterms - Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNmpMTzVMV0M5WU04b2s2LW1QeWlLWVVSdnRJQ2xQeW9WeVdXVjZYVkVwVFgzWTd5U25HZHJ4VFFIb0xfZDBrOVNJYzVsWndCcmhfdEkycExMaVoxelNzcWtuTWhxdjFKWVZxeVhGemVZdi0wNjBaX1pwdWE0aTBOS1gtUlNUcjRwRXNzcXNkdnF6ZDlrTFBJejVCQ1kwUGRjQWQ2MTNHai10OUlhQ29TdFNn0gG3AUFVX3lxTE9zVTVQVDdCLWlial92eERzejVzYnlMSnRwdTRiOFd5WTZCcFE2VnVabkJYOFNwV0NQRl90a0R1ZllSc2NDUDdPLVd3bXBUV0dLcU01a0MzbVhNVUlHczgzUTlYOW95YkZFVVdFOW8zVmROUUN0alc1aTZzRnNuTUxZcHg1a1VTQktVYkNhSTBNMzZiampRSUFtbjBFaDBSZURlVDBiYnh4MjBBRDNuYlVNTnpPcVdJaw?oc=5",
-        "source": "Al Jazeera",
-        "published": "2026-10-25T08:51:07+00:00"
+        "id": "0df2c8fba4f9709e",
+        "title": "Early reports suggest record high turnout in Serbia elections - BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5rY0xMeVEyMGlkVk5Iakpubl9Nc1NVMUZseWdMV09TYVFLcHp3bnpldG1HWDBzSVNucTd2Ni1KbWdqNEEtWWpGblZMckkwUll2OVFTeVpzMk9MNlU?oc=5",
+        "source": "BBC",
+        "published": "2026-10-25T15:07:00+00:00"
       },
       {
-        "id": "dc32565412ca21ad",
-        "title": "The Governor’s Race That 2028 Democrats Need to Watch - Politico",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORWd6bnhubkpTdURuNVljUHo3aHN4VlFTVWV2eE05YnNJTHpWeWRPQnRQcGZvbkFWdjlIcV96NnYtS2RidzF2VkN4LXdIMm5vRXY1dVhBZVNoSkJ4MkpvdmJNbTRKV3BFM1djMmcxLV9LWnEwalpjaWh1OEJwZE1YVzllRTJfQ0ZwTEg5Z1A4enQ1aHdFVmlwODJodWJlQQ?oc=5",
-        "source": "Politico",
-        "published": "2026-10-25T11:00:00+00:00"
+        "id": "924a9dab7641f62b",
+        "title": "In pictures: Initially peaceful protests across France over inequality again descend into violence - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQS1JVbTVIUDc2bno4ZDI1cTdTaGFwTGpMSlJ2Ynp4bEtxSjl6Y0RuZUxOUmNHQWRPTnlfOEd1cURTYUYxNHRqR1RqOXdSMzFlR1FWZkRsQ1A0VW1TbXBTRi03SDd5MFZqZWI2Z3R5Q19FR1hqa3dpU2tXOUJ5TkktcjFzTjFYZGZnVUlaatIBkgFBVV95cUxNcFpNTmNabWg2OVdLWHZabzc0c3hYVjdBNGdtdEVIM1RfNGQ2WnVtUTNyQzIxSmVqTjJKQzBxWkxIZ1NBWEVqcUxFRjBaSEVGOUJLb2gtOVpJVV9nZzNoZktfUFpjOGRrZTJSdE9haTFaenBtOUItVnFTYldmOGxmdmxNaHRXemhubkhUa3RiTENJdw?oc=5",
+        "source": "CNBC",
+        "published": "2026-10-25T14:14:23+00:00"
       },
       {
-        "id": "cd10ef0b108c92b9",
-        "title": "Trump administration has pushed off 13% of Americans enrolled in food stamps - The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02dEtZVDhDT1A4SkpMNlVObGpCYmZLenJtb1hZdnlhR3hWYUdLVjJ4RXU5VXRad1oyUlV4ZVJfM1lLeTNpT216ODd3RDBOOEhYR0J0ajNkSEc2YzBpbnFUZHFvQVhBUDlYMkFNSmE0aUZWd0RRYWszUg?oc=5",
+        "id": "ff34b820f9eccae4",
+        "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe - NPR",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQXpjc1dIWmk3TUlEaVotOHQ5bjNTZnBlVnh0Z2l0VmNXS1h4NHh5YXRrNnBXYVhDNGllZHFZdzcyb05ZYXVqWkNOV2NUZWFQRGE2dHFVdUxvcDVxVklEZFJYQTVrRlc3RWhoTzU2RUphLXJmYTNtbWRLMjFoM1pudkpQS3Yta2hYbGc?oc=5",
+        "source": "NPR",
+        "published": "2026-10-25T07:15:00+00:00"
+      },
+      {
+        "id": "5945e92f1f546e37",
+        "title": "Kim Jong Un Makes Surprise Trip to China, Crosses New Bridge - WSJ",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcjBPZ3dxSHBGNGpJN0dCX1JYT09lUDgyQW1SSUZKRHNRWF90SW5NVENhZEtQRHZjUzYyVnVYLXdRWkxuVmt2RGtTSDVSalVrVURxbFlTQzZ5UFd3b2dxelVhVkNuS3J6cmF2Y2h4NEJfQWNsSklmZk1MSWxtbEFOb3lIUTV0RzNwenNCZVVYUGxSUVZIblpUS2VYdzMxZ1RX?oc=5",
+        "source": "WSJ",
+        "published": "2026-10-25T14:45:00+00:00"
+      },
+      {
+        "id": "ed76d76819e5d9ae",
+        "title": "Volkswagen to build $4bn Audi SUV factory in US despite job cuts at home - The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPLTFRYmpOcW9wVmJQcTE1S0dVcHoyeFJldDlKY0ktZnd6ODV5NWVOWEtEUVNvVERjaXFqcDd6S2VSNWp4dmdBMmVsV3VoZ0UtS21NdEZHbTVaRzFRTEZaMnFLZllrVWpncmFsWE5YUGozdUpYTDhUb1Exb2VvYVg4REE0Q3pqVlBtUU15MHdnNmNFRHNzeHc4LUg2YUdwQUFPaUNaMXFqb0poV2ItVWNrSVFuY0J0UWczUE9yTQ?oc=5",
         "source": "The Guardian",
-        "published": "2026-10-25T11:01:00+00:00"
-      },
-      {
-        "id": "42bedf57637f0359",
-        "title": "North Korea's Kim Jong Un touts ties, opens bridge with China on first trip in a year - CBS News",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GRnUtMW9jYjJsZ3dJTElQYnpHVUJBRVpjT0dRbDhNZmFzTWlJZ2V3U3JlVVN1UEUtUE1uLVFreWdSWDd0aHBNUnlKY1IxdDZqdTAzZGJoMXE3U1dhMkZNX0NENnVhM1ZfYlgyY3FsX2JLRmlPSDZzckhuTlU?oc=5",
-        "source": "CBS News",
-        "published": "2026-10-25T12:09:13+00:00"
-      },
-      {
-        "id": "c244813eb590cfbf",
-        "title": "Jordan church attack survivor says her cousin died before her eyes - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVTFxbDBEOEdFZFEwX29PZzd0QTNuYm11VXE5ekQ1bUgtQjVGeU1lbHdjVG9BR21DcENBLU5BeWFCeERYd2Y4bWp4OHFEclBuWlRUQ3ltUkduNFlQOXNwSTV6ZHJ4Qi02ZGQyakE1a0lfNldTM2RBQ3dVbEJHcWpSWE96b3FKUWstUjh6aExqcTdPMmdhMkRpbEhjcEtpak5YMmFfOThiTmh4ZGd5Z2lGMk1Ucjh0U2lDQjlRZQ?oc=5",
-        "source": "Reuters",
-        "published": "2026-10-25T12:45:27+00:00"
-      },
-      {
-        "id": "003874a43b8034cc",
-        "title": "Serbia votes in election pitting longtime leader against student movement - Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeTZyWHFhamhrX1VNUjFBeEhCLXBfbUJsYmpkZVlkdHQyTnc3cndpS3lNOWZacEJpdVVTX2tELU1zZ3JMQmNReDBDVkpYSk5uaHNJREVTQnAyMDBwUFoxU1didGlZTUtxXzU4VEhJN1B2dE9HTk9hcVRGdDlQUlFlSlY2WWhid3E5OW05U3IzM3Bkc0RIcUdEVzQ4MGNsTkdDdEFBQjZtLXExOGRYWHBFSFJGUE5Bd9IBuwFBVV95cUxOOHhGSl84cS16WHQ5OXRLMWstQThSOUtralY0YnBKTmF4bDZIVURSTHJMb0VGXzZ4NElKQm9LeG83d0czMDBhSGpjSURONFpKMHpTWTBuSFV1NFBBQThkVHlzZkVXZlBfUmNzQUhDdDNBY1ltRHh0dmwwMVRGMHFaY3c1QWJtUEFQQldzdDFvakdHbkFIb1RkUXhCTUhOTG90dlNGdFhiaFlCTmxYaHRfcWFqX01tRW5uRjNv?oc=5",
-        "source": "Al Jazeera",
-        "published": "2026-10-25T09:56:15+00:00"
-      },
-      {
-        "id": "4227b14a6a5e32d8",
-        "title": "Days before Israeli election, military conducts massive West Bank operation - AP News",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMmFVbFU1aUF5RktLU21EaTk5alRrTVpDS3dUcEswWXBfVFl1M0pPNDdIV0lMeXpSMWVSQjY3S0wxNW9ZMV9rV0VKaFM5T1VfMEpQY1l4UU9MVk9xZFg2WGJTaTlBSUdkS0pPVDllOEN0LXBNQkFTOGlhSmRPbV83bHd2dVYyUkF5TDYxRGpHTmtnaG5Tb2tzN3hvakgwNWc?oc=5",
-        "source": "AP News",
-        "published": "2026-10-25T10:19:00+00:00"
-      },
-      {
-        "id": "752239daed9d0a95",
-        "title": "Trump announces Audi will build $4 billion factory in US state of Georgia - DW.com",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQTdMRzY4a3hyZDN5MUdQQUxjTVhieVNVVVU3ZElhWVVyTjI5MW9STEZnMTg2cGFkYzg0eWFKZVdxd0NtcElXcENzdUJncS0taTRQNkNwVGsta3RkNjFMX3N3S1BaYzVCZTJld0FuWmptNGpHaDUydDVLaTZyX0U0ZkNTY3NHOHZQT1RMNXllQkg1d9IBkgFBVV95cUxNZTgza0s2eWVFUDNJdUxER3A5QXVNcmIxN3BzMTR1YWFsLXlRdHYtTnFTM2ZCZDU0RXRXdVRvQ1VBZVNubjdIa0xIaU05Q1NBNzl0b2M3REJMN0U3UHY2d2NTXzI1akd0a1M1VUtaTlVoMjJHQU1PV29HTklVSi1EcmhBWG93LVFMdW5nX1BoSjkxQQ?oc=5",
-        "source": "DW.com",
-        "published": "2026-10-25T05:31:18+00:00"
+        "published": "2026-10-25T15:53:00+00:00"
       }
     ],
     "Texas": [
       {
-        "id": "3f23f6498e8ba882",
-        "title": "Arch Manning, Texas survive Ole Miss after another second-half meltdown creates Austin anxiety - Fox News",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdXRYQmIzVkVvdEt0dVdNZ0ZKbXZ6RmwtaWVpWW1Qb1M0dzFUN3JSTUNfa09TWmk0ckRHZlZkN0hGZXJSMlFZQzVHak5GcUQ5MmV6YzRVMU9aMXlmUmdUT2VVbkdkNTdETWNSYW80Z0xUV3dtTEhIeDRkWlk4RUJYWmppRm5YV0swR3ZER2ZpQ3BnMTNPQnlnTGg4UWd4aGlWV0FmSU94NEdZMHE1dWtRZ2YtRGRPazhFcmc?oc=5",
-        "source": "Fox News",
-        "published": "2026-10-25T04:25:43+00:00"
+        "id": "4ac02a93074124ff",
+        "title": "What This Democrat’s Surge in Texas Says About the Midterms - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE80cVFucXcyUm9QaWJLVHRzNFJxSTJ1dllVSkd6Y2hCLUx2eXhyTVFTeTZmLU1oZmd5cF81cXlSWGV6ZHI5aG05LXZxNmRpb2ljaFpRSm9QeUlKLTl6V3JLSDY2VmtLS2xEWDJxMzhUcHlKWGd2d0dUa3doNkw?oc=5",
+        "source": "The New York Times",
+        "published": "2026-10-24T09:15:23+00:00"
+      },
+      {
+        "id": "74963ac7681d3d52",
+        "title": "Musk’s Starlink Explanation Challenged by Texas GOP Lawmaker Dan Crenshaw - Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORkx3V01SN0Q0b3Z2dDBsWGdJeUgxNk5LSXl0YzUyZmNnSG5NQW9MSlR2cnZuVnk5QnlzM0lMVWQydTBFcjFlaVp0QWUwM3FvTl9TX1hITDdHa2FrN0JiRXdGdjM0VzFxTXNNcXpScFlfOFBWWk9jUTdQbnpubmx6VV9lTGphdVI4Q0x3NTdGMk1hSC1TWEN1d3h4VHpJbU0xTnpIMTZBUWdGQk5oRmtLVA?oc=5",
+        "source": "Bloomberg.com",
+        "published": "2026-10-25T16:58:27+00:00"
+      },
+      {
+        "id": "cb4511991451689b",
+        "title": "Steve Sarkisian lauds 'edgy' Arch Manning after Texas holds off Ole Miss - ESPN",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRE1iMTRPbUJEc0JGYk9IYnhMZlBaQUtvVkhMejlEcVVsT01oYW9LelM5MkJPbnN3NHF5Mkw3YVN4eGVmNzlQQTBuNkp5cWJzb2N4cWtqS2NSN3hNQlcyd1FLUkZxbWg1Vi1KT0h3MDVTR0Y0U0MwUHUzRmdibUVYSUYzOC0xUGw5YWFhbTJfQkFxVzJxT0R3Y1RCTFM3UXZmYlJ0WTd2Y3QwM21fZ21R?oc=5",
+        "source": "ESPN",
+        "published": "2026-10-25T04:56:00+00:00"
+      },
+      {
+        "id": "190d740c491cae2f",
+        "title": "After win over Ole Miss, Texas QB Arch Manning says that he 'kind of likes being disregarded' - Yahoo Sports",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOaGVoLXA1dkdYWEt5dHR0eXRqRlhCek5ZaFBPOXF1NWNpbmlIWmxKR1V1WC05dWI4RExJdFhnQjM1WjBLVTVNblRFamF3X2dZTGxsXy1iOUd5SmU4YjViZGV6SmVZcC15TnUwWV9rbjRpeU1tWmVPajdiNHRRcnJpd3hKc3BtRU5adXJCTjFZYWppM3NJMWpTZlBweUdlVWVhXzRSaEVDaXpSRXBrY1gzWXdSQVJDRWg2V0wtWmJqbWhLUTV3UGdWdzExWUFYdXg5eGJ0OVhKb0dvNy1vcnBWOXFXVnVTUGZndHVJ?oc=5",
+        "source": "Yahoo Sports",
+        "published": "2026-10-25T12:41:50+00:00"
+      },
+      {
+        "id": "54a5000bd7672dd9",
+        "title": "Texas makes big moves in both polls - Burnt Orange Nation",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeGVKY2I3eGdsWTVvc2d4TVp4NGZVeVBUNHF2ZTEtNjJRMW54aTQ0WEpTSm9vclJxaThfYVNZWEhoYTRvalZWejM2amtoZGRFLTJjbDF2Umg4WVE5UXRSQXhuc0NoYUNwYVdMb2tlWDJabDVIakNkZmhmRk92dTZyOWpMOXRmR0dRS3N6TEt0RWNnT0tBNzdiWFJaTDI3UkJhaUo3MjF6RQ?oc=5",
+        "source": "Burnt Orange Nation",
+        "published": "2026-10-25T18:19:52+00:00"
+      },
+      {
+        "id": "fdf184c6c4c364fc",
+        "title": "A Texas Cop Signed on to Help ICE Deport His Neighbors. It Tore the Town Apart. - ProPublica",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcWo0cHhQZTFrZHlDMEhzdGI3LWRZRHVOV3lVRXo5ZVN2SXlxbWMxenZKREo4dEx0VGFtME85N2V2QTE0YzN6MUlDTGdOR2h3WE9iVDFqeW00NVhfUWdrMlF1QjVPU1NsRmNSSHRwZVU1QWU4a3FOeTROTjBnMWZxNHI5ZHZTTS1f?oc=5",
+        "source": "ProPublica",
+        "published": "2026-10-25T04:00:00+00:00"
+      },
+      {
+        "id": "aa826a9c0853fb5c",
+        "title": "ICE crackdown prompts some Texas Latinos to turn away from Trump - CBS News",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBheDVzRDRMUE1LU2xFcnlPbnNuTWktR1VOU054MU5uUkZSaXpFZVFTOC16X2JrVDRmUXZWcmZ2QUFneEw1UGoyMDZ2aDdpV1VVLWhQVmVIck9yeEpHRFVmVFpfaGVEUGtQLTFwWnpQZlI?oc=5",
+        "source": "CBS News",
+        "published": "2026-10-23T21:00:00+00:00"
+      },
+      {
+        "id": "8f116631fb2fb90c",
+        "title": "Immigrants in ICE custody don’t have right to bond, court rules - The Texas Tribune",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUGtuU1dRalhIbVhTYVgzRVEzeEdIWGxydmtkaTNFcVg2UXRUd3ZDSm5Xd2JkTVV5d1lfQlN5MktfOUdoZkJNa2x5T2ZvenJQODRKTWVKWnFMeEw4T3JLbVRVYWZSSEF0ODhISWVHT0t0bXU0Wm4wYzFyYUtOOWU0UTMxdGpQcm0xZThYTG5UMUZNeTVXMERfVHhVSHI5cTU2UWFlYw?oc=5",
+        "source": "The Texas Tribune",
+        "published": "2026-10-23T22:38:05+00:00"
+      },
+      {
+        "id": "1559b5d2f28587ee",
+        "title": "Cody Campbell has pointed message for Texas Tech after Cincinnati loss: 'No excuse' - USA Today",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQYmR2QWR3TmhIN3d5UjVlWDVfOUlXMnJtN041X29aUUxPRklqdXpBTnpEa1VJblpxMVUxa090c2ZTWGdTUm9sTHlCLUVlVmxzMWo5QVJRYS1kZlZLaUlqOE4xTWdyczZCSktwXzlUVW42X1V5d3luUnN4UWZoS004cWlIS2d2TUFFalFkN1ZJM2hMbFc1T29lY3RxdkxjbTFSdEpjbU9UVE5rdkVWS3R0ZEZPOEpqTzVBcElNZ2JsaktoMnZpTnhpNFZKOA?oc=5",
+        "source": "USA Today",
+        "published": "2026-10-24T20:51:00+00:00"
       },
       {
         "id": "71df4094c87c76c5",
@@ -124,95 +180,39 @@
         "published": "2026-10-24T20:03:00+00:00"
       },
       {
-        "id": "b94c6b98c02d6af6",
-        "title": "Big 12 College Football Playoff picture thrown into chaos: BYU, Texas Tech upset losses alter landscape - CBS Sports",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaEFFdEdEZ3NiTDhLb2JPczdFbUtiTUx3cWhJcnhzeldwTFRZdldPczRxQy1pcnl5Z0ZqdnlFTWhDUW9mMW80MXl1Q2ZvUGZCMG9hZ3g1S254Mnp1QmREWEwzNkxIUzliWFJfZWtrQXBoQW9yWllRazZWWHN6M21QOUNGNmd2amNYY3JGVzJNZi1PZ2F5b2cyRDl3aGowckZFc3VuRmtQR2FkQkVDQnlnaDFpVHRITDJBaDlrVlRXYTY?oc=5",
-        "source": "CBS Sports",
-        "published": "2026-10-25T01:12:00+00:00"
+        "id": "e58cb1515d888736",
+        "title": "AP top 25 college football poll: Texas takes a leap, Texas Tech falls out of top 10 - Dallas News",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWVFaWjlvcVJtcjFzSThSVVRpSExRZUhvUGtTc3dUSzhVTzM3M3A4eHhyNVRoMm5fU24zT3ZVRzNJczFUcGMzUFZZVGlYXzByUS1iWFRlanVrXzlWOXhYS1pLRllkWG04R1NWNUVSTE53NGRjcGRBQWNtRzEtcjZPQWJUV2twZWI4X3hTdGhWd29POXdqaHJfZEZXSXFleGt1bDhJOVpmbEktT25VVG8xLWlhQQ?oc=5",
+        "source": "Dallas News",
+        "published": "2026-10-25T18:36:21+00:00"
       },
       {
-        "id": "e5c5acaca2730174",
-        "title": "Misery Index: Texas Tech's big money and bigger talk can't save it from embarrassing loss - Yahoo Sports",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQa2JydjFoQS1UN2JJcEZPS2ZjVU85VFBndGdKM2lRQTRNY0tBcnJXOFUzOHE5cEdFTDhveFRzRkRUVDVYS0xWNjZvRmZURWY3SlFFUmx4N2M0aXZGM0hCMmxDaDFiS19DUU1aN3JBckd4ZkdJRzV2bjJLUFRCTnBJRjFDNG52R1BpWEFYZEM5WHU3MFBsczRoY1YzbWZFVmVtX3dhUDhQRGt6VVdTZFE0ZlpWVk5paHBON1BwSUZJeE1oZGwzS2VZYi1MLTRVaUpYai15bG1GMFJBZ1ZDc0tVSUJRUC1xUQ?oc=5",
-        "source": "Yahoo Sports",
-        "published": "2026-10-25T04:46:00+00:00"
-      },
-      {
-        "id": "bd9f82c6704a1315",
-        "title": "What early voting trends and predictions for midterm election in Texas show so far - CBS News",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbHZsXzNrUXR4LVIxRXZ6a0tHblFJMW5NRGlmNlJOTEZyd1VEWFBERU9HV2xhVUp2V0NONEVtSmUycjV6eXZsdXJuNUZzSjlNcWs5X0dkYVFFcFBoZ1lneEI0ZDByaHZac3pmcjhNMmlITUlTd2F0VS0wdnZUOUdaSDJUaFptemJPdzVRb3pybDlGOFNqT3ZDQkdhaDRkeEJyRlg1Yk9wbmZ6LU9RbXpjcTE1dFdBVmtEX0E?oc=5",
-        "source": "CBS News",
-        "published": "2026-10-25T11:00:18+00:00"
-      },
-      {
-        "id": "f231abdc3621d338",
-        "title": "State of Texas: Who’s showing up? Early voting data offers clues about November - KXAN Austin",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRXZ6R3BabnlCUHAtUGdXOHZmd1hfOWxQSUxOd3k5bDdxNGtpZ2ItUkxGd3NuYnJ3RWNvYTdRYXhfb1RETG5mSGVZM1lBMFBjRmEwRHJuWHlyWjBtX01MMGRPWVBHUEw4OWZRYjhNNGpveFFJclpxQnZHVXNzY2xITHozMnJZN3dMUllSWlh0T1RtTDFTVEhkZExUdjMycVl0OGR3Z1l2dlZtMEI1alBuS0tLWdIBuAFBVV95cUxPbDNoenRzNkZqQUM0NzRsTWlBR0VWZ2IzTXBXREJvVENXQm5sbUpmVmxlV3N5RTRzTUdQNU5mbFFfOTVHcGpkb29TWS1zVUhiX21BQ01EWkZCSHcxSXgwcC1MVUdmWTNpd3gwRUN0T1YwaTZycmtQVjJJcXkzNnZMNFNkSTVSa1dBc0lKQmZmRV9YcXRZUVpMT2d1alUxVVFwZHZseVJsekIyWFRhMEF5Q0lQbjgyZU9N?oc=5",
-        "source": "KXAN Austin",
-        "published": "2026-10-24T23:00:00+00:00"
-      },
-      {
-        "id": "5c71978ad7f0aa15",
-        "title": "PHOTO ESSAY: A Texas Trump voter, struggling with cancer and medical bills, breaks party ranks - WRAL",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOby1MemJiSzcxdzBMZ1pUUkN6ODVpTWZReDkzMWlsWUlpREFwZGlvX2U1cXJxR2w2QXpSb2lTV1BfcUt3TTlUTkZlb0Z5QTY3TEI5WWk3Y2kycnlHdVpNM0s5VTNBX0FqZWNLNEtMOEk2WnB0Z2l5X2VzSERpVlVIM0tNWnRCMkRqXzhkeC1qVnNxU3ZQLTJfVS05UXZnNE1acjd5Y3JZR3BlSmVtaGczbF9tT1ZuZkc3bDNIRDBRaXhrNm1XV2c?oc=5",
-        "source": "WRAL",
-        "published": "2026-10-25T13:03:29+00:00"
-      },
-      {
-        "id": "da8cf77194e4c893",
-        "title": "What Alabama’s win over Texas A&M means for rest of 2026 season - AL.com",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcS1tNVkteWtkbVVvU3dBZkJRd1BFNkIzREZuVHY5UjZ0Nks2UGNBb1VzeHhPeGZkSG1lMHRXZ3pBbTF6SHVfTmtyVDNtcTBrQ2dDeklKX3BmMWR3MFNsNS1sSTcxa0x2YXM5cFpmR0hYaW95Rmg0WjVwMllNZWh1Smg4U3puZFpfcUVWSFRXTHJVd1lEY2ZkVlBYMU1SSDJzekV1SXJQUnBtQUNtRnc?oc=5",
+        "id": "1d83e7e3abcf5fc3",
+        "title": "How Alabama crushed Texas A&M in 4th quarter, and where was that the first 3? - AL.com",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPV0VmZE9KSU5ibWpPX0RXaUowSmFXYkFNamt0dFlRc1d6ODZkOW5FYWVaZmVoNHFSSklaTkZ6Z1pVOTFubXJkelYxdDN0N0Y3TE1fUndrWWtTWTM5SEdfS3JFVW9tZ1hZcU9OSUxOWFdhbU1DYzh2ODZkVDBrOGE5Z2lDWUFrdXRyanNPNEI2YUFEX01Nc2g2TlhaMm04RmIxYk1uZTdfRWptcThSY08xRzhycWdSbFFPMTdVc1dFQQ?oc=5",
         "source": "AL.com",
-        "published": "2026-10-24T23:05:00+00:00"
+        "published": "2026-10-25T02:11:00+00:00"
       },
       {
-        "id": "48b6995ef5475d2a",
-        "title": "Alabama without CB Brown, RB Crowell, C Delgatty vs. Texas A&M - ESPN",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRVE0NEJ4WVV0RmZ4bW1jZDA1YThoZnpXVWh2dWFidk80WU1rMmQwUThaY3RjZTJSUTZZSS1SUmF2UGFYN3lnOV8zN2VrLVBQdkdRanNhSDhiZV9TTVVUQnA4eDlTeDNhVFl6T1Z1bFhIUDJXMTJWWnRMc2ktWkxmV1gtNlN1OXF6alZQVTczVVZXNEk4OFRCYkVEZ3JxLWlFTzhGSHpMcDctWXhF?oc=5",
+        "id": "e4dbef96ed75842d",
+        "title": "Alabama 31-20 Texas A&M (Oct 24, 2026) Game Recap - ESPN",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBtVklxSWtDNDQyWGdXYnMtdVpWcmd4c1RzVEhBcFpscER3dUp0VVZpRjlYQnk3MzlHV3Vmc21kZER6U05XcTNhd1g0OENpUTJmdlRfY2ZPakY5ZW1yQ1Zqd2ZBTENkbkVnWWFxbHlnYw?oc=5",
         "source": "ESPN",
-        "published": "2026-10-24T18:44:00+00:00"
+        "published": "2026-10-24T23:46:42+00:00"
       },
       {
-        "id": "5fa796bd309f0c4c",
-        "title": "Texas A&M Defense Folds Again As Alabama Exposes Aggies In Late Collapse - Yahoo Sports",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVVJJX2hNMy1pRnF4eFNjMEU2LUV5Vl9jVVpZRUg2MEVSX0w5ZWR6ZEptMWh1UklFTER3SzMyNmtuMnBlQlFwV3M4YmpHYVNYdVZsdzdKYlNkcXViYkJpQmt4UXRKTk5lV2szVnJBWjhzaE9ZbU9MaU5lelp6aE5DYWZ3?oc=5",
-        "source": "Yahoo Sports",
-        "published": "2026-10-25T12:00:06+00:00"
+        "id": "0d685869625631a9",
+        "title": "Initial Impressions from the Texas A&M game - Roll 'Bama Roll",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMzl0ZzJHaHFBc2pZQS1EWXdoTUg3WjhoRmpLemowWFNEZFc4NFNjYzJURDBlbWYzVFBIczdHc1pEM0FzUzdSSFI2M25QTXlSOEFONmp3eUZ1SDdXM1ZiSkUyMzRMaUhLU291ZmNES3BDNDYzLTdLdFNacWtFTk9MaHBvYmFEcEtlb0Q4aWVhTTBfVU9wSmU4VEk3c1F3eklGV0xja2J2dERtSEtrQ0Zqa2ZNWl9vNzdPUVlTcnN2Q0JFUQ?oc=5",
+        "source": "Roll 'Bama Roll",
+        "published": "2026-10-25T13:01:34+00:00"
       },
       {
-        "id": "f8edd8fee563fd99",
-        "title": "Democrat James Talarico targets Elon Musk at rally: ‘Texas is not for sale’ - The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPY2xRNExCV1dZc1czYWw4c2lTZHVXNTJSSFFkck1wdzlFQzRhUEJ0bGxqLV9CSmJfOWk2QnlVM2k3Z1ViaXRqaFZIdVFaWFJTTklBc3dIdWdOWEVIUzZBS1gwaG5lLVVpNkx6UEI4NXhpaG5FaWMyS1FzZERxSmxKRWlPcG5jOHNEY3BPcUNoLUNJSGs5dmZQZ1AxWG53V0Zkd21tQTBHTzBibjU2T3FoZnlJcVFMcVlDS3c2TA?oc=5",
-        "source": "The Guardian",
-        "published": "2026-10-24T02:54:00+00:00"
-      },
-      {
-        "id": "0cc53f34aa79adff",
-        "title": "Bush dynasty delivers another blow to GOP in Texas Senate battle as family member breaks ranks - Fox News",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX2xtTGhablMycTRTYXNBU3llU0NseVpZVmhmbmdWZGV5R0w2aGJIeHJBVEdUYTRNT3hpcy1qXzBvLUJMak5TUHpfaTVPc0gtbzhLYjBDUUxIUjBGNndNMHNBMlhUUnZrcXlZOGRBc01nSWZnWGpNS3ZjVTFTaFVZWHVUWFlidlpRTXdubldDd1pqeTkxMnROM1owcWdCUEd2QlU3eDE4dnZ0SlZZNm1qekN2T0dWcG4zSmfSAb8BQVVfeXFMTy1RaUlVc3FCZlJ5YXphSU1HUEd2SmhLNC1Ldnd1YnRoUHhqMVVtdjVCOFJGUVByMUJtSGRqTjFnQ2VRcW9iZExSYWhMZjdUcV9SX1NRSDhzSFJiZzA5SkNhYWxZMGRBTFY2ZV9YNzF5Z1lVanFycWJOc1NpcE5vWnhQc0xXQ2RFeGZZSFhPb2RCUFVjbGduejdMd2xWQ2JkS3RLdGpaQlhMNkM0TmJtbnJfcndwRzVvNVpHTXd2UkU?oc=5",
-        "source": "Fox News",
-        "published": "2026-10-24T17:00:50+00:00"
-      },
-      {
-        "id": "d3c3542bd173da43",
-        "title": "What analysts are watching in the Texas Senate race, CBS News political experts weigh in - CBS News",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVjlQODBBdktrOGRQN1BqZ3FTcjJ0UWRybE9CTTZ5N2p0WGN1TGtsNUlha0pwa0xjTmpUeUpZUW1wYWFqdUlIT2R4UHJRcEd0WGlQaDR6eEZJQnFaMkZDcjEwZVR4d2JMQ1g4S3phcXBpMHRYUGVta2NqMEExOWdDQW1nRXNyZEJtWFlWbFZ0bUVzci10aEtGakFRdkVSRmUxM2piLXAzUUJlN2xrZEVsYUFjQ3VvZ2haMHBKV183Wm1DQQ?oc=5",
-        "source": "CBS News",
-        "published": "2026-10-25T12:04:00+00:00"
-      },
-      {
-        "id": "4ac02a93074124ff",
-        "title": "What This Democrat’s Surge in Texas Says About the Midterms - The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE80cVFucXcyUm9QaWJLVHRzNFJxSTJ1dllVSkd6Y2hCLUx2eXhyTVFTeTZmLU1oZmd5cF81cXlSWGV6ZHI5aG05LXZxNmRpb2ljaFpRSm9QeUlKLTl6V3JLSDY2VmtLS2xEWDJxMzhUcHlKWGd2d0dUa3doNkw?oc=5",
+        "id": "5983b98777b2b809",
+        "title": "In Texas Senate Race, Talarico Leans Into Growing Rivalry With Elon Musk - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWHZjZ25YRlN3cGRjYV9iVGRtQjZoM0JRNWh3MTBqM0FjVW5BMV9PQmlvV2tkd1pCbEl5dXZLTlJKY1dGTEtDZEJRdFJlV3NaYlhBemFFXzJySmlqbThOTGE3bmwxS3JBcXR1Qml6bElvMWt5d1dSX1dwcFhrRXFQQWZpcmJwX2tDM2MtdWRlWUFhTGlNX2VBa3lR?oc=5",
         "source": "The New York Times",
-        "published": "2026-10-24T09:15:23+00:00"
-      },
-      {
-        "id": "aa826a9c0853fb5c",
-        "title": "ICE crackdown prompts some Texas Latinos to turn away from Trump - CBS News",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBheDVzRDRMUE1LU2xFcnlPbnNuTWktR1VOU054MU5uUkZSaXpFZVFTOC16X2JrVDRmUXZWcmZ2QUFneEw1UGoyMDZ2aDdpV1VVLWhQVmVIck9yeEpHRFVmVFpfaGVEUGtQLTFwWnpQZlI?oc=5",
-        "source": "CBS News",
-        "published": "2026-10-23T21:00:00+00:00"
+        "published": "2026-10-25T16:12:13+00:00"
       }
     ],
     "Politics": [
@@ -221,21 +221,14 @@
         "title": "Iran in ‘Advanced Stages’ of Planning Attacks Against Americans, Officials Say - The New York Times",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYmtHSXQwRFhlWlZKbTU2TEhPODc5MERFTG9feGQwRUY1ZklES2JWS3UxTUxOelgxRExOSFdUWEJnVFFDX284OHNsZWxIUzBVRzdINlpRRVhIYlBTN3A4Q2JrYWFrZVZ0MEZGRXVXVXVKTW82dmgwRWROUHFXcVVPU0oxdkljc3lldHc?oc=5",
         "source": "The New York Times",
-        "published": "2026-10-24T16:09:00+00:00"
+        "published": "2026-10-24T03:46:55+00:00"
       },
       {
-        "id": "0c56a8956753d9ff",
-        "title": "DOJ has monitored elections for decades. Here's why some state officials are concerned this year - PBS",
+        "id": "23ba9ec6890e207d",
+        "title": "How some states are responding to DOJ's plan to send 1,000 monitors on Election Day - PBS",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbmRNdmtJb19aZ1JzZkRrcXBSR2lYUUZhV0RCTHNYTFU5MHBoTXQ0TC1Gc2ExcWJJOGEweTN5eEdOUTR6MHFHMy1EOS1sQUt2NnpaQmxORmlsWE1XZ0VWMFBqd2d5b1dZU19qSWlpZHc5YUpzOGlDYndsLXZTYmNVSVJmQmtOX1RMV1VaZU1SZ2VoNlZrWFVCY2E1M3dkWng4WkUyUFc5VlI5MjA0QU9CQ2ZYeUpuWU8wQVdhdW1uREFacm14Z2V1X0llVm_SAdIBQVVfeXFMT21aZ1lnR3VITjdZVDNIdlh5LTAtb2lfamV0UHlHVDJ0REc3N3hTY1JJcnZVQmt4aFVfdGRCZGxJSEhlRGhjWEZkNEdTWjU3cjRBSmxXRktzNFVjcS12cFB1ZWpkOURzc3F4Z25YT0QyZ0JCOUdhT2lGV1VwTlRZYkdJaXBQaUR6RDM5Q2hLM1ZDaTdqYkZ0OTZOMU92Y3lkVno2c0w3d2JwS1hfYXBQTFY0TkRUbXdpanhMTnVBUGgzdW1YM3AyX1paOFJBbW5wQWVn?oc=5",
         "source": "PBS",
         "published": "2026-10-23T20:16:57+00:00"
-      },
-      {
-        "id": "a4d281d848e9042c",
-        "title": "Trust in Federal Government Sinks to New Depths - Gallup News",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPLXdaNUFObnNtcFRSTFRwOWUwSV90NXlNeTFiOTlabHpiRkRoU01xdFRfc2QzaGdoU2xmeHhFQl90c1p2dWE2S2xtcThuYkhxVFZXWkE2SVkxRFNHbnVfb05lVERnMGgzWkxKaU96VTJ3eVFNeEFnNm8zS1dja0pDY0RXXzVMSGJnUFE?oc=5",
-        "source": "Gallup News",
-        "published": "2026-10-13T07:00:00+00:00"
       },
       {
         "id": "0d6dd7ea2b898da5",
@@ -245,11 +238,11 @@
         "published": "2026-10-24T11:48:34+00:00"
       },
       {
-        "id": "ed266de992966ae7",
-        "title": "Trump says he will stop using US taxpayer funds for ads - BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKb2JDTEliTWhfVElLTlBhU0VSajZUZEVjWVlxZFl2VVpYWE4wM2Z0UWczUUxaenoxdWxpRkptU1lkOTZGcTJDTU9DQVpKRGNZNWZpdDg2RDAxOG8?oc=5",
-        "source": "BBC",
-        "published": "2026-10-06T07:00:00+00:00"
+        "id": "d0d98c7191032358",
+        "title": "Political analysis favors Mendoza over Ciscomani - Arizona Daily Star",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQU2lFU0JQZndReTVVZjMySXUwUUVRS3JxQ3BsQU5MT2phNFAwM1JxOGltQjJIUFVwT0dBdmdYMC1kY1d5bnItY2JmVFloQ1VteWZXYnI5eTlMSWQtM05FMm5ubjlIWlhYdWl5b25nMDk0WXZncU9nLTIyZThLSjFsRnhpY0tfLXlDamdvTzE1TVg0S3UzYnJmZUpCUjg4aFFyVkJFRWRqcEJMWXlnM0E?oc=5",
+        "source": "Arizona Daily Star",
+        "published": "2026-10-25T15:15:00+00:00"
       },
       {
         "id": "a6b6012077984a95",
@@ -259,25 +252,11 @@
         "published": "2026-06-02T07:00:00+00:00"
       },
       {
-        "id": "4a318b6d05fbeacd",
-        "title": "Taxpayer-funded Trump ads draw bipartisan scrutiny ahead of midterms - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9nREFXWWx6MEZHN2E1ZlY5dVRXbE1VUEx3bVJ0MXBlYWs1ak9LVlMxR3ZFXzZzWG11YUthQ3g1eENnMWtlMlFyeElrQ2E5bEpqbHkzYUlxMXZwX2I4LW12WVdwMDdadlVtZUhDMFRDQlZCdnR6TDVQbW1rZXVIZ9IBgwFBVV95cUxQSDlVM29MMHdJa3RCZ2FvRWlZeWxERHlHZ3JLRmIxUWFSb2xYUWFmRDJTUi1UYjIxZkJZTWFvcEQzdWMzTDU4S1BEdUZkeUhDNjcybDFNTHUyenc0a21LeXBmTUxoYXRZRUwtcG5TNUlRRnNnQ19PVURVMU9Pb0hSb1Zjdw?oc=5",
-        "source": "CNBC",
-        "published": "2026-09-27T07:00:00+00:00"
-      },
-      {
-        "id": "c0083c9b1a22581b",
-        "title": "The civic consensus beneath America’s political divide - Brookings",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd1Y3YUhkM285QWxHUms2aFF2TXk4ZTBjVGVEUG9mSWljR2liSGMtNUxUQ3M0ZHNzbVhadmpoQUlDYXBCVmlGUERyS19Rcmw3OTFFOUd4bDBiMHJ6MTlPVkdqTlZYX0RPS0JvdS11UmZIV0xNck1LTmhMTmNNN0lqcml5eXlCYm5lbDZpWmdVMEJXVVE?oc=5",
-        "source": "Brookings",
-        "published": "2026-07-08T07:00:00+00:00"
-      },
-      {
-        "id": "dce1dd3578f3f6e1",
-        "title": "Why is the US so politically divided: video explainer and teaching resources from Crash Course - USAFacts",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ZTFJiVGxpVU03S05sRG05ZjBFN2hnNDhGVzc1cHN6VXBHVTBYb2swMUh5S0NsRHBBdjhJYjBBdUdJQlZ6RTVxVWdUVWFGcllfMXhKUEhkV0NYcmw5ckp3bFd5NWFYMGM0?oc=5",
-        "source": "USAFacts",
-        "published": "2026-09-22T07:00:00+00:00"
+        "id": "0f4c528bdcb2a0bc",
+        "title": "Facts and figures: Women’s leadership and political participation - UN Women",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTHpmalZLd193RDRuYnRPRWd3dXMtaWZtbHpianJKVG9ZMzl4ZjRxVDF0bVM4N0pva0c4bmtzWHIzemc5aGhOZDBFSVZHSEQySWUyU2Zsd2w3ZVpNUXp6MTJ0MEdQR1lrY1ZaSU1kSjROQmtyNl90cEV0U3J5U185MmZaMkQxLXV0dXoxYW1tR204SDVmNWhvMHJkUXkzd3RFZmZnSFNsdkFEb2F3MW16Qmp4RGEtbXpa?oc=5",
+        "source": "UN Women",
+        "published": "2026-09-15T07:00:00+00:00"
       },
       {
         "id": "32226ce9d3fc39ee",
@@ -287,42 +266,70 @@
         "published": "2026-09-02T07:00:00+00:00"
       },
       {
-        "id": "dfcc58ff48b2e23c",
-        "title": "Inside Elon Musk’s $276 Million Midterm Rescue Mission for Republicans - The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE80Mmg3bWR5UmhKR0tTaTZOTmREWUJKZF9HSXZoNEYxVjJMRWNKa0lTNFFzRWZCUmY1Z0dPRWQ5RjBlWWJHeElFRzhleURGcTNhWXFkVHJmOE9YTkNuMHZtRG1XbDBZODAtb01kbjNsWXdQOWpfNXNEY0t3?oc=5",
+        "id": "6b9a393a8974a783",
+        "title": "Beyond Red vs. Blue: The Political Typology - Pew Research Center",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMXRYVl9XZUNveDdDemhrNFNJRlpOSk1zNEVLOVRHMG1ieDB3cC1IVndQclZLdDdrSEMweHlUSEJuakxPWlJYa29zWUo3WFdGOGE1SENqYWZKSThjNlR2MHVocnpvNXJubTVQTzBvZW00U094ZS1KTlBKU0F5bDhYUXVJRzFrazFuZFhJRHkxOHpnWXQz?oc=5",
+        "source": "Pew Research Center",
+        "published": "2026-06-10T07:00:00+00:00"
+      },
+      {
+        "id": "7629d1dc3798fb02",
+        "title": "A U.S. Politics Professor Explains Why Creating a Third Party Isn’t So Easy - Georgetown University",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZmpQX01fMkZ6N29vR2FzcGNNdlNDMlJ6c2E5Rm1DcUVoczBpZExFbWV1c2VpZTZrdDlvUEVPd3RpSi1TWmlvUWJENk9HSmVGZWdYM25SWFRHYmtBTk42bTY0dEY5eTNScy1uXzhrUXY4ZGNaTFRENGtSTDZwQkREMHJiM3NiMFFRc0hDS0lHaWVlVGFYdnNiTmk0Wm8xODQzb0IzTFdmYWY?oc=5",
+        "source": "Georgetown University",
+        "published": "2025-07-17T07:00:00+00:00"
+      },
+      {
+        "id": "b60bf64823699b03",
+        "title": "The 'Great Divide': Understanding US Political Polarization - Syracuse University Today",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdTlNNWFzbHQzRVdYZERGal9hb2dOenpjempfQlpsOVZMZzRaLU94LU5NbUZIWWdRMFdNY3F1Xzc3cUwwUnpmU0FNYU5kakJIVnBQWkt4NXlqR201bXN1MDU4Rk1heTlZemgwSU91SGZ3NnE2VHdoc2Jxemx1YXd6dmdUMXBaZ09tZFF6QjJnLVpUMEE?oc=5",
+        "source": "Syracuse University Today",
+        "published": "2025-10-23T07:00:00+00:00"
+      },
+      {
+        "id": "731a93b569a0451f",
+        "title": "How tech platforms fuel U.S. political polarization and what government can do about it - Brookings",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVlVqTXkwbVBESWxfaXQzQ08wSGtWLWdaaUt6aUFsUkZESW00dGthNkZERUF6bDZ2a2pzc1Vna0hqZjZsWjB3d0ZGdnlEZGJNZV9mZDQ4aXU1djZDaXZCcTR3OFJVOTY1OEt5RzZQOU8tUkRoTTBfUThnZEhhd3RtQkVzM2FaS283aFgtUC1wNnVCOVBNZ2QzY0J6T3MteTlNamVuZFQwSGlxcU5fb1B5QjJjN1oyNkdmQmNQdXRBOA?oc=5",
+        "source": "Brookings",
+        "published": "2021-09-27T07:00:00+00:00"
+      },
+      {
+        "id": "714e892b860f870c",
+        "title": "Public Trust in Government: 1958-2025 - Pew Research Center",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcTZEa1VDc2VMTG9tZHVkemROTVBIby1qdU9ualJxekc3TXczSzlUZzJITTNjRUJCWFVVS0NvdTl6MXRxaTZwZHpjRlgwVm9ScHVTVy1DY3FmNWdPcUlZZFVGa3lkMzN6VlgxYmZTZ2lGWnBSMHhiQlVrUXZEODhPamdIQVRWaV9YTXZQOFJR?oc=5",
+        "source": "Pew Research Center",
+        "published": "2025-12-04T08:00:00+00:00"
+      },
+      {
+        "id": "ba561467cb1237d1",
+        "title": "Nine Solutions for Political Corruption - Brennan Center for Justice",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNa1lIMzhSWlB6c0w1MDdpMWc1NUhxR0t1SVZsMXl1TjVBUkV5NWpPdWd1WTk4WXp6Tmd2ak4wcUd6REhGWUZQLU1zdDhMOERNUk9XSjNiRXpNUFZmSEhCcmpWR0ljQ1hSR3drTTNib09EVWU0NVVDMkxScXAwOGd1MmFxLUdUM0d3aDdtTjlhZVAzZ1RBYUE?oc=5",
+        "source": "Brennan Center for Justice",
+        "published": "2026-01-20T08:00:00+00:00"
+      },
+      {
+        "id": "25dcacf0581b593e",
+        "title": "Trump and Allies Forge Plans to Increase Presidential Power in 2025 (Published 2023) - The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBiWjhnMlFlZEJ6SHBneVBiN1p5b3BPTlZDSDhNNHp4dF8wQldHQlZxMnp0SG5YNTNJR1Y4MTBYaUNGQml4anc3S0Fka2VQNkpZN01tZ0tJXzJveWNJdER0ZGRWSDMyU0hKUWxnVnJyT1VHeDJleTlN?oc=5",
         "source": "The New York Times",
-        "published": "2026-10-12T07:00:00+00:00"
+        "published": "2026-01-23T08:00:00+00:00"
       },
       {
-        "id": "869da1aed3530bbb",
-        "title": "WATCH: Trump launches AI-powered government website America.gov - PBS",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMF9icEh5NWQyS25tazVXcnRRdzlGOTBucFVvZXBJZkRNTjNUZDRYbzVXZ0dRcGZvMGpINFhCNVowYWVNeVhuYWNSSjlVai1PMUFETzdaRU5OT2hkVEotSWxTOXJSSU81ejNCdnc4Q1RuR2x3Uk5NTVVNNEkxQVd1aUxJZ0ZCbEtXVXNqbTUwMEl6ZjJ3SkJoQkdqZ0VCMHAwVFHSAacBQVVfeXFMTmNHazdrbEpHVTZIRmRkeGFXU3RwYU94QnROckpYNkxNSjZobW9zRHd2c1FadlVOUGFCMF9xdFJrSlJKT0RrRFloNnc4ejRRUE44Vlg5eE1YTDJycTVQNXRBd01GUFh3OTBCb0huNkl0Y05oc2VMT2xKelF1TWJTYVcxS3lMeE9hVDByb3U2WnNYMUdGWEhsZzVWd1pHWW1FaDRQVW8tS2s?oc=5",
-        "source": "PBS",
-        "published": "2026-09-29T07:00:00+00:00"
-      },
-      {
-        "id": "1dd07939fb5d5929",
-        "title": "Are Trump's US government funded ads illegal? - BBC",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9sa1JWMkthcFd0OHlydG5UUHhzSGg3TVR1V09oUkJtbjZEeXA3azBEWWZ2S2x1ODRuVy1GMmh3NDVLTlJibzRIMFpmdXhKVzdNVmVsbjVtSWM?oc=5",
-        "source": "BBC",
-        "published": "2026-09-29T07:00:00+00:00"
-      },
-      {
-        "id": "2b3cac74f8b1a9cc",
-        "title": "Record-High 89% in U.S. Say Government Corruption Widespread - Gallup News",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQm53OU5rbENWSGtGNkxDRFdrTWRTb05ZVXpXSlhMX2ZlY0g4Ti1JZmlfRThpWVp4X2NBeXZ6VllHMy1iUk1JOHZfVVJ6RFFCWlN6ME5UYnpDbE9sU2hBODhieGUzNGtxQVFDN2dSM2xGUGsycTRnekhLQVFQUmxNUC1ZRkppYTVVVGxLVkp4R0E3ZWM?oc=5",
-        "source": "Gallup News",
-        "published": "2026-09-02T07:00:00+00:00"
-      },
-      {
-        "id": "fdf2f9d5b2c5c3c3",
-        "title": "Trump touts America.gov, but its government-sourced AI answers undercut many of his statements - WTOP News",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZnNtbGx1NnhVSE9Yd3VoM0l0cDhOZ2JsUFVzTXZLTEU0LXpRcW5mVEM2TjNEcnVEUHJDbHdVcEtBMEtHeTlld3NTTmliM0JyTEZMYmtESmV0bHBza0tFemhaQ25HYmo0R1RCMV8zZ0ZfLXluN0tFQ0lrNFNHd0dQZk1OeXlDLWY3VjJ5QXhzdE1vbmcxTkRRRVBLeWhpeXZub0JVRjBzdzVfVHNUM3pDejJpTnFJVGVEZm9FX0VfQnpUeHpJUksxVW5pOA?oc=5",
-        "source": "WTOP News",
-        "published": "2026-09-29T07:00:00+00:00"
+        "id": "b17a74efe66a7211",
+        "title": "Americans’ Dismal Views of the Nation’s Politics - Pew Research Center",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUlh4Tk42ODhVNTNSMXp4aDFDWFMyWHZQcEdTbFFlOFpmNWxCRDdMdW56ZW0xUUxIQUREMU1sLTd2ckFOeGJGMzF1cTV0WHlZTHRiazRseEw0LV9JRUtFRVV5WUtGMjRULW1ndmw0cXQxOHBVS0ZOSTladm0wUkdaYmtKbnhzeVZleXRVUDRiaGh0TURSdV9tTDJUOA?oc=5",
+        "source": "Pew Research Center",
+        "published": "2023-09-19T07:00:00+00:00"
       }
     ],
     "Higher Ed": [
+      {
+        "id": "0628071d9a91cdbb",
+        "title": "Nearly $4.4M federal grant expands college pathways for Hawaiʻi Island students - University of Hawaii System",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQS3lOMVJ6WWxSNUpNV01YQkJpWEdzTTlVYW9uT2M1c240bUtUZ1pjWkR0bDhpb0NQTGxRcjlxTDFBZkVYX3ZXVzU2Y2xKWGJMbEJtV0QzbHFYOEdrTjNNSzE3RF85RlVTbkhIU1Jyb05OM2xXUzBHc1ktM2lHR0x5Wlg1Zw?oc=5",
+        "source": "University of Hawaii System",
+        "published": "2026-10-25T18:00:26+00:00"
+      },
       {
         "id": "19f7d89490ae265b",
         "title": "College president: N.J.’s TAG system puts regional public colleges at a disadvantage. - NJ.com",
@@ -335,7 +342,7 @@
         "title": "Colleges are cutting majors. Why these programs are disappearing - Central New Jersey News",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSGpmTzY1ajlfczFpbHMycldRdVZmSWRMMk9Od2dURVZVN2VIMmU3cF92OHBMRFlLMmkzbmZuUG9vTDZYY0pYMDVneFJvbWFNMGhHMWs2c3lkM2JNU3M2MlhKTWRkRjh5UlhrSlQweTNDWHh4ZUVvM0l3NHB0aEhUMGUxbTBFV3NVUnRIRHFFMk9JdWtvMGJNbE9pek9hNm02YmJERV9FXzJjbnZKSzNkNS00NlJDWUlhakpYT1U0VW9TODhZbDNB?oc=5",
         "source": "Central New Jersey News",
-        "published": "2026-10-25T08:05:13+00:00"
+        "published": "2026-10-25T09:00:00+00:00"
       },
       {
         "id": "fb083bb1c0b06dff",
@@ -345,18 +352,11 @@
         "published": "2026-10-23T07:02:50+00:00"
       },
       {
-        "id": "7f1b989614bff2b9",
-        "title": "Job training, housing, students' basic needs: L.A. community college candidates promise fixes - Los Angeles Times",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSEZxN3kxcG16MUFleFVjM29OWll2d05mSWxOVnNDb1pzWFM0Sk83Snd3a1dveTBROE5PWmM2bUVJS29sanpzWGhSOUJPZmZ4UVcwWnJCRjVWR2JZaVFmdXVvTlV0Vk5ZQ1RQNnN3RWdGdm01SEwtU0JkN3EtUzhyZ2dNdHdNaEFOcWxYcjV2aWhobDNabk9sZG9DQlpxNTF1OWQ4cVR5R3JvV1U?oc=5",
-        "source": "Los Angeles Times",
-        "published": "2026-10-25T10:00:00+00:00"
-      },
-      {
-        "id": "62f3ac51f63740b0",
-        "title": "Commentary: Public higher education is confronting a defining moment - Bemidji Pioneer",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNb0xvWmZtQ2d1Q1Jjdll1am9IdjQ4V0ZINGg0N0MzVWJIekxvcWp2Zk5teFZVWmZoNTRpZFh1cktZYnkySThiU1BaMWU4MGZCWXRKeWxkQnVzZk9NWS1CaVByX3hCVVJwNWhseUxhSlVyWlZtdDJFNE1PbWFpX1FYSlpDNFlrQU1mMWEwQW1VRFlpbVRDTlJNbGQwOFdBclpTQ1plNFE1bUxPQQ?oc=5",
-        "source": "Bemidji Pioneer",
-        "published": "2026-10-24T16:02:36+00:00"
+        "id": "4a5f0029bec07029",
+        "title": "Ohio State president says he’s “bullish” on the state of higher ed - Ohio State News",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRy1KVkNkNzNrTFpTd1ZNZUQzN1U4T2NBUlZheklyYzNXQ1h4ME1hWGRtRU1QZUdvamdYN3ZSLTB2cjJXUk9EVFlZTHUtX0RGWjhEcmZFYzZGcmZ6UG9RcFNQcWJYQV9JZWJzNnJUcVNjN0Fja2ZIN3ExbGR1MzJla3gtclVTdjhKRG0zbldn?oc=5",
+        "source": "Ohio State News",
+        "published": "2026-10-23T19:00:00+00:00"
       },
       {
         "id": "57420736cd26b95a",
@@ -366,25 +366,11 @@
         "published": "2026-10-23T10:00:25+00:00"
       },
       {
-        "id": "4a5f0029bec07029",
-        "title": "Ohio State president says he’s “bullish” on the state of higher ed - Ohio State News",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRy1KVkNkNzNrTFpTd1ZNZUQzN1U4T2NBUlZheklyYzNXQ1h4ME1hWGRtRU1QZUdvamdYN3ZSLTB2cjJXUk9EVFlZTHUtX0RGWjhEcmZFYzZGcmZ6UG9RcFNQcWJYQV9JZWJzNnJUcVNjN0Fja2ZIN3ExbGR1MzJla3gtclVTdjhKRG0zbldn?oc=5",
-        "source": "Ohio State News",
-        "published": "2026-10-23T19:00:00+00:00"
-      },
-      {
-        "id": "3fa5d698498b4b5d",
-        "title": "More Houston-area seniors can skip parts of the college application process - Houston Chronicle",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbkI1X0xBRzRaRXhsLU45NFFvU1o1YUphbnNydEpvRlpzOWZmVlMtUnU0Y1dwUExLLXB3ZGxXYzd3ZXR4NDVLa1VtMG5nNFFvaVpCMlBGeVlaRHBmZTh3amlOMEJTZHBWM3VzYlpXLTRPT1AyTUZQWEx5UExpa1VFbWRZTngwWnhLZE9FT2tsMDZCWEFsNTNZejRIWjZlVmp0dmNHYk85QVpnZVQ0WnJYRFlkVQ?oc=5",
-        "source": "Houston Chronicle",
-        "published": "2026-10-25T11:10:25+00:00"
-      },
-      {
-        "id": "ddc7776abef746a6",
-        "title": "College closures derail students’ plans, leaving some unsure when they’ll return - MassLive.com",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWWpqMzJuWkJERDRWUk9fREtSaC1iSk10UmJSdjVaZzNsWTgwak1VZ29zZnRoa2NfQVdHYkp3RkdqUXZJek9zdUVOUjBocHJBaHNwVmh5TWRORmpObHZ1VzgzdDl5SUY2b080Q2NqcEM5YVFhRDdBNC1PVjlmTENuZkZka21BZ0dITTYwdm43eFZzcnliMjZHcHdEVFZZLW53Nm9rVEJiX1V5WnpVa1VCNzVJWkt1VVdsblIzX190OWpLeXdxZW1IcWh3?oc=5",
-        "source": "MassLive.com",
-        "published": "2026-10-25T09:42:00+00:00"
+        "id": "28bca965b010ea4a",
+        "title": "Experts say higher education is an industry in turmoil. The collateral damage is widespread - The Hechinger Report",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTDNHeWozQ0NzWEFpM2hCcGc2T0R5c3NEdThOdWpoRW5fSE1pTUpfbFgyY1gzUlNieHN3aG8wWm8xMkRQeWgza0k5c1pTSEVDU2k2R2VDc25Rd3pSUUdMSmoycDlNVUprSkh4aDJXcmtjMXVWNWtvVlRkVF84by1rTTNkVDkxZU03TURGcnlOX1BrSGFqbU9xRHJRS09CSk5zQTNiOW5IOVN5c0FEazYtVGcyTGdheFdKNzY0?oc=5",
+        "source": "The Hechinger Report",
+        "published": "2026-10-15T07:00:00+00:00"
       },
       {
         "id": "6911037fc440b8de",
@@ -394,11 +380,25 @@
         "published": "2026-10-22T20:09:19+00:00"
       },
       {
+        "id": "c5940cb6f26672e5",
+        "title": "Opinion | My university is proposing to offer shorter degrees. Others should follow suit. - The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWUpoYy1Sc1dsSkpDRFhHWXNSRkdQNzlUallYN2h3Y0VRMEp0eWRucUl4UndhZFcxRnBDcld3R2MwVF9fOHY3a1ZtVnBxTHoyTGtjU2tOUVozZzJfWGVZY3JZa2JEY09WNm44ZE5mVEhDV0JRUzNsR2dNTC1iMEFGZWxqS1FENS15RXJNMVFTVTdONlQ4MGNZ?oc=5",
+        "source": "The Washington Post",
+        "published": "2026-10-23T18:15:00+00:00"
+      },
+      {
         "id": "a17450486af2ae71",
         "title": "Free community college helping to shore up state university enrollment - Lowell Sun",
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQzk3QkoxLU1QN3R5cUE2dndjbFR4NnhveTNYZmxlUVpQTmxWQUlxN1NtaFEteVNfbW5rSEQwNFpqLUZVM3ZTM2FsWnh3elRDUkQ3YXpWYnZ1NVRFWmV6bFVqV092VFJRWHhsdmdKZ1FPWU9XV1JaRzlqMlhldXZsZ2hrQjU0T0I0Q1ozUzd5SjVRd0pUNXBCRTI1aFMxR3FfcEJpQmg2SnZVZ0Vw?oc=5",
         "source": "Lowell Sun",
         "published": "2026-10-23T21:25:29+00:00"
+      },
+      {
+        "id": "62f3ac51f63740b0",
+        "title": "Commentary: Public higher education is confronting a defining moment - Bemidji Pioneer",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNb0xvWmZtQ2d1Q1Jjdll1am9IdjQ4V0ZINGg0N0MzVWJIekxvcWp2Zk5teFZVWmZoNTRpZFh1cktZYnkySThiU1BaMWU4MGZCWXRKeWxkQnVzZk9NWS1CaVByX3hCVVJwNWhseUxhSlVyWlZtdDJFNE1PbWFpX1FYSlpDNFlrQU1mMWEwQW1VRFlpbVRDTlJNbGQwOFdBclpTQ1plNFE1bUxPQQ?oc=5",
+        "source": "Bemidji Pioneer",
+        "published": "2026-10-24T16:02:36+00:00"
       },
       {
         "id": "6529b2c6bb808f98",
@@ -422,28 +422,14 @@
         "published": "2026-10-22T19:13:55+00:00"
       },
       {
-        "id": "c5940cb6f26672e5",
-        "title": "Opinion | My university is proposing to offer shorter degrees. Others should follow suit. - The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWUpoYy1Sc1dsSkpDRFhHWXNSRkdQNzlUallYN2h3Y0VRMEp0eWRucUl4UndhZFcxRnBDcld3R2MwVF9fOHY3a1ZtVnBxTHoyTGtjU2tOUVozZzJfWGVZY3JZa2JEY09WNm44ZE5mVEhDV0JRUzNsR2dNTC1iMEFGZWxqS1FENS15RXJNMVFTVTdONlQ4MGNZ?oc=5",
-        "source": "The Washington Post",
-        "published": "2026-10-23T18:15:00+00:00"
+        "id": "9705db2a338d83d5",
+        "title": "Higher ed's course catalogs are growing — but how much growth is Idaho willing to bankroll? - Idaho Education News",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRFFDUlFoY3ZhTlBwYmhOdEE4Wi1HSExkcFJZd283M3luU1FmOElnS3VoZDBUTDNFengxZjlTNTVrem9rOGVEUlNiUW5QMFg4c0VDVlNRS0U0TnpBMEdwcDRoWU41NkZpT2tTaFJ3SUpNQ1NVRlVLREVOV0FrOWdSbFVEZHhXUVhCQzgwOFFaaHdwQ0tTWkMzR0tmQmp5LTJZZ1k5Y0Q0NHJEc2pRV1hodDhwSThISjRQT2hLeWdYSFJSMHc?oc=5",
+        "source": "Idaho Education News",
+        "published": "2026-10-22T17:17:57+00:00"
       }
     ],
     "AI / Tech": [
-      {
-        "id": "d8bfb6bd2d2d9e0c",
-        "title": "AI Terrorism Is Just Terrorism - The Atlantic",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0xT0l3UDNRNU52X3BUNkFfRC1EN094MjRUMFZQRlRFNWI0S0dLS2FwbmRjWFNxd0N4Y0VDQXZ1TjU0VGtRdXlBSEFTMUpmSDJzNTNabzdnVkRHWGNrSTg3YkpPSVkyNmxhT1Q4b0JpZDFweFBwdE4wT0xKdkxzQQ?oc=5",
-        "source": "The Atlantic",
-        "published": "2026-10-24T12:00:00+00:00"
-      },
-      {
-        "id": "8d466cdf5a13df9b",
-        "title": "Exclusive: Longhorns used AI against Florida — a 'new wave' for UT sports - Austin American-Statesman",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYjF6M2x3R2hodlk0dGJGZGFKNmNZQlBEOVd1SXA2b2pGQk9wQnl2TnhZeldjZ25ZdzduTERsTTVfeDh5bzJpNXhKRTV6c1NwbnhPTjVjMGJBa1A0WVdWWUxfUHFPTVhLLXdoeVN0MWgtbVhGNGlsT2JzbVF3c3JQSk9XbXprNWIxZ3JhRlE5cW11ZU1US3Z4dmtYYXMwQ2ozY2lNM24tMGV4SXZZ?oc=5",
-        "source": "Austin American-Statesman",
-        "published": "2026-10-23T14:16:41+00:00"
-      },
       {
         "id": "13c01b5cd60c98ec",
         "title": "Apollo’s Slok Says AI Has Delivered Zero Payoff Outside of Tech - Bloomberg.com",
@@ -452,18 +438,25 @@
         "published": "2026-10-25T09:28:36+00:00"
       },
       {
-        "id": "d24755a87befc450",
-        "title": "The surprising popularity of AI - The Economist",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRWFuRjZTd2tGT0daXzlZckJaLXlRVERLYlVFTURwVWRsclRRRFNOUHN4YkFvZldWNU5jU2ttVFhEUkxoV2EtTmdVOE8wSTZ5RHgyeENJcEdRS25QcmVJS000cVBNNTltUVE4eVJkR3lVc191Y0RFM2c0ck1NR084VFFwMWE5SGtFSFE?oc=5",
-        "source": "The Economist",
-        "published": "2026-10-22T10:14:41+00:00"
-      },
-      {
         "id": "eb838074b40bbc7a",
         "title": "The datacentre next door: on the frontline of tech’s latest David v Goliath battle - The Guardian",
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZXdMOTdZRGdtdDAwREJWRC1tTjdGM3BqUGtwcUhDci1VeWVzWlNTSnl3U1B1X09VZ2RzMnF6SU1QWmVwc1lmVlByLTNCSS12VUpka05sNWxzMHhZRVBFOFdtTXphVTVEQU8ydDExbTBmWWJHOHhQWnZ6OUJxQzVVVzZzUHNuazYzc1Y2cG12WGkyclFKTWtIT3phajVIQUhkakdfd1UwX3lwOFhEaGNraVg0bkhMLXNCRFVGZ2ZzLURnYjJhWW5BcFNyZw?oc=5",
         "source": "The Guardian",
-        "published": "2026-10-24T11:00:00+00:00"
+        "published": "2026-10-25T13:58:00+00:00"
+      },
+      {
+        "id": "e58286c0b1117240",
+        "title": "China increasingly depends on copying American AI - The Economist",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaW9HM2JjOUNBblBtb1dTQkI5bThOdTFZVUh0ZDZ1WTVJbHZsN200YVhSNlUzc2ZtYnRmdFFHU1JzRVBWeUVOLXVQcDdZR3M1eVZLbnJkczlzNVNIQll2dEV0c2w0MzgtczdtOUpDZGJ5OWJnTVcwYXBUR0F0R19EdmJBV3BTVEcyQmVGZFNmUEZUa0JuSTd3LVptNGRJWnlWaV9IcGIzQktXV0pSOUE?oc=5",
+        "source": "The Economist",
+        "published": "2026-10-25T17:44:35+00:00"
+      },
+      {
+        "id": "d8bfb6bd2d2d9e0c",
+        "title": "AI Terrorism Is Just Terrorism - The Atlantic",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0xT0l3UDNRNU52X3BUNkFfRC1EN094MjRUMFZQRlRFNWI0S0dLS2FwbmRjWFNxd0N4Y0VDQXZ1TjU0VGtRdXlBSEFTMUpmSDJzNTNabzdnVkRHWGNrSTg3YkpPSVkyNmxhT1Q4b0JpZDFweFBwdE4wT0xKdkxzQQ?oc=5",
+        "source": "The Atlantic",
+        "published": "2026-10-24T12:00:00+00:00"
       },
       {
         "id": "4a679cbfbf7c662c",
@@ -473,13 +466,6 @@
         "published": "2026-10-23T08:04:17+00:00"
       },
       {
-        "id": "b78e691ce1869882",
-        "title": "Redmond-based startup develops new robot weeder using AI technology - KUOW",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPODNTeENwZWZSNzZIOUZDZUFKOFFFN0tZMWd4cWxsdlp1WUhrb0RkSmVoV2JtMnhEYUd5VGlEYTE2UmE0UVFrMGY2R2gyVy05eEFOcEJhV0g5eERQTTJrWVJ2RGlldGtEYmpQa2w0QkUxRlJ2MlJidXl3QXo0M1VVWEJMdjQxZGpIOUhob3RncHpNcnJ0bndJN1llMUE1b3h2VVZjMW8xSjhHaFRiUWdv?oc=5",
-        "source": "KUOW",
-        "published": "2026-10-24T00:07:00+00:00"
-      },
-      {
         "id": "5ae0ae8dad8db3c8",
         "title": "2 Warren Buffett Artificial Intelligence (AI) Stocks I'd Buy Right Now and Never Sell - Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUDFVazdNVXhxTGY4SmpzaGZ1MXFJbmtOeWlQWEJmRkhBQkFydmlCOEVDQnlWaXB3b3JLd2dKa0ZraU9HMmxxa1B5TFp2SWFjbDVqSm1neE9wNjRUSlZxYlJOeGdnOUZqa2lIYmZQWDJmaFVjbUVGS0tYOGJ1Z3g2V2Z3SlBqOENwaTNmQlB5SzRHR0F5ZXNyaHNvNWN5cHY0b29ab3RRNA?oc=5",
@@ -487,25 +473,39 @@
         "published": "2026-10-25T00:20:00+00:00"
       },
       {
-        "id": "37debe9ef4595d7d",
-        "title": "Scientists can now 'watermark' AI-generated proteins to deter bioweapon creation. But will it really work? - Live Science",
-        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOcHA0cXFMNDRGSUk3YnAtODJ6NzRqNmNYMmdGOFlfOE5kZTV0Y2cwRmNCbVZYa05STFF3M3dPaExTRVNXUUl6amVXNzRuUV9JZE13Q255SDJKczZQMUw2R2MwMjNaVjNiMThINURjVmswT3lpaVBTNkM3SExJUnZIWkNBWkJUQWE3N1Jld3p0Z2dQeTFqSENQUGpWbFdyTFZZZnZkMTM2MlphSVRQM0MwU3k2Q2dLQkVRRHRHZUlWMnJvdllBamJKaHFuY3plTUNzYXIwT2l3dnNtUmltZ04zVWdhUHB3WWF0RkdQcnNZclY5Y1ZqbjZnZQ?oc=5",
-        "source": "Live Science",
-        "published": "2026-10-23T09:44:19+00:00"
+        "id": "b78e691ce1869882",
+        "title": "Redmond-based startup develops new robot weeder using AI technology - KUOW",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPODNTeENwZWZSNzZIOUZDZUFKOFFFN0tZMWd4cWxsdlp1WUhrb0RkSmVoV2JtMnhEYUd5VGlEYTE2UmE0UVFrMGY2R2gyVy05eEFOcEJhV0g5eERQTTJrWVJ2RGlldGtEYmpQa2w0QkUxRlJ2MlJidXl3QXo0M1VVWEJMdjQxZGpIOUhob3RncHpNcnJ0bndJN1llMUE1b3h2VVZjMW8xSjhHaFRiUWdv?oc=5",
+        "source": "KUOW",
+        "published": "2026-10-24T00:07:00+00:00"
       },
       {
-        "id": "0d841fbb07fc347d",
-        "title": "DeepSeek, MiniMax secure licences to deploy AI overseas under China export rules - South China Morning Post",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdnV4SzNzeVJsZ09SV1IzNVRrOVRYTklVZEJtSVYxWkJFTDhnUzVoeUhwSWJfRXlRVzNEUVVpTzBJdGdPc3ZMbHR6cnZpNmdkbkZ5cmVMV3dXSVgtN1dhVHdBek9hckIzVnd1cnAwLWJpYkI1QlJweVg3dFM0anVuRzBwanFDczBJdXk4QlY4V2ItNEpOd3JDOVpDeElLWlVQempBT2pIME53N3V2ZE95aHJRTEpDakpmbTdPOUVDTzBndjlRVUkzeHVrTDE1bVl5dGgyWTdR0gHWAUFVX3lxTE9LYU1POXJiUWt2RmdwWDd6cUZHdkt5djdMUGNTdXRCcURfbV9pSVp6TFUzZmlnQTBfVHZVRzJwZDRHTjlJSldUeUxpUFgwTDMtaHROWXZiYmpKZ00wSDhvZWtrcnRuMEFvRHUwZW4wN1pkcjFJcjFGMzJzX3pvXzktbjdxWi1qLUZTT1hQNmVaSUhmdWtSSUZnUGl5OXEwQmM2OGQ0YVVEYzI4b1p1RDl3LXQ5NmdHX294ZmhEbTUxUEJOOTctR1phVmZUbUhLUDhPZzROZlE?oc=5",
-        "source": "South China Morning Post",
-        "published": "2026-10-23T06:00:25+00:00"
+        "id": "a0d27141343075f8",
+        "title": "How We're Thinking About AI At Civil Beat - Honolulu Civil Beat",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOY1EtVElaUmlWZ2I1NDc2cmloMnJQT1U0TFYwUlhWQktRU29LZUJxT3BNWVZucnFReEV2Q2I3UTJYZ1pWREpndkY1cjdhTXdDbVpKWUM4SGtPaTM2LUFDUTNrX0trUjI0TVRsTGlVUXZ3NWhLbVRLYXhBUnI0MkFMTQ?oc=5",
+        "source": "Honolulu Civil Beat",
+        "published": "2026-10-23T10:10:56+00:00"
       },
       {
-        "id": "d27bd5738cc4bf4c",
-        "title": "Iowa hospital expands colon cancer screening with AI technology - American Hospital Association",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZ0xweFRUQkdtZlhBTUZTSXhsMkpjX2xOcFFBeFh1MFFndjN6WWtheFM4bXFsZUJpYUtHeW9OeUZzbXhCUWpZcTd5a0JHYmJWTC1DZXR2b1IwUnZkdVlsbUVSTFNsMWdBMTVkQThxVXZqTjNEY3dNaFhmVTMzZ2dQbkdqbG9RRlY3YjJZdU80ZDhTX0xqNWdEUDJtQjUtUUs1dERRQndiOEZiU0ZUWVUw?oc=5",
-        "source": "American Hospital Association",
-        "published": "2026-10-24T13:54:48+00:00"
+        "id": "85e09ed2a15ceb1f",
+        "title": "To make AI morally good, tech companies are turning to religion. But some say it isn’t that simple - Orange County Register",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZUsydmhGRDVsVEUzMS15VndUMlp0bEFIVjliNU43bVdZVV9vemxoZHNZWWlxYkRBRE4zazNrcGdCTWpYQklMNmZWd0ZzUnp4Mld0bFdMTGFScW5MQTdqYWYtaVAxa2xNNFRFQ25oem1QV1VGc3pONVlLZ2NqN204NUUybUhERncwTmpvYjhYUm1tdGtZTWM2X3FOU0RFOGMxdTVTZ0kwdnh2VlpVSTVxakJHQVM3V0JTa0hWMHFMdk0wQWp6RW4zRVR2dDJvU2s?oc=5",
+        "source": "Orange County Register",
+        "published": "2026-10-25T17:05:36+00:00"
+      },
+      {
+        "id": "9c15ba9288045545",
+        "title": "AI devours a fifth of companies’ IT budgets - Computerworld",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUU96TnZRYUxMVHl2M1N2Z2VFTVBfcEVEYjhLaVZQNWJ0LUZFRE9WeDBpRFpCWXBJajNqRW1ET1F0RjJ1ZmJqaGRHUTUyWGFpWERTdFdtXzVSOGxVb1g0NWdwYkdPVUhVS3RicE1jWmdYeFF2LUJFQzBQb3J5MzlOekt1RE5FdjBiYl9zOXNyMUhITGpGZDJ5X3BVLXJqSGhYcXc?oc=5",
+        "source": "Computerworld",
+        "published": "2026-10-23T21:50:36+00:00"
+      },
+      {
+        "id": "1074f696b17e6bda",
+        "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says - TechCrunch",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOW1GQU8wblRMSUZlXzdCY0pDbjNsS1pPQ0EtTk4wTlZnRk1yb0FMWGstcHhKM3J6WmpXZ1d4MXB1QlVlOFR3NlplTlNqcm1SRHBNU2VXZTA4WHd3QnZzWnZJaHpVeV81WkxtYU1oM0N1TldTS0IySXdaQ1hHZzI0c1pBS2tvWnh2Vm9TS29yM1MxYWN2ak0taUMxS0NibGlFS3NPV1NmOUx1MDh4WmFNOE1vbjQxTE0?oc=5",
+        "source": "TechCrunch",
+        "published": "2026-10-25T16:57:32+00:00"
       },
       {
         "id": "2cee12a69b16f23c",
@@ -515,25 +515,25 @@
         "published": "2026-10-22T17:00:00+00:00"
       },
       {
-        "id": "ce7ced83e944d048",
-        "title": "Between Development and Oversight: China’s Approach to Addressing Artificial Intelligence Risks - www.inss.org.il",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92X2dEUGNITVlKVWhCcEdRd2M4ZnNjVEhIZ2NsX25KdFJwRVUwdUJnUWJWSjZjUlB3VlRHeE1ZakdXeTJJakJRSllwY3VQbkhiMWwxTTdqeFVDTkxtSWowZXR3U25EQQ?oc=5",
-        "source": "www.inss.org.il",
-        "published": "2026-10-25T10:35:35+00:00"
+        "id": "fae0178db5e4c8a7",
+        "title": "As the US and China form AI blocs, countries are increasingly torn between them - WRAL",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaEYyQktraUdYcUxtV0dSUXlEeHRqNzU2Z1cySVg1MHB5ejRPR0p1OVg1Q0RFaXo1b0pqY19sT2xSUEhPQmx2VzNpem03MXdidTlWbTdzY3BhMW16ZF80aXFYTk9URHBoWXVsS3BwWHhIS3BSdUlzUjRMX0xzNFFSVEZCSUZ6Q0loZExQdFRtTGcxb3Y3SGFwTnItNmwtNHpDRTNSTXEzTkg5alZURVVsSmF3U1I?oc=5",
+        "source": "WRAL",
+        "published": "2026-10-25T04:11:53+00:00"
       },
       {
-        "id": "5d7f2bf77f096124",
-        "title": "To make AI morally good, tech companies are turning to religion. But some say it isn't that simple - WSLS",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSE5DWnhyVDdRazVxWVl5bWtxUml2UUw5dFZVYklLLUl2N3gwMDlfUzAyMTJ3NFRRTHBLLVpiV2ppd0pSb1lFc1dnMm5TS1pUazVSalJoMm9DNThkMFJxS1RKY3JKZEFJRXlZbDJSN3NKRWxCNDNjME42VzhLUEZreG1oUWd0RDZqTUpLcV9ERTZzX3FKeWJ1d1hLeThmOGJCSXJJQl83VUw1aEM2Wk9Bbm1YdWZuUVF1cnlVelZycmt4cjhfQXYxZGplenRmUQ?oc=5",
-        "source": "WSLS",
-        "published": "2026-10-25T10:57:33+00:00"
+        "id": "6c0ee58745416ab1",
+        "title": "Meta’s Unending AI Spending - WSJ",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE14Tmg2cXRWUzNFZEY0dzl1dzFkZElUOTIyNzhRUEh6SXRDMnJRYW5sVTVoY2pJS2VZNFVQMThXX2FvWXZpbjlYQ0xzQWhTSnRHUGZEd243c1VvVnM4WXNuMWRnTy1RSDNMSDBYV1ZkTlg?oc=5",
+        "source": "WSJ",
+        "published": "2026-10-25T14:55:00+00:00"
       },
       {
-        "id": "2ec93d1803d42cdd",
-        "title": "AI experts warn California legislators about potential ‘danger’ of technology - Sacramento Bee",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPM3ZIZVpJeE9SaU5GVUtLbVhNNG1La2ZDRldqTDlHNWViZnY2NFl5bHR0X1B6eXJvckdVX2pMZHRvSGx0OWtqZnB1RXBmRVdQQnhPQ0hHNnNlOU1aOXZEQVhMcFpBUWRXaXhLYjNSRjc1bjJGaTdFTVNBcjJvdXZFRDYtbGJKSmVxdXFR0gGLAUFVX3lxTFBfc096RzNmMk1la2FQV0piRnRjV1VJMzJzdlZzRlRsSWxDMWFzOW1VMEkzVUpIUVpaemRGOEhVVnRvMUpZVTduTXV6ZFI2bnNJaTBDMC1TVFNObnUxVV94Y09PMmtQSkxZcXdWM3UtbzcyaUp1U2ZBODhTNnJvZ3JqYzVtOGVrejdLVFE?oc=5",
-        "source": "Sacramento Bee",
-        "published": "2026-10-23T12:00:00+00:00"
+        "id": "f4d7543b35c5d9a7",
+        "title": "MBTA is using AI to catch drivers who park illegally - Planetizen",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQlJaeEdhNVhTS1NQTzF3UmJWTkJkQ1dQRU9TM1NVNXgyb0hBOHhvR3RTdG5IWktfdGJfSXZROGNBdHNFRGItRFdIX2E5d1B4Q3ZkcjNTeG55ZnlzMk1WX1ZVT3ZpeHZZZnE3a2lvNnVEVFd0TmVNNlBnNzJFLVJFS3FHZlY2OVdTU01aakFWWGdmRVNwZ01SOA?oc=5",
+        "source": "Planetizen",
+        "published": "2026-10-25T14:00:00+00:00"
       }
     ]
   }
